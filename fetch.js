@@ -14,11 +14,12 @@ const pagelists = {
   science: ['Albert Einstein','Niels Bohr']
 }
 
+let rosetteCounter = 0; 
+
 run('science', pagelists.science);
 
 
 async function run(name, pageList) {
-  let rosetteCounter = 0; 
   // Remove duplicates, just in case
   pageList = Array.from(new Set(pageList));
 
@@ -27,55 +28,23 @@ async function run(name, pageList) {
   try {
     const sectionObj = await fetchWikipedia(pageList)
 
-    // Remove sections that are over the 50000 char limit
     let count = 0;
     for (const [pageName,sectionsArray] of Object.entries(sectionObj)) {
-      sectionObj[pageName] = sectionObj[pageName].filter(sec => {
-        return sec.content.text.length < 50000
-      })
+      sectionObj[pageName] = sectionObj[pageName]
+        .filter(sec => {
+          const root = parse(sec.content.html)
+          const sections = root.querySelectorAll('section')
+          return sections.length === 1 && // Remove <sections> that have other <sections> inside them
+            sec.content.text.length < 50000 // Remove sections that are over the 50000 char limit
+        })
       count += sectionObj[pageName].length
     }
     console.log(`Number of sections: ${count}`)
     console.log(`Writing to file: 'output/wikisections-${name}.json'`)
     writeToFile(sectionObj, `output/wikisections-${name}.json`)
 
-    const completeResult = {}
-    // Go over the result
-    for (const [pageName,sectionsArray] of Object.entries(sectionObj)) {
-      completeResult[pageName] = completeResult[pageName] || [];
-
-      // Per page, per section
-      for (const sectionData of sectionsArray) {
-        // Send section text to rosette
-        const wait = await api.sleep(1000);
-        try {
-          rosetteCounter++
-          console.log(`Fetching from Rosette: ${pageName} -> ${sectionData.title} (level ${sectionData.level})`)
-          const topics = await api.fetchFromRosette('topics', sectionData.content.text);
-          const concepts = topics.concepts
-            .filter(c => {
-              // Only use wikidata concepts
-              return c.conceptId.indexOf('Q') === 0
-            })
-            .sort((a, b) => {
-              // Sort by count, descending
-              if (a.salience < b.salience) {
-                return 1;
-              } else if (a.salience > b.salience) {
-                return -1;
-              }
-              return 0;
-            });
-
-          sectionData.topics = concepts;
-          console.log(`${pageName} -> ${sectionData.title} (level ${sectionData.level}) -- Topics fetched: ${concepts.length}`)
-        } catch (e) {
-          console.log(`Error: Rosette API (${pageName})`, (e.message || e))
-        }
-
-        completeResult[pageName].push(sectionData)
-      }
-    }
+    // Pass through Rosette
+    const completeResult = await fetchRosette(sectionObj)
 
     console.log(`Total requests to Rosette: ${rosetteCounter}`)
     console.log(`Writing to file: 'output/sectionswithtopics-${name}.json'`)
@@ -90,6 +59,47 @@ async function run(name, pageList) {
 
 
 
+async function fetchRosette(sectionObj) {
+  const completeResult = {}
+  // Go over the result
+  for (const [pageName,sectionsArray] of Object.entries(sectionObj)) {
+    completeResult[pageName] = completeResult[pageName] || [];
+
+    // Per page, per section
+    for (const sectionData of sectionsArray) {
+      // Send section text to rosette
+      const wait = await api.sleep(1000);
+      try {
+        rosetteCounter++
+        console.log(`Fetching from Rosette: ${pageName} -> ${sectionData.title} (level ${sectionData.level})`)
+        const topics = await api.fetchFromRosette('topics', sectionData.content.text);
+        const concepts = topics.concepts
+          .filter(c => {
+            // Only use wikidata concepts
+            // Only take topics that are 0.10 salience and up
+            return c.conceptId.indexOf('Q') === 0 && c.salience >= 0.10
+          })
+          .sort((a, b) => {
+            // Sort by count, descending
+            if (a.salience < b.salience) {
+              return 1;
+            } else if (a.salience > b.salience) {
+              return -1;
+            }
+            return 0;
+          });
+
+        sectionData.topics = concepts;
+        console.log(`${pageName} -> ${sectionData.title} (level ${sectionData.level}) -- Topics fetched: ${concepts.length}`)
+      } catch (e) {
+        console.log(`Error: Rosette API (${pageName})`, (e.message || e))
+      }
+
+      completeResult[pageName].push(sectionData)
+    }
+  }
+  return completeResult;
+}
 
 /**
  * Fetch pages from English Wikipedia and break them apart by <section>

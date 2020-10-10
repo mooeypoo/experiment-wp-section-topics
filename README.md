@@ -10,4 +10,5 @@ Experimental script to divide wikipedia articles into sections and pass them thr
 4. run `npm install`
 5. Edit `fetch.js` and add the group of pages you'd like to analyze in `pagelist`
 6. Run `node fetch.js` for the files from the APIs
-7. Run `node analyze.js` for the analysis into topics
+7. Edit `analyze.js` to set the json file you want to analyze (the result from the previous operation)
+8. Run `node --experimental-json-modules analyze.js` for the analysis into topics
