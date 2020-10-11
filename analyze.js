@@ -6,6 +6,8 @@ import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
 const fs = require('fs')
 
+const salienceThreshhold = 0.20
+
 const result = {};
 for (const [pageName,sectionsArray] of Object.entries(sectiondata)) {
   let index = 0;
@@ -14,22 +16,68 @@ for (const [pageName,sectionsArray] of Object.entries(sectiondata)) {
       result[topic.phrase] = result[topic.phrase] || {}
       result[topic.phrase].wikidata = topic.conceptId
       
-      result[topic.phrase].pages = result[topic.phrase].pages || {}
-      result[topic.phrase].pages[topic.salience] = {
+      result[topic.phrase].pages = result[topic.phrase].pages || []
+      result[topic.phrase].pages.push({
+        salience: topic.salience,
         page: pageName,
         section: {
           index,
           title: secdata.title,
           level: secdata.level
         }
-      }
+      })
     })
     index++
   })
 }
 
+// Now that the object is build, sort each topic per salience, and remove salience under threshhold:
+for (const topic of Object.keys(result)) {
+  // If there are pages, sort and filter
+  result[topic].pages = result[topic].pages
+    .filter(data => {
+      return Number( data.salience ) > salienceThreshhold
+    })
+    .sort((a, b) => {
+      // Sort by salience, descending
+      if (a.salience < b.salience) {
+        return 1;
+      } else if (a.salience > b.salience) {
+        return -1;
+      }
+      return 0;
+    });
+  
+  // Verify that there are still pages after filtering
+  // If not, delete the object
+  if (result[topic].pages.length === 0) {
+    delete result[topic]
+  }
+}
 console.log(`Writing to file: 'output/pertopic-science.json`)
 writeToFile(result,'output/pertopic-science.json')
+
+
+// Now get the biggest topics
+const topics = Object.keys(result)
+  .sort((a, b) => {
+    // Sort by salience, descending
+    if (result[a].pages.length < result[b].pages.length) {
+      return 1;
+    } else if (result[a].pages.length > result[b].pages.length) {
+      return -1;
+    }
+    return 0;
+});
+
+console.table(
+  topics
+    .filter(t => { return result[t].pages.length > 5 })
+    .map(t => { return { section_count: result[t].pages.length, topic: t, wikidata: result[t].wikidata }/*`${result[t].pages.length} articles => ${t}`*/})
+)
+
+
+
 
 /**
  * Write a JSON object into a file.
