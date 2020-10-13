@@ -11,12 +11,28 @@ const fs = require('fs')
 const { parse } = htmlparser
 const api = new ApiHelper()
 const pagelists = {
-  science: ['Albert Einstein','Niels Bohr']
+  science: ['Albert Einstein','Niels Bohr'],
+  football: [
+    'Football',
+    'American football',
+    'American_football_in_the_United_States',
+    'USA Football',
+    'National Football League',
+    'Major professional sports leagues in the United States and Canada',
+    'History of the National Football League championship',
+    'NFL_regular_season',
+    'Women%27s_American_football',
+    'Women%27s_Football_Alliance',
+    'United_States_Women%27s_Football_League',
+    'Legends_Football_League',
+    'Women%27s_Arena_Football_League',
+    'Utah Girls Football League'
+  ]
 }
 
 let rosetteCounter = 0; 
 
-run('science', pagelists.science);
+run('football', pagelists.football);
 
 
 async function run(name, pageList) {
@@ -56,8 +72,6 @@ async function run(name, pageList) {
   }
 
 }
-
-
 
 async function fetchRosette(sectionObj) {
   const completeResult = {}

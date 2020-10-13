@@ -1,7 +1,8 @@
 /**
  * Analyze a wikisections-xxx.json file
  */
-import sectiondata from './output/sectionswithtopics-science.json'
+const name = 'football'
+import sectiondata from './output/sectionswithtopics-football.json'
 import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
 const fs = require('fs')
@@ -12,12 +13,15 @@ const result = {};
 for (const [pageName,sectionsArray] of Object.entries(sectiondata)) {
   let index = 0;
   sectionsArray.forEach(secdata => {
+    if ( !secdata.topics || secdata.topics.length === 0 ) {
+      return
+    }
     secdata.topics.forEach(topic => {
-      result[topic.phrase] = result[topic.phrase] || {}
-      result[topic.phrase].wikidata = topic.conceptId
+      result[topic.conceptId] = result[topic.conceptId] || {}
+      result[topic.conceptId].item = topic.phrase
       
-      result[topic.phrase].pages = result[topic.phrase].pages || []
-      result[topic.phrase].pages.push({
+      result[topic.conceptId].pages = result[topic.conceptId].pages || []
+      result[topic.conceptId].pages.push({
         salience: topic.salience,
         page: pageName,
         section: {
@@ -54,9 +58,8 @@ for (const topic of Object.keys(result)) {
     delete result[topic]
   }
 }
-console.log(`Writing to file: 'output/pertopic-science.json`)
-writeToFile(result,'output/pertopic-science.json')
-
+console.log(`Writing to file: 'output/pertopic-${name}.json`)
+writeToFile(result,`output/pertopic-${name}.json`)
 
 // Now get the biggest topics
 const topics = Object.keys(result)
@@ -73,9 +76,10 @@ const topics = Object.keys(result)
 console.table(
   topics
     .filter(t => { return result[t].pages.length > 5 })
-    .map(t => { return { section_count: result[t].pages.length, topic: t, wikidata: result[t].wikidata }/*`${result[t].pages.length} articles => ${t}`*/})
+    .map(t => { return { section_count: result[t].pages.length, topic: t, topic_name: result[t].item }})
 )
-
+console.log(`Total topics: ${Object.keys(result).length}`)
+console.log(`Total topics that have more than 2 sections: ${topics.filter(t => { return result[t].pages.length > 2 }).length}`)
 
 
 
