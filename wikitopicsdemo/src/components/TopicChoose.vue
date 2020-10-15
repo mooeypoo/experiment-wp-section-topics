@@ -2,7 +2,7 @@
   <div class="topic-choose">
     <v-select dark
       v-model="topic"
-      :items="getAllTopicsForSelect"
+      :items="getTopicSelectList"
       item-text="name"
       item-value="wikidata"
       label="Select topic"
@@ -24,7 +24,7 @@ export default {
   computed: {
     ...mapGetters([
       'isTopicSet',
-      'getAllTopicsForSelect'
+      'getTopicSelectList'
     ]),
     topic: {
       get () {

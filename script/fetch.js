@@ -11,7 +11,49 @@ const fs = require('fs')
 const { parse } = htmlparser
 const api = new ApiHelper()
 const pagelists = {
-  science: ['Albert Einstein','Niels Bohr'],
+  science: [
+    'Science',
+    'Chemistry',
+    'Physics',
+    'Biology',
+    'Anatomy',
+    'Astrobiology',
+    'Biotechnology',
+    'Biochemistry',
+    'Bioinformatics',
+    'Biolinguistics',
+    'Biological anthropology',
+    'Biological oceanography',
+    'Biomechanics',
+    'Biophysics',
+    'Botany',
+    'Cell biology',
+    'Developmental biology',
+    'Ecology',
+    'Ethology',
+    'Evolutionary biology',
+    'Evolutionary developmental biology',
+    'Genetics',
+    'Histology',
+    'Immunology',
+    'Microbiology',
+    'Molecular biology',
+    'Neuroscience',
+    'Paleontology',
+    'Pathology',
+    'Pharmacology',
+    'Phycology',
+    'Physiology',
+    'Population biology',
+    'Quantum biology',
+    'Structural biology',
+    'Synthetic biology',
+    'Systems biology',
+    'Theoretical biology',
+    'Toxicology',
+    'Virology',
+    'Zoology'
+  ],
   football: [
     'Football',
     'American football',
@@ -91,7 +133,7 @@ const pagelists = {
 
 let rosetteCounter = 0; 
 
-run('nobel', pagelists.nobel);
+run('science', pagelists.science);
 
 
 async function run(name, pageList) {
@@ -199,7 +241,7 @@ async function fetchWikipedia(list) {
 
           const sectionID = section.getAttribute('data-mw-section-id')
           const sectionFirstChild = section.firstChild
-          const sectionTag = sectionFirstChild.rawTagName
+          const sectionTag = sectionFirstChild && sectionFirstChild.rawTagName
           if ( sectionID !== '0' && [ 'h2', 'h3', 'h4', 'h5', 'h6', 'h7' ].indexOf(sectionTag) === -1 ) {
             // Skip <sections> that aren't actual wiki sections
             // This is a naive check that will probably not work all the time, but likely work enough for this test
