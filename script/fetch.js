@@ -27,12 +27,71 @@ const pagelists = {
     'Legends_Football_League',
     'Women%27s_Arena_Football_League',
     'Utah Girls Football League'
+  ],
+  nobel: [
+    'Marie Skłodowska Curie',
+    'Bertha von Suttner',
+    'Selma Lagerlöf',
+    'Grazia Deledda',
+    'Sigrid Undset',
+    'Jane Addams',
+    'Irène Joliot-Curie',
+    'Pearl S. Buck',
+    'Gabriela Mistral',
+    'Emily Greene Balch',
+    'Gerty Theresa Cori',
+    'Maria Goeppert-Mayer',
+    'Dorothy Crowfoot Hodgkin',
+    'Nelly Sachs',
+    'Betty Williams',
+    'Mairead Maguire',
+    'Rosalyn Sussman Yalow',
+    'Mother Teresa',
+    'Alva Myrdal',
+    'Barbara McClintock',
+    'Rita Levi-Montalcini',
+    'Gertrude B. Elion',
+    'Nadine Gordimer',
+    'Aung San Suu Kyi',
+    'Rigoberta Menchú',
+    'Toni Morrison',
+    'Christiane Nüsslein-Volhard',
+    'Wisława Szymborska',
+    'Jody Williams',
+    'Shirin Ebadi',
+    'Elfriede Jelinek',
+    'Wangari Maathai',
+    'Linda B. Buck',
+    'Doris Lessing',
+    'Françoise Barré-Sinoussi',
+    'Elizabeth Blackburn',
+    'Carol W. Greider',
+    'Ada E. Yonath',
+    'Herta Müller',
+    'Elinor Ostrom',
+    'Ellen Johnson Sirleaf',
+    'Leymah Gbowee',
+    'Tawakkol Karman',
+    'Alice Munro',
+    'May-Britt Moser',
+    'Malala Yousafzai',
+    'Tu Youyou',
+    'Svetlana Alexievich',
+    'Donna Strickland',
+    'Frances Arnold',
+    'Nadia Murad',
+    'Olga Tokarczuk',
+    'Esther Duflo',
+    'Andrea M. Ghez',
+    'Emmanuelle Charpentier',
+    'Jennifer Doudna',
+    'Louise Glück'
   ]
 }
 
 let rosetteCounter = 0; 
 
-run('football', pagelists.football);
+run('nobel', pagelists.nobel);
 
 
 async function run(name, pageList) {
@@ -128,6 +187,7 @@ async function fetchWikipedia(list) {
   const promises = []
   let p
   for (let pageName of list ) {
+    console.log(`Fetching page from wikipedia: ${pageName}`)
     p = api.fetchFromWikipedia(pageName)
       .then(res => {
         const results = {}

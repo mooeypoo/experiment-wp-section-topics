@@ -25,6 +25,7 @@ class ApiHelper {
 
   async fetchFromWikipedia(pageName) {
     pageName = pageName.replace(/ /g, '_')
+    pageName = encodeURIComponent(pageName)
     return axios
       .get(
         `https://en.wikipedia.org/api/rest_v1/page/html/${pageName}?redirect=true`

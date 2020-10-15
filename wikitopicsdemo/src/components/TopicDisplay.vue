@@ -6,9 +6,11 @@
 
     <v-container fluid>
       <v-row>
-        <v-col class="col-9">
+        <v-col md9 s12>
+        <!-- <v-col class="col-9"> -->
           <v-row>
             <SectionBox
+              class="ml-2"
               v-for="sect in getMainSectionsForDisplay"
               :key="sect.salience"
               :salience="sect.salience"
@@ -35,7 +37,8 @@
           </v-row>
         </v-col>
 
-        <v-col class="col-3">
+        <!-- <v-col class="col-3"> -->
+        <v-col md3 s12>
           <SectionBox
             v-for="sect in getMinorSectionsForDisplay"
             :key="sect.salience"

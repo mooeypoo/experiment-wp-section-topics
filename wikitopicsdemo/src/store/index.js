@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import sectionspertopic from '../data/pertopic-football.json'
-import sectionswithtopics from '../data/sectionswithtopics-football.json'
+// import sectionspertopic from '../data/pertopic-football.json'
+// import sectionswithtopics from '../data/sectionswithtopics-football.json'
+import sectionspertopic from '../data/pertopic-nobel.json'
+import sectionswithtopics from '../data/sectionswithtopics-nobel.json'
 
 const maxMainSections = 2
 const maxMinorSections = 5
