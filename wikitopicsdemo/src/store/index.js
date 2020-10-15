@@ -4,7 +4,7 @@ import sectionspertopic from '../data/pertopic-football.json'
 import sectionswithtopics from '../data/sectionswithtopics-football.json'
 
 const maxMainSections = 2
-const maxMinorSections = 4
+const maxMinorSections = 5
 const maxTopicsPerSection = 5
 const relevantTopics = Object.keys(sectionspertopic)
   .filter(t => {

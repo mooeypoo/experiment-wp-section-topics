@@ -7,18 +7,34 @@
     <v-container fluid>
       <v-row>
         <v-col class="col-9">
-          <SectionBox
-            v-for="sect in getMainSectionsForDisplay"
-            :key="sect.salience"
-            :salience="sect.salience"
-            :page="sect.page"
-            :title="sect.title"
-            :topics="sect.topics"
-            type="main"
-          >
-            <div slot="content" v-html="sect.content"></div>
-          </SectionBox>
+          <v-row>
+            <SectionBox
+              v-for="sect in getMainSectionsForDisplay"
+              :key="sect.salience"
+              :salience="sect.salience"
+              :page="sect.page"
+              :title="sect.title"
+              :topics="sect.topics"
+              type="main"
+            >
+              <div slot="content" v-html="sect.content"></div>
+            </SectionBox>
+          </v-row>
+          <v-row v-for="row in extraSectionsByRow" :key="row">
+            <v-col v-for="sect in row" :key="sect.salience" class="col-4">
+              <SectionBox
+                :salience="sect.salience"
+                :page="sect.page"
+                :title="sect.title"
+                :topics="sect.topics"
+                style="overflow: hidden"
+              >
+                <div slot="content" v-html="sect.content"></div>
+              </SectionBox>
+            </v-col>
+          </v-row>
         </v-col>
+
         <v-col class="col-3">
           <SectionBox
             v-for="sect in getMinorSectionsForDisplay"
@@ -33,10 +49,6 @@
           </SectionBox>
         </v-col>
       </v-row>
-      <v-row>
-        <!-- <v-col class="text-center col-3">BAR</v-col> -->
-      </v-row>
-
     </v-container>
   </div>
 </template>
@@ -53,8 +65,25 @@ export default {
     ...mapGetters([
       'getCurrentTopicTitle',
       'getMainSectionsForDisplay',
-      'getMinorSectionsForDisplay'
-    ])
+      'getMinorSectionsForDisplay',
+      'getExtraSectionsForDisplay'
+    ]),
+    extraSectionsByRow () {
+      const sections = this.$store.getters.getExtraSectionsForDisplay.map(x => x)
+      const limitInRow = 3
+      const byrows = []
+      let counter = 0
+      let rowNum = 0
+      sections.forEach(s => {
+        if (counter % limitInRow === 0) {
+          rowNum++
+        }
+        byrows[rowNum] = byrows[rowNum] || []
+        byrows[rowNum].push(s)
+        counter++
+      })
+      return byrows
+    }
   }
 }
 </script>
