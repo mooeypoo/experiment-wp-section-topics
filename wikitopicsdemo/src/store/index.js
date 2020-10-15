@@ -25,7 +25,7 @@ Object.keys(sectionswithtopics).forEach(pageName => {
     }
   })
 })
-const mapSectionDataForDisplay = (getters, sectionDataArr) => {
+const mapSectionDataForDisplay = (state, getters, sectionDataArr) => {
   return sectionDataArr.map(data => {
     return {
       salience: data.salience,
@@ -33,6 +33,9 @@ const mapSectionDataForDisplay = (getters, sectionDataArr) => {
       title: data.section.title,
       content: getters.getSectionHTML(data.page, data.section.title),
       topics: getters.getSectionRelevantTopics(data.page, data.section.title)
+        .filter(t => {
+          return t.conceptId !== state.current.topic
+        })
     }
   })
 }
@@ -53,16 +56,19 @@ export default new Vuex.Store({
   getters: {
     isTopicSet: state => !!state.current.topic,
     getMainSectionsForDisplay: (state, getters) => {
-      return mapSectionDataForDisplay(getters, state.current.sections.main)
+      return mapSectionDataForDisplay(state, getters, state.current.sections.main)
     },
     getMinorSectionsForDisplay: (state, getters) => {
-      return mapSectionDataForDisplay(getters, state.current.sections.minor)
+      return mapSectionDataForDisplay(state, getters, state.current.sections.minor)
     },
     getExtraSectionsForDisplay: (state, getters) => {
-      return mapSectionDataForDisplay(getters, state.current.sections.extra)
+      return mapSectionDataForDisplay(state, getters, state.current.sections.extra)
     },
     getCurrentTopicTitle: state => {
       return sectionspertopic[state.current.topic].item
+    },
+    getCurrentTopic: state => {
+      return state.current.topic
     },
     getAnyTopicTitle: state => (topic) => {
       return sectionspertopic[topic].item

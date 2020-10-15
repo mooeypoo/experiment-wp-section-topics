@@ -56,10 +56,10 @@ export default {
       return this.actualTitle
     },
     hasTopics () {
-      return !!this.topics.length
+      return !!this.topics && !!this.topics.length
     },
     fixedSalience () {
-      return this.salience.toFixed(2)
+      return (this.salience && this.salience.toFixed(2)) || 0
     }
   },
   methods: {

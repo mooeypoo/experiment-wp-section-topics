@@ -20,7 +20,7 @@
               <div slot="content" v-html="sect.content"></div>
             </SectionBox>
           </v-row>
-          <v-row v-for="row in extraSectionsByRow" :key="row">
+          <v-row v-for="(row, index) in extraSectionsByRow" :key="index">
             <v-col v-for="sect in row" :key="sect.salience" class="col-4">
               <SectionBox
                 :salience="sect.salience"
