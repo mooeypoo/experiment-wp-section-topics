@@ -39,7 +39,7 @@
 
       <TopicDisplay v-if=" isTopicSet" />
     </v-main>
-    <pre>{{$store.state}}</pre>
+    <!-- <pre>{{$store.state}}</pre> -->
   </v-app>
 </template>
 

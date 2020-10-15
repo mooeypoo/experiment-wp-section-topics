@@ -1,6 +1,12 @@
 <template>
   <v-card class="sectionbox mt-4">
-    <v-card-title>{{actualTitle}}</v-card-title>
+    <v-card-title>
+      {{actualTitle}}
+      <v-chip outlined small :class="chipClass">
+        <v-icon small left color="blue-grey darken-2">mdi-scale</v-icon>
+        {{fixedSalience}}
+      </v-chip>
+    </v-card-title>
     <v-card-subtitle v-if="!isIntro">{{page}}</v-card-subtitle>
     <v-card-text class="sectionbox-content" :class="contentClass"><slot name="content"></slot></v-card-text>
     <v-divider class="mt-2" v-if="hasTopics"></v-divider>
@@ -40,11 +46,20 @@ export default {
 
       return ['sectionbox-content', `sectionbox-content-${c}`].join(' ')
     },
+    chipClass () {
+      const c = this.type === 'main'
+        ? 'mx-5' : 'mx-1'
+
+      return [c].join(' ')
+    },
     getViewTitle () {
       return this.actualTitle
     },
     hasTopics () {
       return !!this.topics.length
+    },
+    fixedSalience () {
+      return this.salience.toFixed(2)
     }
   },
   methods: {

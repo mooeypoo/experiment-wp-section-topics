@@ -94,7 +94,6 @@ export default new Vuex.Store({
     getSectionRelevantTopics: state => (page, sectionTitle) => {
       const topics = sectionMap[page][sectionTitle].topics || []
       const trimmed = topics.slice(0, maxTopicsPerSection).map((x) => x)
-      console.log('topics', topics, trimmed)
       return trimmed
     }
   },
