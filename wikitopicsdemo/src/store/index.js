@@ -1,48 +1,39 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-// import sectionspertopic from '../data/pertopic-football.json'
-// import sectionswithtopics from '../data/sectionswithtopics-football.json'
-import sectionspertopic from '../data/pertopic-nobel.json'
-import sectionswithtopics from '../data/sectionswithtopics-nobel.json'
+import TopicMerger from './TopicMerger'
+import sectionswithtopics1 from '../data/sectionswithtopics-science.json'
+import sectionswithtopics2 from '../data/sectionswithtopics-nobel.json'
 
 const maxMainSections = 2
-const maxMinorSections = 5
+const maxMinorSections = 6
 const maxTopicsPerSection = 5
-const relevantTopics = Object.keys(sectionspertopic)
-  .filter(t => {
-    return sectionspertopic[t].pages.length > 5
-  })
 
-// Create a map for page->section->data for easier access
-const sectionMap = {}
-Object.keys(sectionswithtopics).forEach(pageName => {
-  sectionswithtopics[pageName].forEach(sectionData => {
-    const topics = sectionData.topics || []
-    sectionMap[pageName] = sectionMap[pageName] || {}
-    sectionMap[pageName][sectionData.title] = {
-      topics: topics.filter(t => {
-        return relevantTopics.indexOf(t.conceptId) > -1
-      }),
-      html: sectionData.content.html
-    }
-  })
+const tMerger = new TopicMerger({
+  salienceThreshhold: 0.3,
+  minSectionCount: 6,
+  maxSectionCount: 20
 })
+tMerger.initialize([sectionswithtopics1, sectionswithtopics2])
+
+const sectionspertopic = tMerger.getPerTopic()
+const sectionMap = tMerger.getSectionMap()
+
+Vue.use(Vuex)
+
 const mapSectionDataForDisplay = (state, getters, sectionDataArr) => {
   return sectionDataArr.map(data => {
     return {
       salience: data.salience,
       page: data.page,
-      title: data.section.title,
-      content: getters.getSectionHTML(data.page, data.section.title),
-      topics: getters.getSectionRelevantTopics(data.page, data.section.title)
+      title: data.section,
+      content: getters.getSectionHTML(data.page, data.section),
+      topics: getters.getSectionRelevantTopics(data.page, data.section)
         .filter(t => {
           return t.conceptId !== state.current.topic
         })
     }
   })
 }
-
-Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
@@ -53,10 +44,16 @@ export default new Vuex.Store({
         minor: [],
         extra: []
       }
-    }
+    },
+    topicSelectList: []
   },
   getters: {
     isTopicSet: state => !!state.current.topic,
+    getCurrentSectionCount: state => {
+      return state.current.sections.main.length +
+        state.current.sections.minor.length +
+        state.current.sections.extra.length
+    },
     getMainSectionsForDisplay: (state, getters) => {
       return mapSectionDataForDisplay(state, getters, state.current.sections.main)
     },
@@ -67,33 +64,16 @@ export default new Vuex.Store({
       return mapSectionDataForDisplay(state, getters, state.current.sections.extra)
     },
     getCurrentTopicTitle: state => {
-      return sectionspertopic[state.current.topic].item
+      return sectionspertopic[state.current.topic].term
     },
     getCurrentTopic: state => {
       return state.current.topic
     },
     getAnyTopicTitle: state => (topic) => {
-      return sectionspertopic[topic].item
+      return sectionspertopic[topic].term
     },
-    getAllTopicsForSelect: state => {
-      return relevantTopics.map(topic => {
-        const count = sectionspertopic[topic].pages.length
-        return {
-          wikidata: topic,
-          name: `${sectionspertopic[topic].item} (${count})`,
-          count
-        }
-      })
-    },
-    getAllTopics: state => {
-      return relevantTopics.map(topic => {
-        const count = sectionspertopic[topic].pages.length
-        return {
-          wikidata: topic,
-          name: sectionspertopic[topic].item,
-          count
-        }
-      })
+    getTopicSelectList: state => {
+      return state.topicSelectList
     },
     getSectionHTML: state => (page, sectionTitle) => {
       const pageSectionData = sectionMap[page][sectionTitle]
@@ -110,7 +90,10 @@ export default new Vuex.Store({
       state.current.topic = topic
     },
     setSectionsForTopic (state, topic) {
-      const blob = sectionspertopic[topic]
+      const sections = sectionspertopic[topic].sections.map(x => x)
+      const actualMaxMinorSections = sections.length < 10
+        ? 3 : maxMinorSections
+      let sect = null
       // Reset
       state.current.sections = {
         main: [],
@@ -119,15 +102,41 @@ export default new Vuex.Store({
       }
 
       for (let i = 0; i < maxMainSections; i++) {
-        state.current.sections.main.push(blob.pages.shift())
+        sect = sections.shift()
+        if (sect) {
+          state.current.sections.main.push(sect)
+        }
       }
-      for (let i = 0; i < maxMinorSections; i++) {
-        state.current.sections.minor.push(blob.pages.shift())
+      for (let i = 0; i < actualMaxMinorSections; i++) {
+        sect = sections.shift()
+        if (sect) {
+          state.current.sections.minor.push(sect)
+        }
       }
-      state.current.sections.extra = blob.pages
+      state.current.sections.extra = sections || []
+    },
+    loadTopicSelectList (state, topics) {
+      state.topicSelectList = topics
     }
   },
   actions: {
+    load (state) {
+      // eslint-disable-next-line no-unused-vars
+      const perTopic = tMerger.getPerTopic()
+      state.commit(
+        'loadTopicSelectList',
+        Object.keys(perTopic)
+          // Map to what the SELECT expects
+          .map(topic => {
+            const count = perTopic[topic].sections.length
+            return {
+              wikidata: topic,
+              name: `${perTopic[topic].term} (${count})`,
+              count
+            }
+          })
+      )
+    },
     setCurrentTopic (state, topic) {
       state.commit('setTopic', topic)
       state.commit('setSectionsForTopic', topic)

@@ -62,6 +62,16 @@ export default {
     ...mapGetters([
       'isTopicSet'
     ])
+  },
+  async mounted () {
+    this.loading = true
+    try {
+      await this.$store.dispatch('load')
+    } catch (e) {
+      console.log('ERROR LOADING', e)
+    } finally {
+      this.loading = false
+    }
   }
 }
 </script>
