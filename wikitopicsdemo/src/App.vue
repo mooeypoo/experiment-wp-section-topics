@@ -1,32 +1,73 @@
 <template>
-  <div id="app">
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div> -->
-    <router-view/>
-  </div>
+  <v-app>
+    <v-app-bar v-if="isTopicSet"
+      app
+      color="primary"
+      dark
+    >
+      <div class="d-flex align-center">
+        <v-img
+          alt="Phoenix Logo"
+          class="shrink mr-2"
+          contain
+          src="./assets/phoenix-white.png"
+          transition="scale-transition"
+          width="50"
+        />
+        <TopicChoose />
+      </div>
+    </v-app-bar>
+
+    <v-main>
+      <v-container fill-height v-if="!isTopicSet">
+        <v-row align="center" justify="center">
+          <v-img
+            alt="Phoenix Logo"
+            class="shrink mr-2"
+            contain
+            src="./assets/phoenix-white.png"
+            transition="scale-transition"
+            max-height="400"
+          />
+        </v-row>
+        <v-row align="center" justify="center">
+          <v-col class="text-center" cols=12>
+            <TopicChoose class="mb-4" />
+          </v-col>
+        </v-row>
+      </v-container>
+
+      <TopicDisplay v-if=" isTopicSet" />
+    </v-main>
+    <pre>{{$store.state}}</pre>
+  </v-app>
 </template>
+
+<script>
+import { mapGetters } from 'vuex'
+import TopicChoose from './components/TopicChoose'
+import TopicDisplay from './components/TopicDisplay'
+
+export default {
+  name: 'App',
+  components: {
+    TopicChoose,
+    TopicDisplay
+  },
+
+  data: () => ({
+    //
+  }),
+  computed: {
+    ...mapGetters([
+      'isTopicSet'
+    ])
+  }
+}
+</script>
 
 <style lang="less">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+  background-color: #37474F;
 }
 </style>
