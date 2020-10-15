@@ -82,18 +82,22 @@ export default {
   overflow-y: auto;
   overflow-x:hidden;
 
-  &-side {
-    max-height: 100px;
-  }
-
   &-main {
     max-height: 300px;
-
-    .tright,
-    figure {
-      float: right;
-    }
   }
+  &-side {
+    max-height: 250px;
+  }
+  &-below {
+    max-height: 200px;
+  }
+
+  .infobox,
+  .tright,
+  figure {
+    float: right;
+  }
+
   figure {
     border: 1px solid #ccc;
     width: 200px;

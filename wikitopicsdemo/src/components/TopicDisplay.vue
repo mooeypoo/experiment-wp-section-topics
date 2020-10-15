@@ -23,7 +23,7 @@
             </SectionBox>
           </v-row>
           <v-row v-for="(row, index) in extraSectionsByRow" :key="index">
-            <v-col v-for="sect in row" :key="sect.salience" class="col-4">
+            <v-col v-for="sect in row" :key="sect.salience" class="col-6">
               <SectionBox
                 :salience="sect.salience"
                 :page="sect.page"
@@ -73,7 +73,7 @@ export default {
     ]),
     extraSectionsByRow () {
       const sections = this.$store.getters.getExtraSectionsForDisplay.map(x => x)
-      const limitInRow = 3
+      const limitInRow = 2
       const byrows = []
       let counter = 0
       let rowNum = 0
