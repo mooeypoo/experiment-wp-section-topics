@@ -13,7 +13,7 @@ const maxTopicsPerSection = 5
 const tMerger = new TopicMerger({
   salienceThreshhold: 0.3,
   minSectionCount: 6,
-  maxSectionCount: 20
+  maxSectionCount: 40
 })
 tMerger.initialize([
   sectionswithtopics1,

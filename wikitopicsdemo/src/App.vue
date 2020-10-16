@@ -4,6 +4,8 @@
       app
       color="primary"
       dark
+      elevate-on-scroll
+      scroll-target="#main-container"
     >
       <div class="d-flex align-center">
         <v-img
@@ -60,7 +62,7 @@
     </v-app-bar>
 
     <v-main class="px-md-10 px-sm-4 px-xs-2">
-      <v-container fill-height v-if="!isTopicSet">
+      <v-container fill-height v-if="!isTopicSet" id="main-container">
         <v-row align="center" justify="center">
           <v-img
             alt="Phoenix Logo"
