@@ -16,6 +16,60 @@
         />
         <TopicChoose />
       </div>
+      <!-- <v-spacer></v-spacer> -->
+      <v-dialog
+        v-model="dialog"
+        scrollable
+      >
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn
+            v-if="isTopicSet"
+            class="ml-6"
+            dark
+            color="darkGrey"
+            v-bind="attrs"
+            v-on="on"
+          >
+            <v-icon left>
+              mdi-book-open-variant
+            </v-icon>
+            {{getCurrentTopic}}
+          </v-btn>
+        </template>
+
+        <v-card>
+          <v-card-title class="headline grey lighten-2">
+            Wikidata item: {{getCurrentTopic}}
+          </v-card-title>
+
+          <iframe style="width: 100%; height: 50vh;" :src="wikidataUrl"></iframe>
+
+          <v-card-actions>
+            <v-spacer></v-spacer>
+            <v-btn
+              color="primary"
+              text
+              @click="dialog = false"
+            >
+              Close
+            </v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-dialog>
+
+      <!-- <v-btn
+        v-if="isTopicSet"
+        class="ml-6"
+        dark
+        color="darkGrey"
+        :href="wikidataUrl"
+      >
+        <v-icon left>
+          mdi-book-open-variant
+        </v-icon>
+        {{getCurrentTopic}}
+      </v-btn> -->
+
     </v-app-bar>
 
     <v-main>
@@ -56,12 +110,16 @@ export default {
   },
 
   data: () => ({
-    //
+    dialog: false
   }),
   computed: {
     ...mapGetters([
-      'isTopicSet'
-    ])
+      'isTopicSet',
+      'getCurrentTopic'
+    ]),
+    wikidataUrl () {
+      return `https://m.wikidata.org/wiki/${this.$store.getters.getCurrentTopic}`
+    }
   },
   async mounted () {
     this.loading = true
