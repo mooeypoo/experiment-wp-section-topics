@@ -1,8 +1,8 @@
 /**
  * Analyze a wikisections-xxx.json file
  */
-const name = 'nobel'
-import sectiondata from './output/sectionswithtopics-nobel.json'
+const name = 'diversity'
+import sectiondata from './output/sectionswithtopics-diversity.json'
 import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
 const fs = require('fs')

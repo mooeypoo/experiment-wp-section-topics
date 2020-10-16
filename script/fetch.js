@@ -141,13 +141,13 @@ const pagelists = {
     'Women in the military',
     'Women in computing',
     'Women in engineering',
+    'Kimberlé Williams Crenshaw',
+    'Gender_diversity',
     'Feminism',
     'Analytical feminism',
-    // 'Anarcha-feminism',
+    'Anarcha-feminism',
     'Equality feminism',
     'Intersectionality',
-    'Intersectionality',
-    'Kimberlé Williams Crenshaw',
     'Black feminism',
     'Heuristics in judgment and decision-making',
     'Gender representation on corporate boards of directors',
@@ -158,7 +158,7 @@ const pagelists = {
 
 let rosetteCounter = 0; 
 
-run('nobel', pagelists.nobel);
+run('diversity', pagelists.diversity);
 
 
 async function run(name, pageList) {

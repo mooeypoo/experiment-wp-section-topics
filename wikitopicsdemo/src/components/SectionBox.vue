@@ -1,6 +1,6 @@
 <template>
   <v-card class="sectionbox mt-4">
-    <v-card-title>
+    <v-card-title class="sectionbox-title">
       {{actualTitle}}
       <v-chip outlined small :class="chipClass">
         <v-icon small left color="blue-grey darken-2">mdi-scale</v-icon>
@@ -77,6 +77,10 @@ export default {
 </script>
 
 <style lang="less">
+div.sectionbox-title {
+  word-break: break-word;
+}
+
 .sectionbox-content {
   overflow-y: auto;
   overflow-x:hidden;

@@ -4,9 +4,10 @@ import TopicMerger from './TopicMerger'
 import sectionswithtopics1 from '../data/sectionswithtopics-science.json'
 import sectionswithtopics2 from '../data/sectionswithtopics-nobel.json'
 import sectionswithtopics3 from '../data/sectionswithtopics-philosophy.json'
+import sectionswithtopics4 from '../data/sectionswithtopics-diversity.json'
 
 const maxMainSections = 2
-const maxMinorSections = 6
+const maxMinorSections = 8
 const maxTopicsPerSection = 5
 
 const tMerger = new TopicMerger({
@@ -14,7 +15,12 @@ const tMerger = new TopicMerger({
   minSectionCount: 6,
   maxSectionCount: 20
 })
-tMerger.initialize([sectionswithtopics1, sectionswithtopics2, sectionswithtopics3])
+tMerger.initialize([
+  sectionswithtopics1,
+  sectionswithtopics2,
+  sectionswithtopics3,
+  sectionswithtopics4
+])
 const sectionspertopic = tMerger.getPerTopic()
 const sectionMap = tMerger.getSectionMap()
 

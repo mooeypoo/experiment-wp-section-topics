@@ -122,7 +122,7 @@ export default {
   },
   watch: {
     getCurrentTopic (newVal, oldVal) {
-      Utils.scrollToTop(500)
+      Utils.scrollToTop(1000)
     }
   }
 }
