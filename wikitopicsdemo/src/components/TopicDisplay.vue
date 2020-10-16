@@ -10,7 +10,7 @@
         <!-- <v-col class="col-9"> -->
           <v-row>
             <SectionBox
-              class="ml-2"
+              class="ml-4"
               v-for="sect in getMainSectionsForDisplay"
               :key="sect.salience"
               :salience="sect.salience"
@@ -41,6 +41,7 @@
         <!-- <v-col class="col-3"> -->
         <v-col md3 s12>
           <SectionBox
+            class="ml-4"
             v-for="sect in getMinorSectionsForDisplay"
             :key="sect.salience"
             :salience="sect.salience"

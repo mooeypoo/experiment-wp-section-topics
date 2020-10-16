@@ -128,12 +128,37 @@ const pagelists = {
     'Emmanuelle Charpentier',
     'Jennifer Doudna',
     'Louise Glück'
+  ],
+  philosophy: [
+    'Nobel Prize controversies',
+    'Philosophy of science'
+  ],
+  diversity: [
+    'Women in science',
+    'Women in medicine',
+    'Women in positions of power',
+    'Women in the workforce',
+    'Women in the military',
+    'Women in computing',
+    'Women in engineering',
+    'Feminism',
+    'Analytical feminism',
+    // 'Anarcha-feminism',
+    'Equality feminism',
+    'Intersectionality',
+    'Intersectionality',
+    'Kimberlé Williams Crenshaw',
+    'Black feminism',
+    'Heuristics in judgment and decision-making',
+    'Gender representation on corporate boards of directors',
+    'Claudia Alexander', // geologist
+    'Helen Belyea', // geologist
   ]
 }
 
 let rosetteCounter = 0; 
 
-run('science', pagelists.science);
+run('nobel', pagelists.nobel);
 
 
 async function run(name, pageList) {
@@ -259,6 +284,7 @@ async function fetchWikipedia(list) {
             page: pageName,
             title: sectionHeading,
             level: sectionLevel,
+            sectionId: sectionID,
             content: {
               text: section.text,
               html: sectionContent

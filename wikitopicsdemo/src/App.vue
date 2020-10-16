@@ -57,20 +57,6 @@
           </v-card-actions>
         </v-card>
       </v-dialog>
-
-      <!-- <v-btn
-        v-if="isTopicSet"
-        class="ml-6"
-        dark
-        color="darkGrey"
-        :href="wikidataUrl"
-      >
-        <v-icon left>
-          mdi-book-open-variant
-        </v-icon>
-        {{getCurrentTopic}}
-      </v-btn> -->
-
     </v-app-bar>
 
     <v-main>
@@ -102,6 +88,7 @@
 import { mapGetters } from 'vuex'
 import TopicChoose from './components/TopicChoose'
 import TopicDisplay from './components/TopicDisplay'
+import Utils from './Utils'
 
 export default {
   name: 'App',
@@ -111,6 +98,7 @@ export default {
   },
 
   data: () => ({
+    loading: true,
     dialog: false
   }),
   computed: {
@@ -122,14 +110,19 @@ export default {
       return `https://m.wikidata.org/wiki/${this.$store.getters.getCurrentTopic}`
     }
   },
-  async mounted () {
+  mounted () {
     this.loading = true
     try {
-      await this.$store.dispatch('load')
+      this.$store.dispatch('load')
     } catch (e) {
       console.log('ERROR LOADING', e)
     } finally {
       this.loading = false
+    }
+  },
+  watch: {
+    getCurrentTopic (newVal, oldVal) {
+      Utils.scrollToTop(500)
     }
   }
 }

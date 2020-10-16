@@ -3,6 +3,7 @@ import Vuex from 'vuex'
 import TopicMerger from './TopicMerger'
 import sectionswithtopics1 from '../data/sectionswithtopics-science.json'
 import sectionswithtopics2 from '../data/sectionswithtopics-nobel.json'
+import sectionswithtopics3 from '../data/sectionswithtopics-philosophy.json'
 
 const maxMainSections = 2
 const maxMinorSections = 6
@@ -13,8 +14,7 @@ const tMerger = new TopicMerger({
   minSectionCount: 6,
   maxSectionCount: 20
 })
-tMerger.initialize([sectionswithtopics1, sectionswithtopics2])
-
+tMerger.initialize([sectionswithtopics1, sectionswithtopics2, sectionswithtopics3])
 const sectionspertopic = tMerger.getPerTopic()
 const sectionMap = tMerger.getSectionMap()
 
@@ -25,7 +25,7 @@ const mapSectionDataForDisplay = (state, getters, sectionDataArr) => {
     return {
       salience: data.salience,
       page: data.page,
-      title: data.section,
+      title: data.sectionTitle,
       content: getters.getSectionHTML(data.page, data.section),
       topics: getters.getSectionRelevantTopics(data.page, data.section)
         .filter(t => {
@@ -134,6 +134,15 @@ export default new Vuex.Store({
               name: `${perTopic[topic].term} (${count})`,
               count
             }
+          })
+          .sort((a, b) => {
+            // Sort by salience, descending
+            if (a.count < b.count) {
+              return 1
+            } else if (a.count > b.count) {
+              return -1
+            }
+            return 0
           })
       )
     },
