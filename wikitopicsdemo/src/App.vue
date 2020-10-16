@@ -59,7 +59,7 @@
       </v-dialog>
     </v-app-bar>
 
-    <v-main>
+    <v-main class="px-md-10 px-sm-4 px-xs-2">
       <v-container fill-height v-if="!isTopicSet">
         <v-row align="center" justify="center">
           <v-img
@@ -80,7 +80,6 @@
 
       <TopicDisplay v-if=" isTopicSet" />
     </v-main>
-    <!-- <pre>{{$store.state}}</pre> -->
   </v-app>
 </template>
 

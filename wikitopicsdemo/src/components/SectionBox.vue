@@ -1,6 +1,6 @@
 <template>
-  <v-card class="sectionbox mt-4">
-    <v-card-title class="sectionbox-title">
+  <v-card class="sectionbox mt-4" :class="mainClass" :elevation="elevationValue">
+    <v-card-title color="blue-grey darken-2" class="sectionbox-title">
       {{actualTitle}}
       <v-chip outlined small :class="chipClass">
         <v-icon small left color="blue-grey darken-2">mdi-scale</v-icon>
@@ -40,6 +40,18 @@ export default {
     }
   },
   computed: {
+    mainClass () {
+      const c = this.type || 'main'
+
+      return ['sectionbox', `sectionbox-${c}`].join(' ')
+    },
+    elevationValue () {
+      return {
+        main: 6,
+        minor: 2,
+        extra: 0
+      }[this.type] || 0
+    },
     contentClass () {
       const c = this.type || 'main'
 
@@ -77,6 +89,24 @@ export default {
 </script>
 
 <style lang="less">
+.sectionbox {
+  width: 100%;
+
+  &-minor {
+    .vertical-navbox,
+    .infobox,
+    .noprint {
+      display: none;
+    }
+  }
+  &-extra {
+    .vertical-navbox,
+    .infobox,
+    .noprint {
+      display: none;
+    }
+  }
+}
 div.sectionbox-title {
   word-break: break-word;
 }
@@ -86,10 +116,10 @@ div.sectionbox-title {
   overflow-x:hidden;
 
   &-main {
-    max-height: 300px;
+    height: 300px;
   }
-  &-side {
-    max-height: 250px;
+  &-minor {
+    height: 200px;
 
     .vertical-navbox,
     .infobox,
@@ -97,8 +127,8 @@ div.sectionbox-title {
       display: none;
     }
   }
-  &-below {
-    max-height: 200px;
+  &-extra {
+    height: 150px;
 
     .vertical-navbox,
     .infobox,

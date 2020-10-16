@@ -32,6 +32,7 @@ const mapSectionDataForDisplay = (state, getters, sectionDataArr) => {
       salience: data.salience,
       page: data.page,
       title: data.sectionTitle,
+      sectionId: data.section,
       content: getters.getSectionHTML(data.page, data.section),
       topics: getters.getSectionRelevantTopics(data.page, data.section)
         .filter(t => {
@@ -59,6 +60,9 @@ export default new Vuex.Store({
       return state.current.sections.main.length +
         state.current.sections.minor.length +
         state.current.sections.extra.length
+    },
+    getAllSectionsForDisplay (state, getters) {
+      return mapSectionDataForDisplay(state, getters, sectionspertopic[state.current.topic].sections.map(x => x))
     },
     getMainSectionsForDisplay: (state, getters) => {
       return mapSectionDataForDisplay(state, getters, state.current.sections.main)

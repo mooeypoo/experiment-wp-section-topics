@@ -34,7 +34,7 @@ class TopicMerger {
         const sectionId = sectionData.sectionId || '-1'
         sectionMap[pageName] = sectionMap[pageName] || {}
 
-        sectionMap[pageName][`${sectionId}|${sectionData.title}`] = {
+        sectionMap[pageName][`${sectionId}|${pageName}|${sectionData.title}`] = {
           title: sectionData.title,
           topics: sectionData.topics || [],
           html: sectionData.content.html
