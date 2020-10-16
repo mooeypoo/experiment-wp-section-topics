@@ -38,11 +38,12 @@
         </template>
 
         <v-card>
-          <v-card-title class="headline grey lighten-2">
+          <v-card-title>
             Wikidata item: {{getCurrentTopic}}
           </v-card-title>
-
-          <iframe style="width: 100%; height: 50vh;" :src="wikidataUrl"></iframe>
+          <v-card-text>
+            <iframe style="width: 100%; height: 50vh;" :src="wikidataUrl"></iframe>
+          </v-card-text>
 
           <v-card-actions>
             <v-spacer></v-spacer>
