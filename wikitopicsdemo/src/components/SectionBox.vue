@@ -3,8 +3,8 @@
     <v-card-title color="blue-grey darken-2" class="sectionbox-title">
       {{actualTitle}}
       <v-spacer></v-spacer>
-      <v-chip outlined small :class="chipClass">
-        <v-icon small left color="blue-grey darken-2">mdi-scale</v-icon>
+      <v-chip outlined small color="red" :class="chipClass">
+        <v-icon small left color="red">mdi-scale</v-icon>
         {{fixedSalience}}
       </v-chip>
     </v-card-title>
