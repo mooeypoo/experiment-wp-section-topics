@@ -41,8 +41,7 @@ export default {
   },
   computed: {
     contentClass () {
-      const c = this.type === 'main'
-        ? 'main' : 'side'
+      const c = this.type || 'main'
 
       return ['sectionbox-content', `sectionbox-content-${c}`].join(' ')
     },
@@ -87,20 +86,44 @@ export default {
   }
   &-side {
     max-height: 250px;
+
+    .vertical-navbox,
+    .infobox,
+    .noprint {
+      display: none;
+    }
   }
   &-below {
     max-height: 200px;
+
+    .vertical-navbox,
+    .infobox,
+    .noprint {
+      display: none;
+    }
   }
 
-  .infobox,
-  .tright,
-  figure {
-    float: right;
+  &:not(.sectionbox-content-below) {
+    .infobox,
+    .tright,
+    figure {
+      float: right;
+      clear: both;
+    }
+  }
+
+  .hatnote {
+    display: none;
   }
 
   figure {
     border: 1px solid #ccc;
-    width: 200px;
+    width: 180px;
+
+    img {
+      max-width: 150px;
+      height: auto;
+    }
 
     figcaption {
       font-size: 90%

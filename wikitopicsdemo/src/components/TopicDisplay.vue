@@ -30,6 +30,7 @@
                 :title="sect.title"
                 :topics="sect.topics"
                 style="overflow: hidden"
+                type="below"
               >
                 <div slot="content" v-html="sect.content"></div>
               </SectionBox>
@@ -47,6 +48,7 @@
             :title="sect.title"
             :topics="sect.topics"
             style="overflow: hidden"
+            type="side"
           >
             <div slot="content" v-html="sect.content"></div>
           </SectionBox>
