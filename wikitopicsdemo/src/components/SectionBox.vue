@@ -2,6 +2,7 @@
   <v-card class="sectionbox mt-4" :class="mainClass" :elevation="elevationValue">
     <v-card-title color="blue-grey darken-2" class="sectionbox-title">
       {{actualTitle}}
+      <v-spacer></v-spacer>
       <v-chip outlined small :class="chipClass">
         <v-icon small left color="blue-grey darken-2">mdi-scale</v-icon>
         {{fixedSalience}}
