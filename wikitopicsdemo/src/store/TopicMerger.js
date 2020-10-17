@@ -104,7 +104,7 @@ class TopicMerger {
 
       // Verify that there are still pages after filtering
       // If not, delete the object
-      if (perTopic[topicId].sections.length <= this.config.minSectionCount) {
+      if (perTopic[topicId].sections.length < this.config.minSectionCount) {
         delete perTopic[topicId]
       } else if (perTopic[topicId].sections.length > this.config.maxSectionCount) {
         // TRIM sections from topics now
