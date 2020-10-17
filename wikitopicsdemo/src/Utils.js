@@ -27,11 +27,16 @@ class Utils {
   }
 
   static loadDefaultConfig (currValues = {}) {
-    return localStorage.getItem('phoenix-experiment-microsite-settings') || currValues
+    const vals = localStorage.getItem('phoenix-experiment-microsite-settings')
+    let obj = currValues || {}
+    try {
+      obj = JSON.parse(vals)
+    } catch (e) {}
+    return obj
   }
 
   static saveDefaultConfig (currValues = {}) {
-    localStorage.setItem('phoenix-experiment-microsite-settings', currValues)
+    localStorage.setItem('phoenix-experiment-microsite-settings', JSON.stringify(currValues))
   }
 }
 

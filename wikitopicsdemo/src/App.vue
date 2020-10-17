@@ -65,6 +65,11 @@
     </v-app-bar>
 
     <v-main class="px-md-10 px-sm-4 px-xs-2">
+      <v-progress-circular
+      v-if="loading"
+      indeterminate
+      color="white"
+    ></v-progress-circular>
       <v-alert
         v-if="!!getNotice"
         border="bottom"
@@ -132,7 +137,8 @@ export default {
   },
   mounted () {
     this.loading = true
-    this.$store.dispatch('load')
+    this.$store.dispatch('initialLoad')
+    this.$store.dispatch('resetTopics')
     this.loading = false
   },
   watch: {

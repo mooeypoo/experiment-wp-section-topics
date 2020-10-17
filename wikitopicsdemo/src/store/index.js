@@ -133,6 +133,7 @@ export default new Vuex.Store({
     updateSettings (state, config) {
       const newState = Object.assign(state.settings, config)
       state.settings = newState
+      Utils.saveDefaultConfig(state.settings)
     },
     resetTopics (state) {
       tMerger.setConfig(state.settings)
@@ -174,12 +175,10 @@ export default new Vuex.Store({
     }
   },
   actions: {
-    load (store) {
+    initialLoad (store) {
       // Load settings
       const config = Utils.loadDefaultConfig(tMerger.getCurrentConfigValues())
       store.commit('updateSettings', config)
-      store.commit('resetTopics')
-      store.commit('loadTopicSelectList')
     },
     setCurrentTopic (store, topic) {
       store.commit('setNotice', '')
@@ -201,7 +200,7 @@ export default new Vuex.Store({
       // know that there aren't any topics
       if (!store.state.topicSelectList.length) {
         topic = null
-        notice = 'There are no available topics in the settings you\'ve chosen.'
+        notice = 'There are no available topics with the settings you\'ve chosen.'
         dialogShow = true
       } else if (!weAreInLandingPage) {
         // We are not in the landing page, which means we already have
