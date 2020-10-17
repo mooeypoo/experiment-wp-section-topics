@@ -1,50 +1,23 @@
 <template>
   <v-app>
-    <v-app-bar v-if="isTopicSet"
+    <Menu v-if="isTopicSet" />
+    <v-navigation-drawer
+      v-model="navBar"
       app
-      color="primary"
+      temporary
       dark
-      elevate-on-scroll
-      scroll-target="#main-container"
     >
-      <div class="d-flex align-center">
-        <v-img
-          alt="Phoenix Logo"
-          class="shrink mr-2"
-          contain
-          src="./assets/phoenix-white.png"
-          transition="scale-transition"
-          width="50"
-        />
-        <TopicChoose />
-      </div>
-      <!-- <v-spacer></v-spacer> -->
       <v-dialog
-        v-model="dialog"
+        v-model="wikidataDialog"
         scrollable
+        :fullscreen="$vuetify.breakpoint.smAndDown"
       >
-        <template v-slot:activator="{ on, attrs }">
-          <v-btn
-            v-if="isTopicSet"
-            class="ml-6"
-            dark
-            color="darkGrey"
-            v-bind="attrs"
-            v-on="on"
-          >
-            <v-icon left>
-              mdi-book-open-variant
-            </v-icon>
-            {{getCurrentTopic}}
-          </v-btn>
-        </template>
-
         <v-card>
           <v-card-title>
             Wikidata item: {{getCurrentTopic}}
           </v-card-title>
-          <v-card-text>
-            <iframe style="width: 100%; height: 50vh;" :src="wikidataUrl"></iframe>
+          <v-card-text class="wikidataDialog-text">
+            <iframe :src="wikidataUrl"></iframe>
           </v-card-text>
 
           <v-card-actions>
@@ -52,24 +25,72 @@
             <v-btn
               color="primary"
               text
-              @click="dialog = false"
+              @click="wikidataDialog = false"
             >
               Close
             </v-btn>
           </v-card-actions>
         </v-card>
       </v-dialog>
+      <v-list three-line>
+        <!-- <v-subheader>Microsite</v-subheader> -->
+        <v-list-item @click.stop="wikidataDialog = true">
+          <v-list-item-avatar>
+            <v-icon
+              class="blue darken-3"
+              dark
+            >
+              mdi-book-open-variant
+            </v-icon>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title>{{getCurrentTopic}}</v-list-item-title>
+            <v-list-item-subtitle>Open the Wikidata entry for this topic</v-list-item-subtitle>
+          </v-list-item-content>
+        </v-list-item>
 
-      <v-spacer></v-spacer>
-      <SettingsDialog v-if="isTopicSet" />
-    </v-app-bar>
+        <v-list-item @click.stop="openSettingsDialog">
+          <v-list-item-avatar>
+            <v-icon
+              class="blue darken-3"
+              dark
+            >
+              mdi-cog
+            </v-icon>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title>Settings</v-list-item-title>
+            <v-list-item-subtitle>Change the threshhold settings for topics</v-list-item-subtitle>
+          </v-list-item-content>
+        </v-list-item>
 
+        <!-- <v-divider></v-divider>
+
+        <v-list-item @click.stop="openAbout">
+          <v-list-item-avatar>
+            <v-icon
+              class="blue darken-3"
+              dark
+            >
+              mdi-cog
+            </v-icon>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title>About</v-list-item-title>
+            <v-list-item-subtitle>About this project</v-list-item-subtitle>
+          </v-list-item-content>
+        </v-list-item> -->
+      </v-list>
+    </v-navigation-drawer>
     <v-main class="px-md-10 px-sm-4 px-xs-2">
+
+      <SettingsDialog />
+
       <v-progress-circular
       v-if="loading"
       indeterminate
       color="white"
-    ></v-progress-circular>
+      ></v-progress-circular>
       <v-alert
         v-if="!!getNotice"
         border="bottom"
@@ -91,11 +112,16 @@
           />
         </v-row>
         <v-row align="center" justify="center">
-          <v-col class="text-center" cols=11>
+          <v-col class="text-center" cols=10>
             <TopicChoose class="mb-4" />
           </v-col>
-          <v-col class="text-center" cols=1>
-            <SettingsDialog v-if="!isTopicSet" />
+          <v-col class="text-center" cols=2>
+            <v-btn
+              icon
+              @click.stop="openSettingsDialog"
+            >
+              <v-icon color="white">mdi-cog</v-icon>
+            </v-btn>
           </v-col>
         </v-row>
       </v-container>
@@ -111,6 +137,7 @@ import { mapGetters } from 'vuex'
 import TopicChoose from './components/TopicChoose'
 import TopicDisplay from './components/TopicDisplay'
 import SettingsDialog from './components/SettingsDialog'
+import Menu from './components/Menu'
 import Utils from './Utils'
 
 export default {
@@ -118,25 +145,35 @@ export default {
   components: {
     TopicChoose,
     TopicDisplay,
-    SettingsDialog
+    SettingsDialog,
+    Menu
   },
 
   data: () => ({
     loading: true,
-    dialog: false
+    navBar: false,
+    wikidataDialog: false
   }),
   computed: {
     ...mapGetters([
       'isTopicSet',
+      'getCurrentTopic',
       'getNotice',
+      'isNavigationBarShowing',
       'getCurrentTopic'
     ]),
     wikidataUrl () {
-      return `https://m.wikidata.org/wiki/${this.$store.getters.getCurrentTopic}`
+      return `https://m.wikidata.org/wiki/${this.getCurrentTopic}`
+    }
+  },
+  methods: {
+    openSettingsDialog () {
+      this.$store.dispatch('showSettingsDialog')
     }
   },
   mounted () {
     this.loading = true
+    this.navBar = this.isNavigationBarShowing
     this.$store.dispatch('initialLoad')
     this.$store.dispatch('resetTopics')
     this.loading = false
@@ -144,6 +181,16 @@ export default {
   watch: {
     getCurrentTopic (newVal, oldVal) {
       Utils.scrollToTop(1000)
+    },
+    navBar (visible) {
+      if (visible) {
+        this.$store.dispatch('showNavigationBar')
+      } else {
+        this.$store.dispatch('hideNavigationBar')
+      }
+    },
+    isNavigationBarShowing (visible) {
+      this.navBar = visible
     }
   }
 }
@@ -152,5 +199,13 @@ export default {
 <style lang="less">
 #app {
   background-color: #37474F;
+
+  .wikidataDialog-text {
+    overflow-y: hidden;
+    iframe {
+      width: 100%;
+      height: calc(100vh - 10em);
+    }
+}
 }
 </style>

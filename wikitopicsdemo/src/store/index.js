@@ -44,6 +44,7 @@ const mapSectionDataForDisplay = (state, getters, sectionDataArr) => {
 export default new Vuex.Store({
   state: {
     settingsDialogShow: false,
+    navBarShow: false,
     notice: null,
     current: {
       topic: null,
@@ -62,6 +63,7 @@ export default new Vuex.Store({
   },
   getters: {
     isSettingDialogShowing: state => state.settingsDialogShow,
+    isNavigationBarShowing: state => state.navBarShow,
     isTopicSet: state => !!state.current.topic,
     getNotice: state => state.notice,
     getSettings: state => state.settings,
@@ -172,6 +174,15 @@ export default new Vuex.Store({
     },
     hideSettingsDialog (state) {
       state.settingsDialogShow = false
+    },
+    showNavigationBar (state) {
+      state.navBarShow = true
+    },
+    hideNavigationBar (state) {
+      state.navBarShow = false
+    },
+    toggleNavigationBar (state) {
+      state.navBarShow = !state.navBarShow
     }
   },
   actions: {
@@ -238,6 +249,15 @@ export default new Vuex.Store({
     },
     hideSettingsDialog (store) {
       store.commit('hideSettingsDialog')
+    },
+    showNavigationBar (store) {
+      store.commit('showNavigationBar')
+    },
+    hideNavigationBar (store) {
+      store.commit('hideNavigationBar')
+    },
+    toggleNavigationBar (store) {
+      store.commit('toggleNavigationBar')
     }
   }
 })

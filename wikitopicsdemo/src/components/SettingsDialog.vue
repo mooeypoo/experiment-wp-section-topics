@@ -3,7 +3,7 @@
     v-model="settingsDialog"
     max-width="500px"
   >
-    <template v-slot:activator="{ on, attrs }">
+    <!-- <template v-slot:activator="{ on, attrs }" v-if="showTrigger">
       <v-btn
         icon
         class="ml-6"
@@ -12,7 +12,7 @@
       >
         <v-icon color="white">mdi-cog</v-icon>
       </v-btn>
-    </template>
+    </template> -->
 
     <v-card>
       <v-card-title>
@@ -92,6 +92,7 @@
 import { mapGetters } from 'vuex'
 export default {
   name: 'SettingsDialog',
+  props: ['showTrigger'],
   data () {
     return {
       settingsDialog: false,
