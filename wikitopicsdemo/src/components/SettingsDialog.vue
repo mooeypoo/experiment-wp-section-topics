@@ -10,7 +10,7 @@
         v-bind="attrs"
         v-on="on"
       >
-        <v-icon>mdi-cog</v-icon>
+        <v-icon color="white">mdi-cog</v-icon>
       </v-btn>
     </template>
 
