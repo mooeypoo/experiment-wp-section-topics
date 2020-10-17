@@ -207,7 +207,10 @@ export default new Vuex.Store({
         // a selected topic.
         // We need to check if the refreshed list still has the topic
         // that is currently selected
-        if (store.state.topicSelectList.indexOf(topic) === -1) {
+        if (
+          !store.state.topicSelectList
+            .filter(t => { return t.wikidata === topic }).length
+        ) {
           // The topic we selected is no longer in the list.
           // Pick another topic from the list, and notify the user
           // So we don't send the user to the landing page

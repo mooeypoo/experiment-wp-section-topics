@@ -90,7 +90,7 @@ class TopicMerger {
     for (const topicId of Object.keys(perTopic)) {
       perTopic[topicId].sections = perTopic[topicId].sections
         .filter(data => {
-          return Number(data.salience) >= this.config.salienceThreshhold
+          return data.salience >= this.config.salienceThreshhold
         })
         .sort((a, b) => {
           // Sort by salience, descending
