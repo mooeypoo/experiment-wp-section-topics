@@ -59,10 +59,22 @@
           </v-card-actions>
         </v-card>
       </v-dialog>
+
+      <v-spacer></v-spacer>
+      <SettingsDialog v-if="isTopicSet" />
     </v-app-bar>
 
     <v-main class="px-md-10 px-sm-4 px-xs-2">
-      <v-container fill-height v-if="!isTopicSet" id="main-container">
+      <v-alert
+        v-if="!!getNotice"
+        border="bottom"
+        colored-border
+        type="warning"
+        elevation="2"
+      >
+        {{getNotice}}
+      </v-alert>
+      <v-container fill-height v-if="!isTopicSet">
         <v-row align="center" justify="center">
           <v-img
             alt="Phoenix Logo"
@@ -74,13 +86,17 @@
           />
         </v-row>
         <v-row align="center" justify="center">
-          <v-col class="text-center" cols=12>
+          <v-col class="text-center" cols=11>
             <TopicChoose class="mb-4" />
+          </v-col>
+          <v-col class="text-center" cols=1>
+            <SettingsDialog v-if="!isTopicSet" />
           </v-col>
         </v-row>
       </v-container>
-
-      <TopicDisplay v-if=" isTopicSet" />
+      <v-container fill-height v-if="isTopicSet" id="main-container">
+        <TopicDisplay v-if="isTopicSet" />
+      </v-container>
     </v-main>
   </v-app>
 </template>
@@ -89,13 +105,15 @@
 import { mapGetters } from 'vuex'
 import TopicChoose from './components/TopicChoose'
 import TopicDisplay from './components/TopicDisplay'
+import SettingsDialog from './components/SettingsDialog'
 import Utils from './Utils'
 
 export default {
   name: 'App',
   components: {
     TopicChoose,
-    TopicDisplay
+    TopicDisplay,
+    SettingsDialog
   },
 
   data: () => ({
@@ -105,6 +123,7 @@ export default {
   computed: {
     ...mapGetters([
       'isTopicSet',
+      'getNotice',
       'getCurrentTopic'
     ]),
     wikidataUrl () {
@@ -113,13 +132,8 @@ export default {
   },
   mounted () {
     this.loading = true
-    try {
-      this.$store.dispatch('load')
-    } catch (e) {
-      console.log('ERROR LOADING', e)
-    } finally {
-      this.loading = false
-    }
+    this.$store.dispatch('load')
+    this.loading = false
   },
   watch: {
     getCurrentTopic (newVal, oldVal) {

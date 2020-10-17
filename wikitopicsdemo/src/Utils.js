@@ -25,6 +25,14 @@ class Utils {
     }
     window.requestAnimationFrame(step)
   }
+
+  static loadDefaultConfig (currValues = {}) {
+    return localStorage.getItem('phoenix-experiment-microsite-settings') || currValues
+  }
+
+  static saveDefaultConfig (currValues = {}) {
+    localStorage.setItem('phoenix-experiment-microsite-settings', currValues)
+  }
 }
 
 export default Utils

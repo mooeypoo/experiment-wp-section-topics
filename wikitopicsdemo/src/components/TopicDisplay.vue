@@ -68,7 +68,6 @@ export default {
   computed: {
     ...mapGetters([
       'getCurrentTopicTitle',
-      'getAllSectionsForDisplay',
       'getMainSectionsForDisplay',
       'getMinorSectionsForDisplay',
       'getExtraSectionsForDisplay'
