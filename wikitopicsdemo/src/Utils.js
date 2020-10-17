@@ -26,13 +26,15 @@ class Utils {
     window.requestAnimationFrame(step)
   }
 
-  static loadDefaultConfig (currValues = {}) {
+  static loadDefaultConfig (fallbackValues = {}) {
     const vals = localStorage.getItem('phoenix-experiment-microsite-settings')
-    let obj = currValues || {}
+    let obj = null
     try {
       obj = JSON.parse(vals)
-    } catch (e) {}
-    return obj
+    } catch (e) {
+      obj = fallbackValues
+    }
+    return obj || fallbackValues
   }
 
   static saveDefaultConfig (currValues = {}) {
