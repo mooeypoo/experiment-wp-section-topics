@@ -65,7 +65,6 @@
               {{dialogSettingsValues.maxSectionCount}}
             </v-col>
           </v-row>
-          {{$store.state.settings}}
         </v-container>
       </v-card-text>
       <v-card-actions>
