@@ -1,6 +1,5 @@
 class TopicMerger {
   constructor (config = {}) {
-    this.originalSectionMap = {} // Has all data mapped, regardless of threshholds
     this.sectionMap = {} // all data mapped, but also trimmed based on current config
     this.perTopic = {}
     this.defaultConfig = {
@@ -11,14 +10,12 @@ class TopicMerger {
   }
 
   initialize (allSectionsJsonArr = []) {
-    this.originalSectionMap = this.processAllSections(allSectionsJsonArr)
-    this.sectionMap = Object.assign({}, this.originalSectionMap)
+    this.sectionMap = this.processAllSections(allSectionsJsonArr)
   }
 
   processTopics (config = {}) {
     config = Object.assign({}, this.defaultConfig, config)
     // Reset current section map
-    this.sectionMap = JSON.parse(JSON.stringify(this.originalSectionMap)) // DIRTY TRICK to deep-copy
     this.perTopic = this.breakSectionsPerTopic(this.sectionMap, config)
     return this.perTopic
   }
@@ -53,7 +50,7 @@ class TopicMerger {
 
         sectionMap[pageName][`${sectionId}|${pageName}|${sectionData.title}`] = {
           title: sectionData.title,
-          topics: sectionData.topics || [],
+          topics: (sectionData.topics || []).map(t => { return Object.assign({}, t, { active: true }) }) || [],
           html: sectionData.content.html
         }
       })
@@ -112,8 +109,8 @@ class TopicMerger {
     const finalValidTopics = Object.keys(perTopic)
     for (const sections of Object.values(sectionMap)) {
       for (const sectionData of Object.values(sections)) {
-        sectionData.topics = sectionData.topics.filter(t => {
-          return finalValidTopics.indexOf(t.conceptId) > -1
+        sectionData.topics = sectionData.topics.map(t => {
+          return Object.assign({}, t, { active: finalValidTopics.indexOf(t.conceptId) > -1 })
         })
       }
     }

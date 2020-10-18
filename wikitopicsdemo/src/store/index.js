@@ -35,7 +35,7 @@ const mapSectionDataForDisplay = (state, getters, sectionDataArr) => {
       content: getters.getSectionHTML(data.page, data.section),
       topics: getters.getSectionRelevantTopics(data.page, data.section)
         .filter(t => {
-          return t.conceptId !== state.current.topic
+          return t.active && t.conceptId !== state.current.topic
         })
     }
   })
