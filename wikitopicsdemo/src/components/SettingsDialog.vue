@@ -107,6 +107,8 @@ export default {
   },
   methods: {
     applySettings () {
+      debugger
+      console.log('applySettings', this.dialogSettingsValues)
       this.$store.dispatch('updateSettingValue', this.dialogSettingsValues)
       this.$store.dispatch('resetTopics')
     },

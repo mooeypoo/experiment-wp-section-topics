@@ -137,33 +137,7 @@ export default new Vuex.Store({
       state.settings = newState
       Utils.saveDefaultConfig(state.settings)
     },
-    resetTopics (state) {
-      tMerger.setConfig(state.settings)
-      // Re-run the initialization process with the new config
-      tMerger.initialize(allTopicJsonFiles)
-    },
-    loadTopicSelectList (state) {
-      const perTopic = tMerger.getPerTopic()
-      const topics = Object.keys(perTopic)
-        // Map to what the SELECT expects
-        .map(topic => {
-          const count = perTopic[topic].sections.length
-          return {
-            wikidata: topic,
-            name: `${perTopic[topic].term} (${count})`,
-            count
-          }
-        })
-        .sort((a, b) => {
-          // Sort by salience, descending
-          if (a.count < b.count) {
-            return 1
-          } else if (a.count > b.count) {
-            return -1
-          }
-          return 0
-        })
-
+    setTopicSelectList (state, topics) {
       state.topicSelectList = topics
     },
     setNotice (state, message) {
@@ -188,8 +162,9 @@ export default new Vuex.Store({
   actions: {
     initialLoad (store) {
       // Load settings
-      const config = Utils.loadDefaultConfig(tMerger.getCurrentConfigValues())
+      const config = Utils.loadDefaultConfig(tMerger.getDefaultConfig())
       store.commit('updateSettings', config)
+      tMerger.initialize(allTopicJsonFiles)
     },
     setCurrentTopic (store, topic) {
       store.commit('setNotice', '')
@@ -200,8 +175,31 @@ export default new Vuex.Store({
       store.commit('updateSettings', confObj)
     },
     resetTopics (store) {
-      store.commit('resetTopics')
-      store.commit('loadTopicSelectList')
+      debugger
+      // Re-run the initialization process with the new config
+      const perTopic = tMerger.processTopics(store.state.settings)
+      const topiclist = Object.keys(perTopic)
+        // Map to what the SELECT expects
+        .map(topic => {
+          const count = perTopic[topic].sections.length
+          return {
+            wikidata: topic,
+            name: `${perTopic[topic].term} (${count})`,
+            count
+          }
+        })
+        .sort((a, b) => {
+          // Sort by salience, descending
+          if (a.count < b.count) {
+            return 1
+          } else if (a.count > b.count) {
+            return -1
+          }
+          return 0
+        })
+
+      store.commit('setTopicSelectList', topiclist)
+
       let topic = store.state.current.topic
       let dialogShow = false
       let notice = ''

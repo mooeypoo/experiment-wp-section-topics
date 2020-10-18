@@ -1,35 +1,30 @@
 class TopicMerger {
   constructor (config = {}) {
-    this.setConfig(config)
-  }
-
-  setConfig (config) {
-    this.config = this.config || {}
-    this.config.salienceThreshhold = config.salienceThreshhold || this.getValueWithFallback(this.config.salienceThreshhold, 0.2)
-    this.config.minSectionCount = config.minSectionCount || this.getValueWithFallback(this.config.minSectionCount, 10)
-    this.config.maxSectionCount = config.maxSectionCount || this.getValueWithFallback(this.config.maxSectionCount, 20)
-  }
-
-  getCurrentConfigValues () {
-    return {
-      salienceThreshhold: this.config.salienceThreshhold,
-      minSectionCount: this.config.minSectionCount,
-      maxSectionCount: this.config.maxSectionCount
+    this.originalSectionMap = {} // Has all data mapped, regardless of threshholds
+    this.sectionMap = {} // all data mapped, but also trimmed based on current config
+    this.perTopic = {}
+    this.defaultConfig = {
+      salienceThreshhold: 0.2,
+      minSectionCount: 10,
+      maxSectionCount: 20
     }
   }
 
-  getConfigVal (key) {
-    return this.config[key]
-  }
-
-  getValueWithFallback (currValue, fallback) {
-    return currValue !== undefined
-      ? currValue : fallback
-  }
-
   initialize (allSectionsJsonArr = []) {
-    this.sectionMap = this.processAllSections(allSectionsJsonArr)
-    this.perTopic = this.breakSectionsPerTopic(this.sectionMap)
+    this.originalSectionMap = this.processAllSections(allSectionsJsonArr)
+    this.sectionMap = Object.assign({}, this.originalSectionMap)
+  }
+
+  processTopics (config = {}) {
+    config = Object.assign({}, this.defaultConfig, config)
+    // Reset current section map
+    this.sectionMap = JSON.parse(JSON.stringify(this.originalSectionMap)) // DIRTY TRICK to deep-copy
+    this.perTopic = this.breakSectionsPerTopic(this.sectionMap, config)
+    return this.perTopic
+  }
+
+  getDefaultConfig () {
+    return this.defaultConfig
   }
 
   getPerTopic () {
@@ -67,7 +62,7 @@ class TopicMerger {
     return sectionMap
   }
 
-  breakSectionsPerTopic (sectionMap) {
+  breakSectionsPerTopic (sectionMap, config) {
     const perTopic = {}
     // Read all sections
     for (const [pageName, sections] of Object.entries(sectionMap)) {
@@ -90,7 +85,7 @@ class TopicMerger {
     for (const topicId of Object.keys(perTopic)) {
       perTopic[topicId].sections = perTopic[topicId].sections
         .filter(data => {
-          return data.salience >= this.config.salienceThreshhold
+          return data.salience >= config.salienceThreshhold
         })
         .sort((a, b) => {
           // Sort by salience, descending
@@ -104,11 +99,11 @@ class TopicMerger {
 
       // Verify that there are still pages after filtering
       // If not, delete the object
-      if (perTopic[topicId].sections.length < this.config.minSectionCount) {
+      if (perTopic[topicId].sections.length < config.minSectionCount) {
         delete perTopic[topicId]
-      } else if (perTopic[topicId].sections.length > this.config.maxSectionCount) {
+      } else if (perTopic[topicId].sections.length > config.maxSectionCount) {
         // TRIM sections from topics now
-        perTopic[topicId].sections = perTopic[topicId].sections.slice(0, this.config.maxSectionCount)
+        perTopic[topicId].sections = perTopic[topicId].sections.slice(0, config.maxSectionCount)
       }
     }
 
