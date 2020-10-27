@@ -177,7 +177,6 @@ export default new Vuex.Store({
       store.commit('updateSettings', confObj)
     },
     resetTopics (store) {
-      debugger
       // Re-run the initialization process with the new config
       const perTopic = tMerger.processTopics(store.state.settings)
       const topiclist = Object.keys(perTopic)
@@ -191,10 +190,15 @@ export default new Vuex.Store({
           }
         })
         .sort((a, b) => {
-          // Sort by salience, descending
+          // Sort by count, descending
           if (a.count < b.count) {
             return 1
           } else if (a.count > b.count) {
+            return -1
+          // Within the same count, sort by name, ascending
+          } else if (b.name < a.name) {
+            return 1
+          } else if (b.name > a.name) {
             return -1
           }
           return 0
