@@ -6,6 +6,7 @@ import sectionswithtopics1 from '../data/sectionswithtopics-science.json'
 import sectionswithtopics2 from '../data/sectionswithtopics-nobel.json'
 import sectionswithtopics3 from '../data/sectionswithtopics-philosophy.json'
 import sectionswithtopics4 from '../data/sectionswithtopics-diversity.json'
+import sectionswithtopics5 from '../data/sectionswithtopics-extra.json'
 
 const maxMainSections = 2
 const maxMinorSections = 8
@@ -15,7 +16,8 @@ const allTopicJsonFiles = [
   sectionswithtopics1,
   sectionswithtopics2,
   sectionswithtopics3,
-  sectionswithtopics4
+  sectionswithtopics4,
+  sectionswithtopics5
 ]
 const tMerger = new TopicMerger({
   salienceThreshhold: 0.3,

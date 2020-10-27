@@ -1,0 +1,2853 @@
+{
+  "Telomerase": [
+    {
+      "page": "Telomerase",
+      "title": "__intro__",
+      "level": 0,
+      "sectionId": "0",
+      "content": {
+        "text": "Telomere-restoring protein active in the most rapidly dividing cells\nThis article relies too much on references to primary sources. Please improve this  by adding secondary or tertiary sources.  (June 2015) (Learn how and when to remove this template message)\nTribolium castaneum telomerase catalytic subunit, TERT, bound to putative RNA template and telomeric DNA (PDB 3KYL)RNA-directed DNA polymeraseA conceptual diagram showing the protein component of telomerase (TERT) in grey and the RNA component (TR) in yellowIdentifiersEC number2.7.7.49CAS number9068-38-6 DatabasesIntEnzIntEnz viewBRENDABRENDA entryExPASyNiceZyme viewKEGGKEGG entryMetaCycmetabolic pathwayPRIAMprofilePDB structuresRCSB PDB PDBe PDBsumGene OntologyAmiGO  / QuickGOSearchPMCarticlesPubMedarticlesNCBIproteins\n\nTelomerase, also called terminal transferase,[1] is a ribonucleoprotein that adds a species-dependent telomere repeat sequence to the 3' end of telomeres. A telomere is a region of repetitive sequences at each end of the chromosomes of most eukaryotes. Telomeres protect the end of the chromosome from DNA damage or from fusion with neighbouring chromosomes. The fruit fly Drosophila melanogaster lacks telomerase, but instead uses retrotransposons to maintain telomeres.[2]\n\nTelomerase is a reverse transcriptase enzyme that carries its own RNA molecule (e.g., with the sequence 3′-CCCAAUCCC-5′ in Trypanosoma brucei)[3] which is used as a template when it elongates telomeres. Telomerase is active in gametes and most cancer cells, but is normally absent from, or at very low levels in, most somatic cells.\n\n",
+        "html": "<section data-mw-section-id=\"0\" id=\"mwAQ\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\" about=\"#mwt1\" typeof=\"mw:Transclusion\" data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"short description\",\"href\":\"./Template:Short_description\"},\"params\":{\"1\":{\"wt\":\"Telomere-restoring protein active in the most rapidly dividing cells\"}},\"i\":0}}]}' id=\"mwAg\">Telomere-restoring protein active in the most rapidly dividing cells</div><link rel=\"mw:PageProp/Category\" href=\"./Category:Articles_with_short_description\" about=\"#mwt1\"><link rel=\"mw:PageProp/Category\" href=\"./Category:Short_description_is_different_from_Wikidata\" about=\"#mwt1\" id=\"mwAw\">\n<table class=\"box-Primary_sources plainlinks metadata ambox ambox-content ambox-Primary_sources\" role=\"presentation\" about=\"#mwt2\" typeof=\"mw:Transclusion\" data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"Primary sources\",\"href\":\"./Template:Primary_sources\"},\"params\":{\"date\":{\"wt\":\"June 2015\"}},\"i\":0}}]}' id=\"mwBA\"><tbody><tr><td class=\"mbox-image\"><div style=\"width:52px\"><figure-inline typeof=\"mw:Image\"><a href=\"./File:Question_book-new.svg\"><img resource=\"./File:Question_book-new.svg\" src=\"//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png\" data-file-width=\"512\" data-file-height=\"399\" data-file-type=\"drawing\" height=\"39\" width=\"50\" srcset=\"//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x\"></a></figure-inline></div></td><td class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>relies too much on <a rel=\"mw:WikiLink\" href=\"./Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">references</a> to <a rel=\"mw:WikiLink\" href=\"./Wikipedia:No_original_research#Primary,_secondary_and_tertiary_sources\" title=\"Wikipedia:No original research\">primary sources</a></b>.<span class=\"hide-when-compact\"> Please improve this  by adding <a rel=\"mw:WikiLink\" href=\"./Wikipedia:No_original_research#Primary,_secondary_and_tertiary_sources\" title=\"Wikipedia:No original research\">secondary or tertiary sources</a>.</span>  <small class=\"date-container\"><i>(<span class=\"date\">June 2015</span>)</i></small><small class=\"hide-when-compact\"><i> (<a rel=\"mw:WikiLink\" href=\"./Help:Maintenance_template_removal\" title=\"Help:Maintenance template removal\">Learn how and when to remove this template message</a>)</i></small></div></td></tr></tbody></table><link rel=\"mw:PageProp/Category\" href=\"./Category:Articles_lacking_reliable_references_from_June_2015\" about=\"#mwt2\"><link rel=\"mw:PageProp/Category\" href=\"./Category:All_articles_lacking_reliable_references\" about=\"#mwt2\" id=\"mwBQ\">\n<figure typeof=\"mw:Image/Thumb\" id=\"mwBg\"><a href=\"./File:Tibolium_castaneum_TERT_structure.png\" id=\"mwBw\"><img resource=\"./File:Tibolium_castaneum_TERT_structure.png\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/1/16/Tibolium_castaneum_TERT_structure.png/242px-Tibolium_castaneum_TERT_structure.png\" data-file-width=\"441\" data-file-height=\"391\" data-file-type=\"bitmap\" height=\"215\" width=\"242\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/1/16/Tibolium_castaneum_TERT_structure.png/363px-Tibolium_castaneum_TERT_structure.png 1.5x, //upload.wikimedia.org/wikipedia/commons/1/16/Tibolium_castaneum_TERT_structure.png 2x\" id=\"mwCA\"></a><figcaption id=\"mwCQ\"><i id=\"mwCg\"><a rel=\"mw:WikiLink\" href=\"./Tribolium_castaneum\" title=\"Tribolium castaneum\" class=\"mw-redirect\" id=\"mwCw\">Tribolium castaneum</a></i> telomerase catalytic subunit, TERT, bound to putative RNA template and telomeric DNA (PDB <a rel=\"mw:ExtLink\" href=\"http://www.rcsb.org/pdb/explore/explore.do?structureId=3KYL\" class=\"external text\" id=\"mwDA\">3KYL</a>)</figcaption></figure><table class=\"infobox\" style=\"width:22em\" about=\"#mwt3\" typeof=\"mw:Transclusion\" data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"enzyme\\n\",\"href\":\"./Template:Enzyme\"},\"params\":{\"Name\":{\"wt\":\"RNA-directed DNA polymerase\"},\"EC_number\":{\"wt\":\"2.7.7.49\"},\"CAS_number\":{\"wt\":\"9068-38-6\"},\"IUBMB_EC_number\":{\"wt\":\"2/7/7/49\"},\"GO_code\":{\"wt\":\"0003967\"},\"image\":{\"wt\":\"Telomerase illustration.jpg\"},\"width\":{\"wt\":\"240px\"},\"caption\":{\"wt\":\"A conceptual diagram showing the protein component of telomerase (TERT) in grey and the RNA component (TR) in yellow\"}},\"i\":0}}]}' id=\"mwDQ\"><tbody><tr><th colspan=\"2\" style=\"text-align:center;font-size:125%;font-weight:bold\">RNA-directed DNA polymerase</th></tr><tr><td colspan=\"2\" style=\"text-align:center\"><figure-inline typeof=\"mw:Image\"><a href=\"./File:Telomerase_illustration.jpg\"><img resource=\"./File:Telomerase_illustration.jpg\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/53/Telomerase_illustration.jpg/240px-Telomerase_illustration.jpg\" data-file-width=\"1024\" data-file-height=\"768\" data-file-type=\"bitmap\" height=\"180\" width=\"240\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/53/Telomerase_illustration.jpg/360px-Telomerase_illustration.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/53/Telomerase_illustration.jpg/480px-Telomerase_illustration.jpg 2x\"></a></figure-inline><div>A conceptual diagram showing the protein component of telomerase (TERT) in grey and the RNA component (TR) in yellow</div></td></tr><tr><th colspan=\"2\" style=\"text-align:center;background-color: #ddd\">Identifiers</th></tr><tr><th scope=\"row\" style=\"background-color: #e7dcc3\"><a rel=\"mw:WikiLink\" href=\"./Enzyme_Commission_number\" title=\"Enzyme Commission number\">EC number</a></th><td style=\"background-color: #eee\"><a rel=\"mw:ExtLink\" href=\"https://www.qmul.ac.uk/sbcs/iubmb/enzyme/EC2/7/7/49.html\" class=\"external text\">2.7.7.49</a></td></tr><tr><th scope=\"row\" style=\"background-color: #e7dcc3\"><a rel=\"mw:WikiLink\" href=\"./CAS_registry_number\" title=\"CAS registry number\" class=\"mw-redirect\">CAS number</a></th><td style=\"background-color: #eee\"><a rel=\"mw:ExtLink\" href=\"http://www.commonchemistry.org/ChemicalDetail.aspx?ref=9068-38-6&amp;title=\" class=\"external text\">9068-38-6 </a></td></tr><tr><th colspan=\"2\" style=\"text-align:center;background-color: #ddd\">Databases</th></tr><tr><th scope=\"row\" style=\"background-color: #e7dcc3\"><a rel=\"mw:WikiLink\" href=\"./IntEnz\" title=\"IntEnz\">IntEnz</a></th><td style=\"background-color: #eee\"><a rel=\"mw:ExtLink\" href=\"https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&amp;ec=2.7.7.49\" class=\"external text\">IntEnz view</a></td></tr><tr><th scope=\"row\" style=\"background-color: #e7dcc3\"><a rel=\"mw:WikiLink\" href=\"./BRENDA\" title=\"BRENDA\">BRENDA</a></th><td style=\"background-color: #eee\"><a rel=\"mw:ExtLink\" href=\"http://www.brenda-enzymes.org/enzyme.php?ecno=2.7.7.49\" class=\"external text\">BRENDA entry</a></td></tr><tr><th scope=\"row\" style=\"background-color: #e7dcc3\"><a rel=\"mw:WikiLink\" href=\"./ExPASy\" title=\"ExPASy\">ExPASy</a></th><td style=\"background-color: #eee\"><a rel=\"mw:ExtLink\" href=\"http://www.expasy.org/enzyme/2.7.7.49\" class=\"external text\">NiceZyme view</a></td></tr><tr><th scope=\"row\" style=\"background-color: #e7dcc3\"><a rel=\"mw:WikiLink\" href=\"./KEGG\" title=\"KEGG\">KEGG</a></th><td style=\"background-color: #eee\"><a rel=\"mw:ExtLink\" href=\"https://www.genome.jp/dbget-bin/www_bget?enzyme+2.7.7.49\" class=\"external text\">KEGG entry</a></td></tr><tr><th scope=\"row\" style=\"background-color: #e7dcc3\"><a rel=\"mw:WikiLink\" href=\"./MetaCyc\" title=\"MetaCyc\">MetaCyc</a></th><td style=\"background-color: #eee\"><a rel=\"mw:ExtLink\" href=\"https://biocyc.org/META/substring-search?type=NIL&amp;object=2.7.7.49\" class=\"external text\">metabolic pathway</a></td></tr><tr><th scope=\"row\" style=\"background-color: #e7dcc3\"><a rel=\"mw:WikiLink\" href=\"./PRIAM_enzyme-specific_profiles\" title=\"PRIAM enzyme-specific profiles\">PRIAM</a></th><td style=\"background-color: #eee\"><a rel=\"mw:ExtLink\" href=\"http://priam.prabi.fr/cgi-bin/PRIAM_profiles_CurrentRelease.pl?EC=2.7.7.49\" class=\"external text\">profile</a></td></tr><tr><th scope=\"row\" style=\"background-color: #e7dcc3\"><a rel=\"mw:WikiLink\" href=\"./Protein_Data_Bank\" title=\"Protein Data Bank\">PDB</a> structures</th><td style=\"background-color: #eee\"><a rel=\"mw:ExtLink\" href=\"http://www.rcsb.org/pdb/search/smartSubquery.do?smartSearchSubtype=EnzymeClassificationQuery&amp;Enzyme_Classification=2.7.7.49\" class=\"external text\">RCSB PDB</a> <a rel=\"mw:ExtLink\" href=\"https://www.ebi.ac.uk/pdbe/entry/search/index?ec_number:2.7.7.49\" class=\"external text\">PDBe</a> <a rel=\"mw:ExtLink\" href=\"//www.ebi.ac.uk/thornton-srv/databases/cgi-bin/enzymes/GetPage.pl?ec_number=2.7.7.49\" class=\"external text\">PDBsum</a></td></tr><tr><th scope=\"row\" style=\"background-color: #e7dcc3\"><a rel=\"mw:WikiLink\" href=\"./Gene_Ontology\" title=\"Gene Ontology\" class=\"mw-redirect\">Gene Ontology</a></th><td style=\"background-color: #eee\"><a rel=\"mw:ExtLink\" href=\"http://amigo.geneontology.org/amigo/term/GO:0003967\" class=\"external text\">AmiGO </a> / <a rel=\"mw:ExtLink\" href=\"//www.ebi.ac.uk/QuickGO/term/GO:0003967\" class=\"external text\">QuickGO</a></td></tr><tr><td colspan=\"2\" style=\"text-align:center;background-color: #eee\"><table class=\"infobox collapsible collapsed\" style=\"width:22em;float:none; clear:none; margin:0; border-width:0; border-collapse:collapse; text-align:left; width:100%\"><tbody><tr><th colspan=\"2\" style=\"text-align:center;background-color: #ddd\">Search</th></tr><tr><th scope=\"row\" style=\"background-color: #e7dcc3; border:#fafafa 2px solid; border-width:3px 2px 0 0;\"><a rel=\"mw:WikiLink\" href=\"./PubMed_Central\" title=\"PubMed Central\">PMC</a></th><td style=\"background-color: #eee; border:#fafafa 2px solid; border-width:3px 0 0 2px;\"><a rel=\"mw:ExtLink\" href=\"https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&amp;term=2.7.7.49%5BEC/RN%20Number%5D%20AND%20pubmed%20pmc%20local%5Bsb%5D\" class=\"external text\">articles</a></td></tr><tr><th scope=\"row\" style=\"background-color: #e7dcc3; border:#fafafa 2px solid; border-width:3px 2px 0 0;\"><a rel=\"mw:WikiLink\" href=\"./PubMed\" title=\"PubMed\">PubMed</a></th><td style=\"background-color: #eee; border:#fafafa 2px solid; border-width:3px 0 0 2px;\"><a rel=\"mw:ExtLink\" href=\"https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&amp;term=2.7.7.49%5BEC/RN%20Number%5D\" class=\"external text\">articles</a></td></tr><tr><th scope=\"row\" style=\"background-color: #e7dcc3; border:#fafafa 2px solid; border-width:3px 2px 0 0;\"><a rel=\"mw:WikiLink\" href=\"./National_Center_for_Biotechnology_Information\" title=\"National Center for Biotechnology Information\">NCBI</a></th><td style=\"background-color: #eee; border:#fafafa 2px solid; border-width:3px 0 0 2px;\"><a rel=\"mw:ExtLink\" href=\"https://www.ncbi.nlm.nih.gov/protein?term=2.7.7.49%5BEC/RN%20Number%5D\" class=\"external text\">proteins</a></td></tr></tbody></table></td></tr></tbody></table>\n\n<p id=\"mwDg\"><b id=\"mwDw\">Telomerase</b>, also called <b id=\"mwEA\">terminal transferase</b>,<sup about=\"#mwt6\" class=\"mw-ref\" id=\"cite_ref-1\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{},\"body\":{\"id\":\"mw-reference-text-cite_note-1\"}}'><a href=\"./Telomerase#cite_note-1\" style=\"counter-reset: mw-Ref 1;\" id=\"mwEQ\"><span class=\"mw-reflink-text\" id=\"mwEg\">[1]</span></a></sup> is a <a rel=\"mw:WikiLink\" href=\"./Ribonucleoprotein\" title=\"Ribonucleoprotein\" class=\"mw-redirect\" id=\"mwEw\">ribonucleoprotein</a> that adds a species-dependent <a rel=\"mw:WikiLink\" href=\"./Telomere#Sequences\" title=\"Telomere\" id=\"mwFA\">telomere repeat sequence</a> to the <a rel=\"mw:WikiLink\" href=\"./Directionality_(molecular_biology)#3.27-end\" title=\"Directionality (molecular biology)\" id=\"mwFQ\">3'</a> end of <a rel=\"mw:WikiLink\" href=\"./Telomere\" title=\"Telomere\" id=\"mwFg\">telomeres</a>. A telomere is a region of repetitive <a rel=\"mw:WikiLink\" href=\"./Sequence_(biology)\" title=\"Sequence (biology)\" id=\"mwFw\">sequences</a> at each end of the <a rel=\"mw:WikiLink\" href=\"./Chromosome\" title=\"Chromosome\" id=\"mwGA\">chromosomes</a> of most <a rel=\"mw:WikiLink\" href=\"./Eukaryote\" title=\"Eukaryote\" id=\"mwGQ\">eukaryotes</a>. Telomeres protect the end of the chromosome from <a rel=\"mw:WikiLink\" href=\"./DNA_damage_(naturally_occurring)\" title=\"DNA damage (naturally occurring)\" id=\"mwGg\">DNA damage</a> or from fusion with neighbouring chromosomes. The fruit fly <i id=\"mwGw\"><a rel=\"mw:WikiLink\" href=\"./Drosophila_melanogaster\" title=\"Drosophila melanogaster\" id=\"mwHA\">Drosophila melanogaster</a></i> lacks telomerase, but instead uses <a rel=\"mw:WikiLink\" href=\"./Retrotransposon\" title=\"Retrotransposon\" id=\"mwHQ\">retrotransposons</a> to maintain telomeres.<sup about=\"#mwt10\" class=\"mw-ref\" id=\"cite_ref-pmid21821789_2-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"pmid21821789\"},\"body\":{\"id\":\"mw-reference-text-cite_note-pmid21821789-2\"}}'><a href=\"./Telomerase#cite_note-pmid21821789-2\" style=\"counter-reset: mw-Ref 2;\" id=\"mwHg\"><span class=\"mw-reflink-text\" id=\"mwHw\">[2]</span></a></sup></p>\n\n<p id=\"mwIA\">Telomerase is a <a rel=\"mw:WikiLink\" href=\"./Reverse_transcriptase\" title=\"Reverse transcriptase\" id=\"mwIQ\">reverse transcriptase</a> <a rel=\"mw:WikiLink\" href=\"./Enzyme\" title=\"Enzyme\" id=\"mwIg\">enzyme</a> that carries its own <a rel=\"mw:WikiLink\" href=\"./Telomerase_RNA_component\" title=\"Telomerase RNA component\" id=\"mwIw\">RNA molecule</a> (e.g., with the sequence 3′-<a rel=\"mw:WikiLink\" href=\"./Cytosine\" title=\"Cytosine\" id=\"mwJA\">C</a>CC<a rel=\"mw:WikiLink\" href=\"./Adenine\" title=\"Adenine\" id=\"mwJQ\">A</a>A<a rel=\"mw:WikiLink\" href=\"./Uracil\" title=\"Uracil\" id=\"mwJg\">U</a>CCC-5′ in <i id=\"mwJw\"><a rel=\"mw:WikiLink\" href=\"./Trypanosoma_brucei\" title=\"Trypanosoma brucei\" id=\"mwKA\">Trypanosoma brucei</a></i>)<sup about=\"#mwt15\" class=\"mw-ref\" id=\"cite_ref-pmid10097086_3-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"pmid10097086\"},\"body\":{\"id\":\"mw-reference-text-cite_note-pmid10097086-3\"}}'><a href=\"./Telomerase#cite_note-pmid10097086-3\" style=\"counter-reset: mw-Ref 3;\" id=\"mwKQ\"><span class=\"mw-reflink-text\" id=\"mwKg\">[3]</span></a></sup> which is used as a template when it elongates telomeres. Telomerase is active in <a rel=\"mw:WikiLink\" href=\"./Gamete\" title=\"Gamete\" id=\"mwKw\">gametes</a> and most <a rel=\"mw:WikiLink\" href=\"./Cancer\" title=\"Cancer\" id=\"mwLA\">cancer</a> cells, but is normally absent from, or at very low levels in, most <a rel=\"mw:WikiLink\" href=\"./Somatic_cell\" title=\"Somatic cell\" id=\"mwLQ\">somatic cells</a>.</p>\n\n</section>"
+      },
+      "topics": [
+        {
+          "phrase": "Telomerase",
+          "salience": 0.48099035,
+          "conceptId": "Q331839"
+        },
+        {
+          "phrase": "Genetics",
+          "salience": 0.46550157,
+          "conceptId": "Q4925926"
+        },
+        {
+          "phrase": "Biology",
+          "salience": 0.43626995,
+          "conceptId": "Q1457402"
+        },
+        {
+          "phrase": "Macromolecules",
+          "salience": 0.43281366,
+          "conceptId": "Q8593039"
+        },
+        {
+          "phrase": "Nucleic acids",
+          "salience": 0.43281366,
+          "conceptId": "Q8792806"
+        },
+        {
+          "phrase": "Molecular biology",
+          "salience": 0.43281366,
+          "conceptId": "Q7164711"
+        },
+        {
+          "phrase": "Life sciences",
+          "salience": 0.43075536,
+          "conceptId": "Q10185120"
+        },
+        {
+          "phrase": "Biochemistry",
+          "salience": 0.43037627,
+          "conceptId": "Q6745718"
+        },
+        {
+          "phrase": "Biotechnology",
+          "salience": 0.43037627,
+          "conceptId": "Q7214254"
+        },
+        {
+          "phrase": "Cell biology",
+          "salience": 0.41958191,
+          "conceptId": "Q7217012"
+        },
+        {
+          "phrase": "Chromosomes",
+          "salience": 0.41078507,
+          "conceptId": "Q6567031"
+        },
+        {
+          "phrase": "Cell nucleus",
+          "salience": 0.41078507,
+          "conceptId": "Q7416737"
+        },
+        {
+          "phrase": "DNA",
+          "salience": 0.37987659,
+          "conceptId": "Q7217197"
+        },
+        {
+          "phrase": "Molecular genetics",
+          "salience": 0.36376296,
+          "conceptId": "Q4926419"
+        },
+        {
+          "phrase": "Molecules",
+          "salience": 0.34528529,
+          "conceptId": "Q8638092"
+        },
+        {
+          "phrase": "Nucleotides",
+          "salience": 0.34417375,
+          "conceptId": "Q6622332"
+        },
+        {
+          "phrase": "Organic acids",
+          "salience": 0.34417375,
+          "conceptId": "Q8913205"
+        },
+        {
+          "phrase": "Organic polymers",
+          "salience": 0.34417375,
+          "conceptId": "Q7138887"
+        },
+        {
+          "phrase": "Telomeres",
+          "salience": 0.32803055,
+          "conceptId": "Q8838283"
+        },
+        {
+          "phrase": "Senescence",
+          "salience": 0.32803055,
+          "conceptId": "Q7335383"
+        },
+        {
+          "phrase": "Mobile genetic elements",
+          "salience": 0.32803055,
+          "conceptId": "Q8636856"
+        },
+        {
+          "phrase": "Proteins",
+          "salience": 0.32694556,
+          "conceptId": "Q7204727"
+        },
+        {
+          "phrase": "Telomere",
+          "salience": 0.32093892,
+          "conceptId": "Q185057"
+        },
+        {
+          "phrase": "Organisms",
+          "salience": 0.28339586,
+          "conceptId": "Q5626060"
+        },
+        {
+          "phrase": "Nutrients",
+          "salience": 0.27857698,
+          "conceptId": "Q6034434"
+        },
+        {
+          "phrase": "EC 2.7",
+          "salience": 0.26984127,
+          "conceptId": "Q8395756"
+        },
+        {
+          "phrase": "Transferases",
+          "salience": 0.26984127,
+          "conceptId": "Q8863661"
+        },
+        {
+          "phrase": "Nature",
+          "salience": 0.26845409,
+          "conceptId": "Q32859972"
+        },
+        {
+          "phrase": "Chemistry",
+          "salience": 0.25788298,
+          "conceptId": "Q1457474"
+        },
+        {
+          "phrase": "DNA replication",
+          "salience": 0.25678332,
+          "conceptId": "Q6447801"
+        },
+        {
+          "phrase": "Health",
+          "salience": 0.25036897,
+          "conceptId": "Q7486603"
+        },
+        {
+          "phrase": "RNA",
+          "salience": 0.22938082,
+          "conceptId": "Q7213592"
+        },
+        {
+          "phrase": "Physical sciences",
+          "salience": 0.2178815,
+          "conceptId": "Q7153079"
+        },
+        {
+          "phrase": "Structural biology",
+          "salience": 0.21671508,
+          "conceptId": "Q8819625"
+        },
+        {
+          "phrase": "Organelles",
+          "salience": 0.19861205,
+          "conceptId": "Q7165066"
+        },
+        {
+          "phrase": "Innovation",
+          "salience": 0.19807936,
+          "conceptId": "Q7217425"
+        },
+        {
+          "phrase": "Medical specialties",
+          "salience": 0.19625723,
+          "conceptId": "Q6585042"
+        },
+        {
+          "phrase": "Reverse transcriptase",
+          "salience": 0.18216237,
+          "conceptId": "Q28774"
+        },
+        {
+          "phrase": "Ring chromosome",
+          "salience": 0.15552871,
+          "conceptId": "Q474261"
+        },
+        {
+          "phrase": "Anatomy",
+          "salience": 0.14842134,
+          "conceptId": "Q4095469"
+        },
+        {
+          "phrase": "Ribonucleoprotein",
+          "salience": 0.13209827,
+          "conceptId": "Q417662"
+        },
+        {
+          "phrase": "Physical objects",
+          "salience": 0.12839051,
+          "conceptId": "Q6821165"
+        },
+        {
+          "phrase": "Somatic cell",
+          "salience": 0.12478609,
+          "conceptId": "Q725508"
+        },
+        {
+          "phrase": "Enzymes",
+          "salience": 0.12186336,
+          "conceptId": "Q9013292"
+        },
+        {
+          "phrase": "Catalysts",
+          "salience": 0.12186336,
+          "conceptId": "Q7328080"
+        },
+        {
+          "phrase": "Chemical substances",
+          "salience": 0.11534568,
+          "conceptId": "Q6117552"
+        },
+        {
+          "phrase": "Animals",
+          "salience": 0.1096779,
+          "conceptId": "Q7157802"
+        },
+        {
+          "phrase": "Catalysis",
+          "salience": 0.10880541,
+          "conceptId": "Q7328102"
+        },
+        {
+          "phrase": "Chemical kinetics",
+          "salience": 0.10880541,
+          "conceptId": "Q8980764"
+        },
+        {
+          "phrase": "DNA polymerase",
+          "salience": 0.10719724,
+          "conceptId": "Q206286"
+        }
+      ]
+    },
+    {
+      "page": "Telomerase",
+      "title": "History",
+      "level": 1,
+      "sectionId": "1",
+      "content": {
+        "text": "History\nThe existence of a compensatory mechanism for telomere shortening was first found by Soviet biologist Alexey Olovnikov in 1973,[4] who also suggested the telomere hypothesis of aging and the telomere's connections to cancer.\n\nTelomerase in the ciliate Tetrahymena was discovered by Carol W. Greider and Elizabeth Blackburn in 1984.[5] Together with Jack W. Szostak, Greider and Blackburn were awarded the 2009 Nobel Prize in Physiology or Medicine for their discovery.[6]\n\nThe role of telomeres and telomerase in cell aging and cancer was established by scientists at biotechnology company Geron with the cloning of the RNA and catalytic components of human telomerase[7] and the development of a polymerase chain reaction (PCR) based assay for telomerase activity called the TRAP assay, which surveys telomerase activity in multiple types of cancer.[8]\n\nThe negative stain electron microscopy (EM) structures of human and Tetrahymena telomerases were characterized in 2013.[9][10] Two years later, the first cryo-electron microscopy (cryo-EM) structure of telomerase holoenzyme (Tetrahymena) was determined.[11] In 2018, the structure of human telomerase was determined through cryo-EM by UC Berkeley scientists.[12]\n\n",
+        "html": "<section data-mw-section-id=\"1\" id=\"mwLg\"><h2 id=\"History\">History</h2>\n<p id=\"mwLw\">The existence of a compensatory mechanism for telomere shortening was first found by Soviet biologist <a rel=\"mw:WikiLink\" href=\"./Alexey_Olovnikov\" title=\"Alexey Olovnikov\" id=\"mwMA\">Alexey Olovnikov</a> in 1973,<sup about=\"#mwt20\" class=\"mw-ref\" id=\"cite_ref-pmid4754905_4-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"pmid4754905\"},\"body\":{\"id\":\"mw-reference-text-cite_note-pmid4754905-4\"}}'><a href=\"./Telomerase#cite_note-pmid4754905-4\" style=\"counter-reset: mw-Ref 4;\" id=\"mwMQ\"><span class=\"mw-reflink-text\" id=\"mwMg\">[4]</span></a></sup> who also suggested the telomere hypothesis of <a rel=\"mw:WikiLink\" href=\"./Aging\" title=\"Aging\" class=\"mw-redirect\" id=\"mwMw\">aging</a> and the telomere's connections to cancer.</p>\n\n<p id=\"mwNA\">Telomerase in the ciliate <i id=\"mwNQ\"><a rel=\"mw:WikiLink\" href=\"./Tetrahymena\" title=\"Tetrahymena\" id=\"mwNg\">Tetrahymena</a></i> was discovered by <a rel=\"mw:WikiLink\" href=\"./Carol_W._Greider\" title=\"Carol W. Greider\" id=\"mwNw\">Carol W. Greider</a> and <a rel=\"mw:WikiLink\" href=\"./Elizabeth_Blackburn\" title=\"Elizabeth Blackburn\" id=\"mwOA\">Elizabeth Blackburn</a> in 1984.<sup about=\"#mwt26\" class=\"mw-ref\" id=\"cite_ref-pmid3907856_5-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"pmid3907856\"},\"body\":{\"id\":\"mw-reference-text-cite_note-pmid3907856-5\"}}'><a href=\"./Telomerase#cite_note-pmid3907856-5\" style=\"counter-reset: mw-Ref 5;\" id=\"mwOQ\"><span class=\"mw-reflink-text\" id=\"mwOg\">[5]</span></a></sup> Together with <a rel=\"mw:WikiLink\" href=\"./Jack_W._Szostak\" title=\"Jack W. Szostak\" id=\"mwOw\">Jack W. Szostak</a>, Greider and Blackburn were awarded the 2009 <a rel=\"mw:WikiLink\" href=\"./Nobel_Prize\" title=\"Nobel Prize\" id=\"mwPA\">Nobel Prize</a> in <a rel=\"mw:WikiLink\" href=\"./Nobel_Prize_in_Physiology_or_Medicine\" title=\"Nobel Prize in Physiology or Medicine\" id=\"mwPQ\">Physiology or Medicine</a> for their discovery.<sup about=\"#mwt30\" class=\"mw-ref\" id=\"cite_ref-Nobel_Prize_2003_6-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"Nobel_Prize_2003\"},\"body\":{\"id\":\"mw-reference-text-cite_note-Nobel_Prize_2003-6\"}}'><a href=\"./Telomerase#cite_note-Nobel_Prize_2003-6\" style=\"counter-reset: mw-Ref 6;\" id=\"mwPg\"><span class=\"mw-reflink-text\" id=\"mwPw\">[6]</span></a></sup></p>\n\n<p id=\"mwQA\">The role of telomeres and telomerase in <a rel=\"mw:WikiLink\" href=\"./Cellular_aging\" title=\"Cellular aging\" class=\"mw-redirect\" id=\"mwQQ\">cell aging</a> and <a rel=\"mw:WikiLink\" href=\"./Cancer\" title=\"Cancer\" id=\"mwQg\">cancer</a> was established by scientists at <a rel=\"mw:WikiLink\" href=\"./Biotechnology\" title=\"Biotechnology\" id=\"mwQw\">biotechnology</a> company <a rel=\"mw:WikiLink\" href=\"./Geron_Corporation\" title=\"Geron Corporation\" id=\"mwRA\">Geron</a> with the cloning of the <a rel=\"mw:WikiLink\" href=\"./RNA\" title=\"RNA\" id=\"mwRQ\">RNA</a> and catalytic components of human telomerase<sup about=\"#mwt36\" class=\"mw-ref\" id=\"cite_ref-7\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{},\"body\":{\"id\":\"mw-reference-text-cite_note-7\"}}'><a href=\"./Telomerase#cite_note-7\" style=\"counter-reset: mw-Ref 7;\" id=\"mwRg\"><span class=\"mw-reflink-text\" id=\"mwRw\">[7]</span></a></sup> and the development of a <a rel=\"mw:WikiLink\" href=\"./Polymerase_chain_reaction\" title=\"Polymerase chain reaction\" id=\"mwSA\">polymerase chain reaction</a> (PCR) based assay for telomerase activity called the TRAP assay, which surveys telomerase activity in multiple types of cancer.<sup about=\"#mwt40\" class=\"mw-ref\" id=\"cite_ref-8\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{},\"body\":{\"id\":\"mw-reference-text-cite_note-8\"}}'><a href=\"./Telomerase#cite_note-8\" style=\"counter-reset: mw-Ref 8;\" id=\"mwSQ\"><span class=\"mw-reflink-text\" id=\"mwSg\">[8]</span></a></sup></p>\n\n<p id=\"mwSw\">The <a rel=\"mw:WikiLink\" href=\"./Negative_stain\" title=\"Negative stain\" id=\"mwTA\">negative stain</a> electron microscopy (EM) structures of human and <i id=\"mwTQ\">Tetrahymena</i> telomerases were characterized in 2013.<sup about=\"#mwt48\" class=\"mw-ref\" id=\"cite_ref-9\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{},\"body\":{\"id\":\"mw-reference-text-cite_note-9\"}}'><a href=\"./Telomerase#cite_note-9\" style=\"counter-reset: mw-Ref 9;\" id=\"mwTg\"><span class=\"mw-reflink-text\" id=\"mwTw\">[9]</span></a></sup><sup about=\"#mwt52\" class=\"mw-ref\" id=\"cite_ref-10\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{},\"body\":{\"id\":\"mw-reference-text-cite_note-10\"}}'><a href=\"./Telomerase#cite_note-10\" style=\"counter-reset: mw-Ref 10;\" id=\"mwUA\"><span class=\"mw-reflink-text\" id=\"mwUQ\">[10]</span></a></sup> Two years later, the first cryo-electron microscopy (<a rel=\"mw:WikiLink\" href=\"./Cryo-EM\" title=\"Cryo-EM\" class=\"mw-redirect\" id=\"mwUg\">cryo-EM</a>) structure of telomerase holoenzyme (<i id=\"mwUw\">Tetrahymena</i>) was determined.<sup about=\"#mwt56\" class=\"mw-ref\" id=\"cite_ref-11\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{},\"body\":{\"id\":\"mw-reference-text-cite_note-11\"}}'><a href=\"./Telomerase#cite_note-11\" style=\"counter-reset: mw-Ref 11;\" id=\"mwVA\"><span class=\"mw-reflink-text\" id=\"mwVQ\">[11]</span></a></sup> In 2018, the structure of human telomerase was determined through cryo-EM by UC Berkeley scientists.<sup about=\"#mwt60\" class=\"mw-ref\" id=\"cite_ref-12\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{},\"body\":{\"id\":\"mw-reference-text-cite_note-12\"}}'><a href=\"./Telomerase#cite_note-12\" style=\"counter-reset: mw-Ref 12;\" id=\"mwVg\"><span class=\"mw-reflink-text\" id=\"mwVw\">[12]</span></a></sup></p>\n\n</section>"
+      },
+      "topics": [
+        {
+          "phrase": "Biology",
+          "salience": 0.64353262,
+          "conceptId": "Q1457402"
+        },
+        {
+          "phrase": "Molecular biology",
+          "salience": 0.55712749,
+          "conceptId": "Q7164711"
+        },
+        {
+          "phrase": "Medical research",
+          "salience": 0.53143111,
+          "conceptId": "Q8616748"
+        },
+        {
+          "phrase": "Telomerase",
+          "salience": 0.52020216,
+          "conceptId": "Q331839"
+        },
+        {
+          "phrase": "Biochemistry",
+          "salience": 0.47389474,
+          "conceptId": "Q6745718"
+        },
+        {
+          "phrase": "Genetics",
+          "salience": 0.4635399,
+          "conceptId": "Q4925926"
+        },
+        {
+          "phrase": "Life sciences",
+          "salience": 0.44106423,
+          "conceptId": "Q10185120"
+        },
+        {
+          "phrase": "Health sciences",
+          "salience": 0.42132648,
+          "conceptId": "Q6154313"
+        },
+        {
+          "phrase": "Medicine",
+          "salience": 0.42132648,
+          "conceptId": "Q9554255"
+        },
+        {
+          "phrase": "Scientists",
+          "salience": 0.40418323,
+          "conceptId": "Q7043111"
+        },
+        {
+          "phrase": "Health research",
+          "salience": 0.40265062,
+          "conceptId": "Q6933289"
+        },
+        {
+          "phrase": "Healthcare quality",
+          "salience": 0.40265062,
+          "conceptId": "Q7570195"
+        },
+        {
+          "phrase": "Macromolecules",
+          "salience": 0.39893118,
+          "conceptId": "Q8593039"
+        },
+        {
+          "phrase": "Biologists",
+          "salience": 0.39844193,
+          "conceptId": "Q8300830"
+        },
+        {
+          "phrase": "Scholars and academics",
+          "salience": 0.39844193,
+          "conceptId": "Q7005672"
+        },
+        {
+          "phrase": "Science and technology",
+          "salience": 0.39698764,
+          "conceptId": "Q9795196"
+        },
+        {
+          "phrase": "Awards",
+          "salience": 0.39488088,
+          "conceptId": "Q6576190"
+        },
+        {
+          "phrase": "Science and technology awards",
+          "salience": 0.39488088,
+          "conceptId": "Q8716885"
+        },
+        {
+          "phrase": "Alexey Olovnikov",
+          "salience": 0.38634148,
+          "conceptId": "Q2832627"
+        },
+        {
+          "phrase": "Biotechnology",
+          "salience": 0.38172537,
+          "conceptId": "Q7214254"
+        },
+        {
+          "phrase": "Cell biology",
+          "salience": 0.37864979,
+          "conceptId": "Q7217012"
+        },
+        {
+          "phrase": "Molecules",
+          "salience": 0.37473468,
+          "conceptId": "Q8638092"
+        },
+        {
+          "phrase": "Researchers",
+          "salience": 0.37096495,
+          "conceptId": "Q8655496"
+        },
+        {
+          "phrase": "Medical researchers",
+          "salience": 0.35803039,
+          "conceptId": "Q6128559"
+        },
+        {
+          "phrase": "Award winners",
+          "salience": 0.35803039,
+          "conceptId": "Q7020051"
+        },
+        {
+          "phrase": "Emerging technologies",
+          "salience": 0.35516541,
+          "conceptId": "Q6374125"
+        },
+        {
+          "phrase": "Futurology",
+          "salience": 0.34455657,
+          "conceptId": "Q7164762"
+        },
+        {
+          "phrase": "20th century",
+          "salience": 0.33593642,
+          "conceptId": "Q5746824"
+        },
+        {
+          "phrase": "Molecular genetics",
+          "salience": 0.33486829,
+          "conceptId": "Q4926419"
+        },
+        {
+          "phrase": "Medical specialties",
+          "salience": 0.32875692,
+          "conceptId": "Q6585042"
+        },
+        {
+          "phrase": "Carol W. Greider",
+          "salience": 0.3251707,
+          "conceptId": "Q26322"
+        },
+        {
+          "phrase": "20th-century people",
+          "salience": 0.31565503,
+          "conceptId": "Q6614592"
+        },
+        {
+          "phrase": "20th-century scientists",
+          "salience": 0.31565503,
+          "conceptId": "Q8206112"
+        },
+        {
+          "phrase": "Nucleic acids",
+          "salience": 0.31277431,
+          "conceptId": "Q8792806"
+        },
+        {
+          "phrase": "DNA",
+          "salience": 0.31277431,
+          "conceptId": "Q7217197"
+        },
+        {
+          "phrase": "Academic institutions",
+          "salience": 0.29568412,
+          "conceptId": "Q5640519"
+        },
+        {
+          "phrase": "Academic organizations",
+          "salience": 0.29435379,
+          "conceptId": "Q7882720"
+        },
+        {
+          "phrase": "National academies",
+          "salience": 0.29357737,
+          "conceptId": "Q9703960"
+        },
+        {
+          "phrase": "Nucleotides",
+          "salience": 0.28857781,
+          "conceptId": "Q6622332"
+        },
+        {
+          "phrase": "Organic polymers",
+          "salience": 0.28857781,
+          "conceptId": "Q7138887"
+        },
+        {
+          "phrase": "Organic acids",
+          "salience": 0.28857781,
+          "conceptId": "Q8913205"
+        },
+        {
+          "phrase": "Telomere",
+          "salience": 0.28468713,
+          "conceptId": "Q185057"
+        },
+        {
+          "phrase": "Science",
+          "salience": 0.27988446,
+          "conceptId": "Q1458083"
+        },
+        {
+          "phrase": "Nature",
+          "salience": 0.27532213,
+          "conceptId": "Q32859972"
+        },
+        {
+          "phrase": "Nobel Prize",
+          "salience": 0.26610039,
+          "conceptId": "Q7047623"
+        },
+        {
+          "phrase": "Alfred Nobel",
+          "salience": 0.26610039,
+          "conceptId": "Q9748610"
+        },
+        {
+          "phrase": "Innovation",
+          "salience": 0.26353444,
+          "conceptId": "Q7217425"
+        },
+        {
+          "phrase": "Proteins",
+          "salience": 0.25717838,
+          "conceptId": "Q7204727"
+        },
+        {
+          "phrase": "Nutrients",
+          "salience": 0.25717838,
+          "conceptId": "Q6034434"
+        },
+        {
+          "phrase": "Organisms",
+          "salience": 0.25501522,
+          "conceptId": "Q5626060"
+        },
+        {
+          "phrase": "United States",
+          "salience": 0.24953128,
+          "conceptId": "Q1410960"
+        },
+        {
+          "phrase": "American studies",
+          "salience": 0.24953128,
+          "conceptId": "Q7481110"
+        },
+        {
+          "phrase": "Research",
+          "salience": 0.24742453,
+          "conceptId": "Q7216204"
+        },
+        {
+          "phrase": "Chemistry",
+          "salience": 0.24615646,
+          "conceptId": "Q1457474"
+        },
+        {
+          "phrase": "Elizabeth Blackburn",
+          "salience": 0.23545292,
+          "conceptId": "Q26321"
+        },
+        {
+          "phrase": "American educators",
+          "salience": 0.2292499,
+          "conceptId": "Q9149429"
+        },
+        {
+          "phrase": "Learned societies",
+          "salience": 0.2292499,
+          "conceptId": "Q8908660"
+        },
+        {
+          "phrase": "American people",
+          "salience": 0.2292499,
+          "conceptId": "Q3919762"
+        },
+        {
+          "phrase": "Medical education",
+          "salience": 0.2292499,
+          "conceptId": "Q8616651"
+        },
+        {
+          "phrase": "American culture",
+          "salience": 0.2292499,
+          "conceptId": "Q5550381"
+        },
+        {
+          "phrase": "American awards",
+          "salience": 0.2292499,
+          "conceptId": "Q6503996"
+        },
+        {
+          "phrase": "United States National Academies",
+          "salience": 0.2292499,
+          "conceptId": "Q6842287"
+        },
+        {
+          "phrase": "Academies",
+          "salience": 0.2292499,
+          "conceptId": "Q9699184"
+        },
+        {
+          "phrase": "Lasker Award",
+          "salience": 0.2292499,
+          "conceptId": "Q10053784"
+        },
+        {
+          "phrase": "Physiology",
+          "salience": 0.2292499,
+          "conceptId": "Q7779711"
+        },
+        {
+          "phrase": "Educational organizations",
+          "salience": 0.2292499,
+          "conceptId": "Q6244085"
+        },
+        {
+          "phrase": "American scientists",
+          "salience": 0.2292499,
+          "conceptId": "Q7004136"
+        },
+        {
+          "phrase": "Innovators",
+          "salience": 0.2292499,
+          "conceptId": "Q7139406"
+        },
+        {
+          "phrase": "Nobel laureates",
+          "salience": 0.2292499,
+          "conceptId": "Q6635159"
+        },
+        {
+          "phrase": "American academics",
+          "salience": 0.2292499,
+          "conceptId": "Q6679512"
+        },
+        {
+          "phrase": "United States law",
+          "salience": 0.2292499,
+          "conceptId": "Q7215843"
+        },
+        {
+          "phrase": "Physiologists",
+          "salience": 0.2292499,
+          "conceptId": "Q7025094"
+        },
+        {
+          "phrase": "Science and technology studies",
+          "salience": 0.22372503,
+          "conceptId": "Q7007255"
+        },
+        {
+          "phrase": "Physical sciences",
+          "salience": 0.20043635,
+          "conceptId": "Q7153079"
+        },
+        {
+          "phrase": "Scholars",
+          "salience": 0.18409041,
+          "conceptId": "Q6997821"
+        },
+        {
+          "phrase": "Cryo-electron microscopy",
+          "salience": 0.17874348,
+          "conceptId": "Q5190506"
+        },
+        {
+          "phrase": "Laboratories",
+          "salience": 0.15126075,
+          "conceptId": "Q6171059"
+        },
+        {
+          "phrase": "Laboratory techniques",
+          "salience": 0.15126075,
+          "conceptId": "Q8579496"
+        },
+        {
+          "phrase": "Tetrahymena",
+          "salience": 0.13270673,
+          "conceptId": "Q1198419"
+        },
+        {
+          "phrase": "Applied sciences",
+          "salience": 0.13057047,
+          "conceptId": "Q8917068"
+        },
+        {
+          "phrase": "Jack W. Szostak",
+          "salience": 0.12712607,
+          "conceptId": "Q104600"
+        },
+        {
+          "phrase": "Atomic, molecular, and optical physics",
+          "salience": 0.12424268,
+          "conceptId": "Q7457406"
+        },
+        {
+          "phrase": "Physical objects",
+          "salience": 0.11982688,
+          "conceptId": "Q6821165"
+        },
+        {
+          "phrase": "Optics",
+          "salience": 0.11363384,
+          "conceptId": "Q4103352"
+        },
+        {
+          "phrase": "Electromagnetic radiation",
+          "salience": 0.11363384,
+          "conceptId": "Q6273140"
+        },
+        {
+          "phrase": "Natural philosophy",
+          "salience": 0.11363384,
+          "conceptId": "Q8668645"
+        },
+        {
+          "phrase": "Microscopy",
+          "salience": 0.11363384,
+          "conceptId": "Q7029056"
+        },
+        {
+          "phrase": "Scientific method",
+          "salience": 0.10554064,
+          "conceptId": "Q7217368"
+        },
+        {
+          "phrase": "Physical chemistry",
+          "salience": 0.10271907,
+          "conceptId": "Q7214051"
+        }
+      ]
+    },
+    {
+      "page": "Telomerase",
+      "title": "Human telomerase structure",
+      "level": 1,
+      "sectionId": "2",
+      "content": {
+        "text": "Human telomerase structure\n\nThe molecular composition of the human telomerase complex was determined by Scott Cohen and his team at the Children's Medical Research Institute (Sydney Australia) and consists of two molecules each of human telomerase reverse transcriptase (TERT), telomerase RNA (TR or TERC), and dyskerin (DKC1).[13] The genes of telomerase subunits, which include TERT,[14] TERC,[15] DKC1[16] and TEP1,[17] are located on different chromosomes. The human TERT gene (hTERT) is translated into a protein of 1132 amino acids.[18]  TERT polypeptide folds with (and carries) TERC, a non-coding RNA (451 nucleotides long). TERT has a 'mitten' structure that allows it to wrap around the chromosome to add single-stranded telomere repeats.\n\nTERT is a reverse transcriptase, which is a class of enzyme that creates single-stranded DNA using single-stranded RNA as a template.\n\nAn image illustrating how telomerase elongates telomere ends progressively.\n\nThe protein consists of four conserved domains (RNA-Binding Domain (TRBD), fingers, palm and thumb), organized into a ring configuration that shares common features with retroviral reverse transcriptases, viral RNA polymerases and bacteriophage B-family DNA polymerases.[19][20]\n\nTERT proteins from many eukaryotes have been sequenced.[21]\n\n",
+        "html": "<section data-mw-section-id=\"2\" id=\"mwWA\"><h2 id=\"Human_telomerase_structure\">Human telomerase structure</h2>\n\n<p id=\"mwWQ\">The molecular composition of the human telomerase complex was determined by Scott Cohen and his team at the Children's Medical Research Institute (Sydney Australia) and consists of two <a rel=\"mw:WikiLink\" href=\"./Molecules\" title=\"Molecules\" class=\"mw-redirect\" id=\"mwWg\">molecules</a> each of human <a rel=\"mw:WikiLink\" href=\"./Telomerase_reverse_transcriptase\" title=\"Telomerase reverse transcriptase\" id=\"mwWw\">telomerase reverse transcriptase</a> (TERT), <a rel=\"mw:WikiLink\" href=\"./Telomerase_RNA_component\" title=\"Telomerase RNA component\" id=\"mwXA\">telomerase RNA</a> (TR or TERC), and <a rel=\"mw:WikiLink\" href=\"./Dyskerin\" title=\"Dyskerin\" id=\"mwXQ\">dyskerin</a> (DKC1).<sup about=\"#mwt70\" class=\"mw-ref\" id=\"cite_ref-pmid17395830_13-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"pmid17395830\"},\"body\":{\"id\":\"mw-reference-text-cite_note-pmid17395830-13\"}}'><a href=\"./Telomerase#cite_note-pmid17395830-13\" style=\"counter-reset: mw-Ref 13;\" id=\"mwXg\"><span class=\"mw-reflink-text\" id=\"mwXw\">[13]</span></a></sup> The genes of telomerase subunits, which include TERT,<sup about=\"#mwt74\" class=\"mw-ref\" id=\"cite_ref-14\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{},\"body\":{\"id\":\"mw-reference-text-cite_note-14\"}}'><a href=\"./Telomerase#cite_note-14\" style=\"counter-reset: mw-Ref 14;\" id=\"mwYA\"><span class=\"mw-reflink-text\" id=\"mwYQ\">[14]</span></a></sup> TERC,<sup about=\"#mwt75\" class=\"mw-ref\" id=\"cite_ref-15\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{},\"body\":{\"id\":\"mw-reference-text-cite_note-15\"}}'><a href=\"./Telomerase#cite_note-15\" style=\"counter-reset: mw-Ref 15;\" id=\"mwYg\"><span class=\"mw-reflink-text\" id=\"mwYw\">[15]</span></a></sup> DKC1<sup about=\"#mwt76\" class=\"mw-ref\" id=\"cite_ref-16\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{},\"body\":{\"id\":\"mw-reference-text-cite_note-16\"}}'><a href=\"./Telomerase#cite_note-16\" style=\"counter-reset: mw-Ref 16;\" id=\"mwZA\"><span class=\"mw-reflink-text\" id=\"mwZQ\">[16]</span></a></sup> and TEP1,<sup about=\"#mwt77\" class=\"mw-ref\" id=\"cite_ref-17\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{},\"body\":{\"id\":\"mw-reference-text-cite_note-17\"}}'><a href=\"./Telomerase#cite_note-17\" style=\"counter-reset: mw-Ref 17;\" id=\"mwZg\"><span class=\"mw-reflink-text\" id=\"mwZw\">[17]</span></a></sup> are located on different chromosomes. The human TERT gene (hTERT) is <a rel=\"mw:WikiLink\" href=\"./Translation_(genetics)\" title=\"Translation (genetics)\" class=\"mw-redirect\" id=\"mwaA\">translated</a> into a <a rel=\"mw:WikiLink\" href=\"./Protein\" title=\"Protein\" id=\"mwaQ\">protein</a> of 1132 <a rel=\"mw:WikiLink\" href=\"./Amino_acids\" title=\"Amino acids\" class=\"mw-redirect\" id=\"mwag\">amino acids</a>.<sup about=\"#mwt78\" class=\"mw-ref\" id=\"cite_ref-18\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{},\"body\":{\"id\":\"mw-reference-text-cite_note-18\"}}'><a href=\"./Telomerase#cite_note-18\" style=\"counter-reset: mw-Ref 18;\" id=\"mwaw\"><span class=\"mw-reflink-text\" id=\"mwbA\">[18]</span></a></sup>  TERT polypeptide <a rel=\"mw:WikiLink\" href=\"./Protein_folding\" title=\"Protein folding\" id=\"mwbQ\">folds</a> with (and carries) TERC, a <a rel=\"mw:WikiLink\" href=\"./Non-coding_RNA\" title=\"Non-coding RNA\" id=\"mwbg\">non-coding RNA</a> (451 <a rel=\"mw:WikiLink\" href=\"./Nucleotide\" title=\"Nucleotide\" id=\"mwbw\">nucleotides</a> long). TERT has a 'mitten' structure that allows it to wrap around the chromosome to add single-stranded telomere repeats.</p>\n\n<p id=\"mwcA\">TERT is a <a rel=\"mw:WikiLink\" href=\"./Reverse_transcriptase\" title=\"Reverse transcriptase\" id=\"mwcQ\">reverse transcriptase</a>, which is a class of enzyme that creates single-stranded DNA using single-stranded RNA as a template.</p>\n\n<figure typeof=\"mw:Image/Thumb\" id=\"mwcg\"><a href=\"./File:Working_principle_of_telomerase.png\" id=\"mwcw\"><img resource=\"./File:Working_principle_of_telomerase.png\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Working_principle_of_telomerase.png/400px-Working_principle_of_telomerase.png\" data-file-width=\"1029\" data-file-height=\"1377\" data-file-type=\"bitmap\" height=\"535\" width=\"400\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Working_principle_of_telomerase.png/600px-Working_principle_of_telomerase.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Working_principle_of_telomerase.png/800px-Working_principle_of_telomerase.png 2x\" id=\"mwdA\"></a><figcaption id=\"mwdQ\">An image illustrating how telomerase elongates telomere ends progressively.</figcaption></figure>\n\n<p id=\"mwdg\">The protein consists of four conserved domains (RNA-Binding Domain (TRBD), fingers, palm and thumb), organized into a ring configuration that shares common features with <a rel=\"mw:WikiLink\" href=\"./Retroviral\" title=\"Retroviral\" class=\"mw-redirect\" id=\"mwdw\">retroviral</a> reverse transcriptases, viral RNA <a rel=\"mw:WikiLink\" href=\"./Polymerase\" title=\"Polymerase\" id=\"mweA\">polymerases</a> and <a rel=\"mw:WikiLink\" href=\"./Bacteriophage\" title=\"Bacteriophage\" id=\"mweQ\">bacteriophage</a> B-family DNA polymerases.<sup about=\"#mwt81\" class=\"mw-ref\" id=\"cite_ref-19\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{},\"body\":{\"id\":\"mw-reference-text-cite_note-19\"}}'><a href=\"./Telomerase#cite_note-19\" style=\"counter-reset: mw-Ref 19;\" id=\"mweg\"><span class=\"mw-reflink-text\" id=\"mwew\">[19]</span></a></sup><sup about=\"#mwt82\" class=\"mw-ref\" id=\"cite_ref-20\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{},\"body\":{\"id\":\"mw-reference-text-cite_note-20\"}}'><a href=\"./Telomerase#cite_note-20\" style=\"counter-reset: mw-Ref 20;\" id=\"mwfA\"><span class=\"mw-reflink-text\" id=\"mwfQ\">[20]</span></a></sup></p>\n\n<p id=\"mwfg\">TERT proteins from many eukaryotes have been sequenced.<sup about=\"#mwt84\" class=\"mw-ref\" id=\"cite_ref-21\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{},\"body\":{\"id\":\"mw-reference-text-cite_note-21\"}}'><a href=\"./Telomerase#cite_note-21\" style=\"counter-reset: mw-Ref 21;\" id=\"mwfw\"><span class=\"mw-reflink-text\" id=\"mwgA\">[21]</span></a></sup></p>\n\n</section>"
+      },
+      "topics": [
+        {
+          "phrase": "Telomerase",
+          "salience": 0.54802877,
+          "conceptId": "Q331839"
+        },
+        {
+          "phrase": "Biochemistry",
+          "salience": 0.46950748,
+          "conceptId": "Q6745718"
+        },
+        {
+          "phrase": "Genetics",
+          "salience": 0.46950748,
+          "conceptId": "Q4925926"
+        },
+        {
+          "phrase": "Life sciences",
+          "salience": 0.46950748,
+          "conceptId": "Q10185120"
+        },
+        {
+          "phrase": "Macromolecules",
+          "salience": 0.46950748,
+          "conceptId": "Q8593039"
+        },
+        {
+          "phrase": "Nucleic acids",
+          "salience": 0.46950748,
+          "conceptId": "Q8792806"
+        },
+        {
+          "phrase": "Biotechnology",
+          "salience": 0.46950748,
+          "conceptId": "Q7214254"
+        },
+        {
+          "phrase": "Biology",
+          "salience": 0.46950748,
+          "conceptId": "Q1457402"
+        },
+        {
+          "phrase": "Molecular biology",
+          "salience": 0.46950748,
+          "conceptId": "Q7164711"
+        },
+        {
+          "phrase": "Molecular genetics",
+          "salience": 0.45773148,
+          "conceptId": "Q4926419"
+        },
+        {
+          "phrase": "DNA",
+          "salience": 0.45312798,
+          "conceptId": "Q7217197"
+        },
+        {
+          "phrase": "Telomerase reverse transcriptase",
+          "salience": 0.43160185,
+          "conceptId": "Q15315135"
+        },
+        {
+          "phrase": "Nucleotides",
+          "salience": 0.42902391,
+          "conceptId": "Q6622332"
+        },
+        {
+          "phrase": "Organic acids",
+          "salience": 0.42902391,
+          "conceptId": "Q8913205"
+        },
+        {
+          "phrase": "Organic polymers",
+          "salience": 0.42902391,
+          "conceptId": "Q7138887"
+        },
+        {
+          "phrase": "Cell biology",
+          "salience": 0.39954965,
+          "conceptId": "Q7217012"
+        },
+        {
+          "phrase": "Proteins",
+          "salience": 0.39323236,
+          "conceptId": "Q7204727"
+        },
+        {
+          "phrase": "Chromosomes",
+          "salience": 0.39095062,
+          "conceptId": "Q6567031"
+        },
+        {
+          "phrase": "Cell nucleus",
+          "salience": 0.39095062,
+          "conceptId": "Q7416737"
+        },
+        {
+          "phrase": "Molecules",
+          "salience": 0.3856451,
+          "conceptId": "Q8638092"
+        },
+        {
+          "phrase": "EC 2.7",
+          "salience": 0.34465859,
+          "conceptId": "Q8395756"
+        },
+        {
+          "phrase": "DNA replication",
+          "salience": 0.34465859,
+          "conceptId": "Q6447801"
+        },
+        {
+          "phrase": "Transferases",
+          "salience": 0.34465859,
+          "conceptId": "Q8863661"
+        },
+        {
+          "phrase": "Telomeres",
+          "salience": 0.33623271,
+          "conceptId": "Q8838283"
+        },
+        {
+          "phrase": "Senescence",
+          "salience": 0.33623271,
+          "conceptId": "Q7335383"
+        },
+        {
+          "phrase": "Mobile genetic elements",
+          "salience": 0.33623271,
+          "conceptId": "Q8636856"
+        },
+        {
+          "phrase": "Chemistry",
+          "salience": 0.3226405,
+          "conceptId": "Q1457474"
+        },
+        {
+          "phrase": "Nutrients",
+          "salience": 0.31693951,
+          "conceptId": "Q6034434"
+        },
+        {
+          "phrase": "RNA",
+          "salience": 0.3058346,
+          "conceptId": "Q7213592"
+        },
+        {
+          "phrase": "Physical sciences",
+          "salience": 0.30104185,
+          "conceptId": "Q7153079"
+        },
+        {
+          "phrase": "Organisms",
+          "salience": 0.29862375,
+          "conceptId": "Q5626060"
+        },
+        {
+          "phrase": "Nature",
+          "salience": 0.28277842,
+          "conceptId": "Q32859972"
+        },
+        {
+          "phrase": "Telomere",
+          "salience": 0.23179083,
+          "conceptId": "Q185057"
+        },
+        {
+          "phrase": "Reverse transcriptase",
+          "salience": 0.22887854,
+          "conceptId": "Q28774"
+        },
+        {
+          "phrase": "Organic compounds",
+          "salience": 0.22160093,
+          "conceptId": "Q6807119"
+        },
+        {
+          "phrase": "Acids",
+          "salience": 0.22160093,
+          "conceptId": "Q7006753"
+        },
+        {
+          "phrase": "Chemical substances",
+          "salience": 0.21546101,
+          "conceptId": "Q6117552"
+        },
+        {
+          "phrase": "Innovation",
+          "salience": 0.21253481,
+          "conceptId": "Q7217425"
+        },
+        {
+          "phrase": "Organelles",
+          "salience": 0.20827436,
+          "conceptId": "Q7165066"
+        },
+        {
+          "phrase": "Organophosphates",
+          "salience": 0.20028982,
+          "conceptId": "Q9019802"
+        },
+        {
+          "phrase": "Polymers",
+          "salience": 0.20028982,
+          "conceptId": "Q7138888"
+        },
+        {
+          "phrase": "Nucleosides",
+          "salience": 0.20028982,
+          "conceptId": "Q7416722"
+        },
+        {
+          "phrase": "Catalysis",
+          "salience": 0.18088674,
+          "conceptId": "Q7328102"
+        },
+        {
+          "phrase": "Enzymes",
+          "salience": 0.18088674,
+          "conceptId": "Q9013292"
+        },
+        {
+          "phrase": "Chemical kinetics",
+          "salience": 0.18088674,
+          "conceptId": "Q8980764"
+        },
+        {
+          "phrase": "Catalysts",
+          "salience": 0.18088674,
+          "conceptId": "Q7328080"
+        },
+        {
+          "phrase": "Technology",
+          "salience": 0.15602144,
+          "conceptId": "Q4884546"
+        },
+        {
+          "phrase": "Physical objects",
+          "salience": 0.1543861,
+          "conceptId": "Q6821165"
+        },
+        {
+          "phrase": "Biomolecules",
+          "salience": 0.14867593,
+          "conceptId": "Q7215429"
+        },
+        {
+          "phrase": "Natural sciences",
+          "salience": 0.1450673,
+          "conceptId": "Q1457332"
+        },
+        {
+          "phrase": "DNA polymerase",
+          "salience": 0.13777709,
+          "conceptId": "Q206286"
+        },
+        {
+          "phrase": "Matter",
+          "salience": 0.12811195,
+          "conceptId": "Q5550631"
+        },
+        {
+          "phrase": "Atoms",
+          "salience": 0.12811195,
+          "conceptId": "Q5550894"
+        },
+        {
+          "phrase": "Physical chemistry",
+          "salience": 0.12590501,
+          "conceptId": "Q7214051"
+        },
+        {
+          "phrase": "RNA polymerase",
+          "salience": 0.11929138,
+          "conceptId": "Q272631"
+        },
+        {
+          "phrase": "Carbon compounds",
+          "salience": 0.11900657,
+          "conceptId": "Q7158342"
+        },
+        {
+          "phrase": "Organic chemistry",
+          "salience": 0.11900657,
+          "conceptId": "Q8692140"
+        },
+        {
+          "phrase": "Chemical compounds",
+          "salience": 0.11900657,
+          "conceptId": "Q6482368"
+        },
+        {
+          "phrase": "Biological processes",
+          "salience": 0.11044629,
+          "conceptId": "Q6226217"
+        },
+        {
+          "phrase": "Non-coding RNA",
+          "salience": 0.10742783,
+          "conceptId": "Q427087"
+        },
+        {
+          "phrase": "Molecular physics",
+          "salience": 0.10680083,
+          "conceptId": "Q7237060"
+        },
+        {
+          "phrase": "Chemical reaction engineering",
+          "salience": 0.1045939,
+          "conceptId": "Q16807621"
+        },
+        {
+          "phrase": "Chemical reactions",
+          "salience": 0.1045939,
+          "conceptId": "Q7235717"
+        }
+      ]
+    },
+    {
+      "page": "Telomerase",
+      "title": "Mechanism",
+      "level": 1,
+      "sectionId": "3",
+      "content": {
+        "text": "Mechanism\n\n\nBy using TERC, TERT can add a six-nucleotide repeating sequence, 5'-TTAGGG (in vertebrates, the sequence differs in other organisms) to the 3' strand of chromosomes. These TTAGGG repeats (with their various protein binding partners) are called telomeres. The template region of TERC is 3'-CAAUCCCAAUC-5'.[22]\n\nTelomerase can bind the first few nucleotides of the template to the last telomere sequence on the chromosome, add a new telomere repeat (5'-GGTTAG-3') sequence, let go, realign the new 3'-end of telomere to the template, and repeat the process. Telomerase reverses telomere shortening.\n\n",
+        "html": "<section data-mw-section-id=\"3\" id=\"mwgQ\"><h2 id=\"Mechanism\">Mechanism</h2>\n\n\n<p id=\"mwgg\">By using TERC, TERT can add a six-nucleotide repeating sequence, 5'-<a rel=\"mw:WikiLink\" href=\"./Thymidine\" title=\"Thymidine\" id=\"mwgw\">T</a>TA<a rel=\"mw:WikiLink\" href=\"./Guanine\" title=\"Guanine\" id=\"mwhA\">G</a>GG (in vertebrates, the sequence differs in other organisms) to the 3' strand of chromosomes. These TTAGGG repeats (with their various protein binding partners) are called telomeres. The template region of TERC is 3'-CAAUCCCAAUC-5'.<sup about=\"#mwt89\" class=\"mw-ref\" id=\"cite_ref-pmid12384594_22-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"pmid12384594\"},\"body\":{\"id\":\"mw-reference-text-cite_note-pmid12384594-22\"}}'><a href=\"./Telomerase#cite_note-pmid12384594-22\" style=\"counter-reset: mw-Ref 22;\" id=\"mwhQ\"><span class=\"mw-reflink-text\" id=\"mwhg\">[22]</span></a></sup></p>\n\n<p id=\"mwhw\">Telomerase can bind the first few nucleotides of the template to the last telomere sequence on the chromosome, add a new telomere repeat (5'-GGTTAG-3') sequence, let go, realign the new 3'-end of telomere to the template, and repeat the process. Telomerase reverses <a rel=\"mw:WikiLink\" href=\"./Telomere#Shortening\" title=\"Telomere\" id=\"mwiA\">telomere shortening</a>.</p>\n\n</section>"
+      },
+      "topics": [
+        {
+          "phrase": "Telomerase",
+          "salience": 0.47558323,
+          "conceptId": "Q331839"
+        },
+        {
+          "phrase": "Telomere",
+          "salience": 0.341498,
+          "conceptId": "Q185057"
+        },
+        {
+          "phrase": "Biology",
+          "salience": 0.33531583,
+          "conceptId": "Q1457402"
+        },
+        {
+          "phrase": "Biotechnology",
+          "salience": 0.3193342,
+          "conceptId": "Q7214254"
+        },
+        {
+          "phrase": "Macromolecules",
+          "salience": 0.3193342,
+          "conceptId": "Q8593039"
+        },
+        {
+          "phrase": "Biochemistry",
+          "salience": 0.3193342,
+          "conceptId": "Q6745718"
+        },
+        {
+          "phrase": "Molecules",
+          "salience": 0.3193342,
+          "conceptId": "Q8638092"
+        },
+        {
+          "phrase": "Life sciences",
+          "salience": 0.3193342,
+          "conceptId": "Q10185120"
+        },
+        {
+          "phrase": "Molecular biology",
+          "salience": 0.3193342,
+          "conceptId": "Q7164711"
+        },
+        {
+          "phrase": "Cell biology",
+          "salience": 0.31340211,
+          "conceptId": "Q7217012"
+        },
+        {
+          "phrase": "Genetics",
+          "salience": 0.31025576,
+          "conceptId": "Q4925926"
+        },
+        {
+          "phrase": "Organic polymers",
+          "salience": 0.29427413,
+          "conceptId": "Q7138887"
+        },
+        {
+          "phrase": "Nucleic acids",
+          "salience": 0.29427413,
+          "conceptId": "Q8792806"
+        },
+        {
+          "phrase": "Nucleotides",
+          "salience": 0.29427413,
+          "conceptId": "Q6622332"
+        },
+        {
+          "phrase": "Organic acids",
+          "salience": 0.29427413,
+          "conceptId": "Q8913205"
+        },
+        {
+          "phrase": "DNA",
+          "salience": 0.29427413,
+          "conceptId": "Q7217197"
+        },
+        {
+          "phrase": "Cell nucleus",
+          "salience": 0.28834204,
+          "conceptId": "Q7416737"
+        },
+        {
+          "phrase": "Chromosomes",
+          "salience": 0.28834204,
+          "conceptId": "Q6567031"
+        },
+        {
+          "phrase": "Organisms",
+          "salience": 0.16080646,
+          "conceptId": "Q5626060"
+        },
+        {
+          "phrase": "Chemistry",
+          "salience": 0.16080646,
+          "conceptId": "Q1457474"
+        },
+        {
+          "phrase": "Physical sciences",
+          "salience": 0.16080646,
+          "conceptId": "Q7153079"
+        }
+      ]
+    },
+    {
+      "page": "Telomerase",
+      "title": "Premature aging",
+      "level": 3,
+      "sectionId": "6",
+      "content": {
+        "text": "Premature aging\nPremature aging syndromes including Werner syndrome, Progeria, Ataxia telangiectasia, Ataxia-telangiectasia like disorder, Bloom syndrome, Fanconi anemia and Nijmegen breakage syndrome are associated with short telomeres.[39] However, the genes that have mutated in these diseases all have roles in the repair of DNA damage and the increased DNA damage may, itself, be a factor in the premature aging (see DNA damage theory of aging). An additional role in maintaining telomere length is an active area of investigation.\n\n",
+        "html": "<section data-mw-section-id=\"6\" id=\"mwwg\"><h4 id=\"Premature_aging\">Premature aging</h4>\n<p id=\"mwww\">Premature aging syndromes including <a rel=\"mw:WikiLink\" href=\"./Werner_syndrome\" title=\"Werner syndrome\" id=\"mwxA\">Werner syndrome</a>, <a rel=\"mw:WikiLink\" href=\"./Progeria\" title=\"Progeria\" id=\"mwxQ\">Progeria</a>, <a rel=\"mw:WikiLink\" href=\"./Ataxia_telangiectasia\" title=\"Ataxia telangiectasia\" class=\"mw-redirect\" id=\"mwxg\">Ataxia telangiectasia</a>, Ataxia-telangiectasia like disorder, <a rel=\"mw:WikiLink\" href=\"./Bloom_syndrome\" title=\"Bloom syndrome\" id=\"mwxw\">Bloom syndrome</a>, <a rel=\"mw:WikiLink\" href=\"./Fanconi_anemia\" title=\"Fanconi anemia\" id=\"mwyA\">Fanconi anemia</a> and <a rel=\"mw:WikiLink\" href=\"./Nijmegen_breakage_syndrome\" title=\"Nijmegen breakage syndrome\" id=\"mwyQ\">Nijmegen breakage syndrome</a> are associated with short telomeres.<sup about=\"#mwt173\" class=\"mw-ref\" id=\"cite_ref-pmid16136653_39-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"pmid16136653\"},\"body\":{\"id\":\"mw-reference-text-cite_note-pmid16136653-39\"}}'><a href=\"./Telomerase#cite_note-pmid16136653-39\" style=\"counter-reset: mw-Ref 39;\" id=\"mwyg\"><span class=\"mw-reflink-text\" id=\"mwyw\">[39]</span></a></sup> However, the genes that have mutated in these diseases all have roles in the <a rel=\"mw:WikiLink\" href=\"./DNA_repair\" title=\"DNA repair\" id=\"mwzA\">repair of DNA damage</a> and the increased DNA damage may, itself, be a factor in the premature aging (see <a rel=\"mw:WikiLink\" href=\"./DNA_damage_theory_of_aging\" title=\"DNA damage theory of aging\" id=\"mwzQ\">DNA damage theory of aging</a>). An additional role in maintaining telomere length is an active area of investigation.</p>\n\n</section>"
+      },
+      "topics": [
+        {
+          "phrase": "Senescence",
+          "salience": 0.40353981,
+          "conceptId": "Q7335383"
+        },
+        {
+          "phrase": "Diseases and disorders",
+          "salience": 0.4003487,
+          "conceptId": "Q7215431"
+        },
+        {
+          "phrase": "Clinical medicine",
+          "salience": 0.39130527,
+          "conceptId": "Q14916851"
+        },
+        {
+          "phrase": "Demography",
+          "salience": 0.38702556,
+          "conceptId": "Q7164495"
+        },
+        {
+          "phrase": "Epidemiology",
+          "salience": 0.38702556,
+          "conceptId": "Q5601738"
+        },
+        {
+          "phrase": "Health",
+          "salience": 0.38702556,
+          "conceptId": "Q7486603"
+        },
+        {
+          "phrase": "Actuarial science",
+          "salience": 0.38702556,
+          "conceptId": "Q6016889"
+        },
+        {
+          "phrase": "Genetic genealogy",
+          "salience": 0.3608625,
+          "conceptId": "Q7066057"
+        },
+        {
+          "phrase": "Medical genetics",
+          "salience": 0.3608625,
+          "conceptId": "Q7329501"
+        },
+        {
+          "phrase": "Syndromes",
+          "salience": 0.35181907,
+          "conceptId": "Q6500135"
+        },
+        {
+          "phrase": "Special education",
+          "salience": 0.35181907,
+          "conceptId": "Q8789668"
+        },
+        {
+          "phrase": "Nijmegen breakage syndrome",
+          "salience": 0.32559273,
+          "conceptId": "Q1250362"
+        },
+        {
+          "phrase": "Rare diseases",
+          "salience": 0.31517051,
+          "conceptId": "Q6853484"
+        },
+        {
+          "phrase": "Medical specialties",
+          "salience": 0.30108804,
+          "conceptId": "Q6585042"
+        },
+        {
+          "phrase": "Medicine",
+          "salience": 0.28277436,
+          "conceptId": "Q9554255"
+        },
+        {
+          "phrase": "Genetics",
+          "salience": 0.26652985,
+          "conceptId": "Q4925926"
+        },
+        {
+          "phrase": "Cutaneous conditions",
+          "salience": 0.24612581,
+          "conceptId": "Q7215485"
+        },
+        {
+          "phrase": "Dermatology",
+          "salience": 0.24612581,
+          "conceptId": "Q5486648"
+        },
+        {
+          "phrase": "Skin",
+          "salience": 0.24612581,
+          "conceptId": "Q7337096"
+        },
+        {
+          "phrase": "Intellectual disability",
+          "salience": 0.24328816,
+          "conceptId": "Q8621234"
+        },
+        {
+          "phrase": "Alternative education",
+          "salience": 0.24328816,
+          "conceptId": "Q6130684"
+        },
+        {
+          "phrase": "Educational psychology",
+          "salience": 0.24328816,
+          "conceptId": "Q7028950"
+        },
+        {
+          "phrase": "Aging-associated diseases",
+          "salience": 0.2418461,
+          "conceptId": "Q8226498"
+        },
+        {
+          "phrase": "Congenital disorders",
+          "salience": 0.2418461,
+          "conceptId": "Q6313232"
+        },
+        {
+          "phrase": "Forensics",
+          "salience": 0.2418461,
+          "conceptId": "Q8465725"
+        },
+        {
+          "phrase": "Death",
+          "salience": 0.2418461,
+          "conceptId": "Q7022842"
+        },
+        {
+          "phrase": "Progeria",
+          "salience": 0.24182396,
+          "conceptId": "Q213098"
+        },
+        {
+          "phrase": "Werner syndrome",
+          "salience": 0.22719036,
+          "conceptId": "Q1154619"
+        },
+        {
+          "phrase": "Pediatrics",
+          "salience": 0.2066396,
+          "conceptId": "Q5881496"
+        },
+        {
+          "phrase": "Animal diseases",
+          "salience": 0.2066396,
+          "conceptId": "Q8253572"
+        },
+        {
+          "phrase": "Family history",
+          "salience": 0.2066396,
+          "conceptId": "Q8443149"
+        },
+        {
+          "phrase": "Population genetics",
+          "salience": 0.2066396,
+          "conceptId": "Q7329527"
+        },
+        {
+          "phrase": "Genodermatoses",
+          "salience": 0.2066396,
+          "conceptId": "Q7215483"
+        },
+        {
+          "phrase": "Progeroid syndromes",
+          "salience": 0.2066396,
+          "conceptId": "Q8795300"
+        },
+        {
+          "phrase": "Genealogy",
+          "salience": 0.2066396,
+          "conceptId": "Q4965571"
+        },
+        {
+          "phrase": "Human genetics",
+          "salience": 0.2066396,
+          "conceptId": "Q7210968"
+        },
+        {
+          "phrase": "Ataxia telangiectasia",
+          "salience": 0.19550674,
+          "conceptId": "Q387082"
+        },
+        {
+          "phrase": "Bloom syndrome",
+          "salience": 0.15090449,
+          "conceptId": "Q1469646"
+        },
+        {
+          "phrase": "Fanconi anemia",
+          "salience": 0.13707596,
+          "conceptId": "Q845779"
+        },
+        {
+          "phrase": "Telomere",
+          "salience": 0.12803194,
+          "conceptId": "Q185057"
+        },
+        {
+          "phrase": "Telangiectasia",
+          "salience": 0.11845861,
+          "conceptId": "Q1634800"
+        },
+        {
+          "phrase": "Syndrome",
+          "salience": 0.10994567,
+          "conceptId": "Q179630"
+        },
+        {
+          "phrase": "Ataxia",
+          "salience": 0.10561948,
+          "conceptId": "Q213373"
+        }
+      ]
+    },
+    {
+      "page": "Telomerase",
+      "title": "Drugs",
+      "level": 3,
+      "sectionId": "8",
+      "content": {
+        "text": "Drugs\nThe ability to maintain functional telomeres may be one mechanism that allows cancer cells to grow in vitro for decades.[47] Telomerase activity is necessary to preserve many cancer types and is inactive in somatic cells, creating the possibility that telomerase inhibition could selectively repress cancer cell growth with minimal side effects.[48] If a drug can inhibit telomerase in cancer cells, the telomeres of successive generations will progressively shorten, limiting tumor growth.[49]\n\nTelomerase is a good biomarker for cancer detection because most human cancers cells express high levels of it. Telomerase activity can be identified by its catalytic protein domain (hTERT). This[</span> (September 2015)\"}]]}'>clarify] is the rate-limiting step in telomerase activity. It is associated with many cancer types. Various cancer cells and fibroblasts transformed with hTERT cDNA have high telomerase activity, while somatic cells do not. Cells testing positive for hTERT have positive nuclear signals. Epithelial stem cell tissue and its early daughter cells are the only noncancerous cells in which hTERT can be detected. Since hTERT expression is dependent only on the number of tumor cells within a sample, the amount of hTERT indicates the severity of a cancer.[50]\n\nThe expression of hTERT can also be used to distinguish benign tumors from malignant tumors. Malignant tumors have higher hTERT expression than benign tumors. Real-time reverse transcription polymerase chain reaction (RT-PCR) quantifying hTERT expression in various tumor samples verified this varying expression.[51]\nFigure 4:A) Tumor cells expressing hTERT will actively degrade some of the protein and process for presenting. The major histocompatibility complex 1(MHC1), can then present the hTERT epitote. CD8- T cells that have antibodies against hTERT will then bind to the presented epitote. B) As a result of the antigenic binding, the T cells will release cytotoxins, which can be absorbed by the affected cell. C) These cytotoxins induce multiple proteases and results in apoptosis (or cell death).\nThe lack of telomerase does not affect cell growth, until the telomeres are short enough to cause cells to “die or undergo growth arrest”. However, inhibiting telomerase alone is not enough to destroy large tumors. It must be combined with surgery, radiation, chemotherapy or immunotherapy.[50]\n\nCells may reduce their telomere length by only 50-252 base pairs per cell division, which can lead to a long lag phase.[52][53]\n\n",
+        "html": "<section data-mw-section-id=\"8\" id=\"mwAQY\"><h4 id=\"Drugs\">Drugs</h4>\n<p id=\"mwAQc\">The ability to maintain functional <a rel=\"mw:WikiLink\" href=\"./Telomeres\" title=\"Telomeres\" class=\"mw-redirect\" id=\"mwAQg\">telomeres</a> may be one mechanism that allows <a rel=\"mw:WikiLink\" href=\"./Cancer_cells\" title=\"Cancer cells\" class=\"mw-redirect\" id=\"mwAQk\">cancer cells</a> to grow <i id=\"mwAQo\">in vitro</i> for decades.<sup about=\"#mwt212\" class=\"mw-ref\" id=\"cite_ref-Griffiths2008_47-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"Griffiths2008\"},\"body\":{\"id\":\"mw-reference-text-cite_note-Griffiths2008-47\"}}'><a href=\"./Telomerase#cite_note-Griffiths2008-47\" style=\"counter-reset: mw-Ref 47;\" id=\"mwAQs\"><span class=\"mw-reflink-text\" id=\"mwAQw\">[47]</span></a></sup> Telomerase activity is necessary to preserve many cancer types and is inactive in <a rel=\"mw:WikiLink\" href=\"./Somatic_cells\" title=\"Somatic cells\" class=\"mw-redirect\" id=\"mwAQ0\">somatic cells</a>, creating the possibility that telomerase inhibition could selectively repress cancer cell growth with minimal side effects.<sup about=\"#mwt216\" class=\"mw-ref\" id=\"cite_ref-pmid23295993_48-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"pmid23295993\"},\"body\":{\"id\":\"mw-reference-text-cite_note-pmid23295993-48\"}}'><a href=\"./Telomerase#cite_note-pmid23295993-48\" style=\"counter-reset: mw-Ref 48;\" id=\"mwAQ4\"><span class=\"mw-reflink-text\" id=\"mwAQ8\">[48]</span></a></sup> If a drug can inhibit telomerase in cancer cells, the telomeres of successive generations will progressively shorten, limiting tumor growth.<sup about=\"#mwt220\" class=\"mw-ref\" id=\"cite_ref-pmid12488618_49-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"pmid12488618\"},\"body\":{\"id\":\"mw-reference-text-cite_note-pmid12488618-49\"}}'><a href=\"./Telomerase#cite_note-pmid12488618-49\" style=\"counter-reset: mw-Ref 49;\" id=\"mwARA\"><span class=\"mw-reflink-text\" id=\"mwARE\">[49]</span></a></sup></p>\n\n<p id=\"mwARI\">Telomerase is a good <a rel=\"mw:WikiLink\" href=\"./Biomarker\" title=\"Biomarker\" id=\"mwARM\">biomarker</a> for cancer detection because most human cancers cells express high levels of it. Telomerase activity can be identified by its catalytic protein domain (<a rel=\"mw:WikiLink\" href=\"./HTERT\" title=\"HTERT\" class=\"mw-redirect\" id=\"mwARQ\">hTERT</a>). <span class=\"clarify-content\" style=\"padding-left:0.1em; padding-right:0.1em; color:#595959; border:1px solid #DDD;\" about=\"#mwt222\" typeof=\"mw:Transclusion\" data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"cl-span\",\"href\":\"./Template:Cl-span\"},\"params\":{\"1\":{\"wt\":\"This\"},\"date\":{\"wt\":\"September 2015\"}},\"i\":0}}]}' id=\"mwARU\">This</span><link rel=\"mw:PageProp/Category\" href=\"./Category:All_Wikipedia_articles_needing_clarification\" about=\"#mwt222\"><link rel=\"mw:PageProp/Category\" href=\"./Category:Wikipedia_articles_needing_clarification_from_September_2015\" about=\"#mwt222\"><sup class=\"noprint Inline-Template Template-Clarify\" style=\"margin-left:0.1em; white-space:nowrap;\" about=\"#mwt222\" id=\"mwARY\"><span typeof=\"mw:Entity\">[</span><i><a rel=\"mw:WikiLink\" href=\"./Wikipedia:Please_clarify\" title=\"Wikipedia:Please clarify\"><span title=\"This passage needs to be better explained. (September 2015)\" about=\"#mwt224\" typeof=\"mw:ExpandedAttrs\" data-mw='{\"attribs\":[[{\"txt\":\"title\"},{\"html\":\"This passage needs to be better explained.&lt;span typeof=\\\"mw:Nowiki\\\" data-parsoid=\\\"{}\\\">&lt;/span> (September 2015)\"}]]}'>clarify</span></a></i><span typeof=\"mw:Entity\">]</span></sup> is the <a rel=\"mw:WikiLink\" href=\"./Rate-limiting_step\" title=\"Rate-limiting step\" class=\"mw-redirect\" id=\"mwARc\">rate-limiting step</a> in telomerase activity. It is associated with many cancer types. Various cancer cells and <a rel=\"mw:WikiLink\" href=\"./Fibroblasts\" title=\"Fibroblasts\" class=\"mw-redirect\" id=\"mwARg\">fibroblasts</a> transformed with hTERT <a rel=\"mw:WikiLink\" href=\"./CDNA\" title=\"CDNA\" class=\"mw-redirect\" id=\"mwARk\">cDNA</a> have high telomerase activity, while somatic cells do not. Cells testing positive for hTERT have positive nuclear signals. Epithelial stem cell tissue and its early daughter cells are the only noncancerous cells in which hTERT can be detected. Since hTERT expression is dependent only on the number of tumor cells within a sample, the amount of hTERT indicates the severity of a cancer.<sup about=\"#mwt228\" class=\"mw-ref\" id=\"cite_ref-Shay_50-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"Shay\"},\"body\":{\"id\":\"mw-reference-text-cite_note-Shay-50\"}}'><a href=\"./Telomerase#cite_note-Shay-50\" style=\"counter-reset: mw-Ref 50;\" id=\"mwARo\"><span class=\"mw-reflink-text\" id=\"mwARs\">[50]</span></a></sup></p>\n\n<p id=\"mwARw\">The expression of hTERT can also be used to distinguish <a rel=\"mw:WikiLink\" href=\"./Benign_tumors\" title=\"Benign tumors\" class=\"mw-redirect\" id=\"mwAR0\">benign tumors</a> from <a rel=\"mw:WikiLink\" href=\"./Malignant_tumors\" title=\"Malignant tumors\" class=\"mw-redirect\" id=\"mwAR4\">malignant tumors</a>. Malignant tumors have higher hTERT expression than benign tumors. Real-time <a rel=\"mw:WikiLink\" href=\"./Reverse_transcription_polymerase_chain_reaction\" title=\"Reverse transcription polymerase chain reaction\" id=\"mwAR8\">reverse transcription polymerase chain reaction</a> (RT-PCR) quantifying hTERT expression in various tumor samples verified this varying expression.<sup about=\"#mwt233\" class=\"mw-ref\" id=\"cite_ref-Gul_51-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"Gul\"},\"body\":{\"id\":\"mw-reference-text-cite_note-Gul-51\"}}'><a href=\"./Telomerase#cite_note-Gul-51\" style=\"counter-reset: mw-Ref 51;\" id=\"mwASA\"><span class=\"mw-reflink-text\" id=\"mwASE\">[51]</span></a></sup></p>\n<figure class=\"mw-default-size\" typeof=\"mw:Image/Thumb\" id=\"mwASI\"><a href=\"./File:Immuntherap.jpg\" id=\"mwASM\"><img resource=\"./File:Immuntherap.jpg\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Immuntherap.jpg/220px-Immuntherap.jpg\" data-file-width=\"419\" data-file-height=\"494\" data-file-type=\"bitmap\" height=\"259\" width=\"220\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Immuntherap.jpg/330px-Immuntherap.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/a/a5/Immuntherap.jpg 2x\" id=\"mwASQ\"></a><figcaption id=\"mwASU\">Figure 4:A) Tumor cells expressing hTERT will actively degrade some of the protein and process for presenting. The major histocompatibility complex 1(MHC1), can then present the hTERT epitote. CD8- T cells that have antibodies against hTERT will then bind to the presented epitote. B) As a result of the antigenic binding, the T cells will release cytotoxins, which can be absorbed by the affected cell. C) These cytotoxins induce multiple proteases and results in apoptosis (or cell death).</figcaption></figure>\n<p id=\"mwASY\">The lack of telomerase does not affect cell growth, until the telomeres are short enough to cause cells to “die or undergo growth arrest”. However, inhibiting telomerase alone is not enough to destroy large tumors. It must be combined with surgery, <a rel=\"mw:WikiLink\" href=\"./Radiation_treatment\" title=\"Radiation treatment\" class=\"mw-redirect\" id=\"mwASc\">radiation</a>, <a rel=\"mw:WikiLink\" href=\"./Chemotherapy\" title=\"Chemotherapy\" id=\"mwASg\">chemotherapy</a> or immunotherapy.<sup about=\"#mwt235\" class=\"mw-ref\" id=\"cite_ref-Shay_50-1\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"Shay\"}}'><a href=\"./Telomerase#cite_note-Shay-50\" style=\"counter-reset: mw-Ref 50;\" id=\"mwASk\"><span class=\"mw-reflink-text\" id=\"mwASo\">[50]</span></a></sup></p>\n\n<p id=\"mwASs\">Cells may reduce their telomere length by only 50-252 base pairs per cell division, which can lead to a long <a rel=\"mw:WikiLink\" href=\"./Lag_phase\" title=\"Lag phase\" class=\"mw-redirect\" id=\"mwASw\">lag phase</a>.<sup about=\"#mwt241\" class=\"mw-ref\" id=\"cite_ref-Saret_52-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"Saret\"},\"body\":{\"id\":\"mw-reference-text-cite_note-Saret-52\"}}'><a href=\"./Telomerase#cite_note-Saret-52\" style=\"counter-reset: mw-Ref 52;\" id=\"mwAS0\"><span class=\"mw-reflink-text\" id=\"mwAS4\">[52]</span></a></sup><sup about=\"#mwt245\" class=\"mw-ref\" id=\"cite_ref-Stoyanov_53-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"Stoyanov\"},\"body\":{\"id\":\"mw-reference-text-cite_note-Stoyanov-53\"}}'><a href=\"./Telomerase#cite_note-Stoyanov-53\" style=\"counter-reset: mw-Ref 53;\" id=\"mwAS8\"><span class=\"mw-reflink-text\" id=\"mwATA\">[53]</span></a></sup></p>\n\n</section>"
+      },
+      "topics": [
+        {
+          "phrase": "Demography",
+          "salience": 0.29242997,
+          "conceptId": "Q7164495"
+        },
+        {
+          "phrase": "Health",
+          "salience": 0.29242997,
+          "conceptId": "Q7486603"
+        },
+        {
+          "phrase": "Biotechnology",
+          "salience": 0.28626921,
+          "conceptId": "Q7214254"
+        },
+        {
+          "phrase": "Life sciences",
+          "salience": 0.28579826,
+          "conceptId": "Q10185120"
+        },
+        {
+          "phrase": "Biology",
+          "salience": 0.28579826,
+          "conceptId": "Q1457402"
+        },
+        {
+          "phrase": "Cell biology",
+          "salience": 0.27797893,
+          "conceptId": "Q7217012"
+        },
+        {
+          "phrase": "Biochemistry",
+          "salience": 0.26845646,
+          "conceptId": "Q6745718"
+        },
+        {
+          "phrase": "Medical specialties",
+          "salience": 0.25841148,
+          "conceptId": "Q6585042"
+        },
+        {
+          "phrase": "Medicine",
+          "salience": 0.25841148,
+          "conceptId": "Q9554255"
+        },
+        {
+          "phrase": "Telomerase",
+          "salience": 0.25021103,
+          "conceptId": "Q331839"
+        },
+        {
+          "phrase": "Health sciences",
+          "salience": 0.24737015,
+          "conceptId": "Q6154313"
+        },
+        {
+          "phrase": "Clinical medicine",
+          "salience": 0.24567558,
+          "conceptId": "Q14916851"
+        },
+        {
+          "phrase": "Neoplasms",
+          "salience": 0.24380433,
+          "conceptId": "Q7886904"
+        },
+        {
+          "phrase": "Diseases and disorders",
+          "salience": 0.24380433,
+          "conceptId": "Q7215431"
+        },
+        {
+          "phrase": "Cancer",
+          "salience": 0.24380433,
+          "conceptId": "Q9699097"
+        },
+        {
+          "phrase": "Organisms",
+          "salience": 0.23846626,
+          "conceptId": "Q5626060"
+        },
+        {
+          "phrase": "Genetics",
+          "salience": 0.23355419,
+          "conceptId": "Q4925926"
+        },
+        {
+          "phrase": "Molecular biology",
+          "salience": 0.23272963,
+          "conceptId": "Q7164711"
+        },
+        {
+          "phrase": "Medical research",
+          "salience": 0.22805761,
+          "conceptId": "Q8616748"
+        },
+        {
+          "phrase": "Macromolecules",
+          "salience": 0.21159482,
+          "conceptId": "Q8593039"
+        },
+        {
+          "phrase": "Epidemiology",
+          "salience": 0.20902629,
+          "conceptId": "Q5601738"
+        },
+        {
+          "phrase": "Actuarial science",
+          "salience": 0.20902629,
+          "conceptId": "Q6016889"
+        },
+        {
+          "phrase": "Nucleic acids",
+          "salience": 0.2028851,
+          "conceptId": "Q8792806"
+        },
+        {
+          "phrase": "Benign tumor",
+          "salience": 0.19750498,
+          "conceptId": "Q1417240"
+        },
+        {
+          "phrase": "Senescence",
+          "salience": 0.19706274,
+          "conceptId": "Q7335383"
+        },
+        {
+          "phrase": "Healthcare quality",
+          "salience": 0.18999494,
+          "conceptId": "Q7570195"
+        },
+        {
+          "phrase": "Health research",
+          "salience": 0.18999494,
+          "conceptId": "Q6933289"
+        },
+        {
+          "phrase": "Biological systems",
+          "salience": 0.18980766,
+          "conceptId": "Q7145637"
+        },
+        {
+          "phrase": "Systems biology",
+          "salience": 0.18980766,
+          "conceptId": "Q7217019"
+        },
+        {
+          "phrase": "Molecular genetics",
+          "salience": 0.18844262,
+          "conceptId": "Q4926419"
+        },
+        {
+          "phrase": "DNA",
+          "salience": 0.18682791,
+          "conceptId": "Q7217197"
+        },
+        {
+          "phrase": "Nature",
+          "salience": 0.18545148,
+          "conceptId": "Q32859972"
+        },
+        {
+          "phrase": "Chromosomes",
+          "salience": 0.18060075,
+          "conceptId": "Q6567031"
+        },
+        {
+          "phrase": "Cell nucleus",
+          "salience": 0.18060075,
+          "conceptId": "Q7416737"
+        },
+        {
+          "phrase": "Molecules",
+          "salience": 0.18042482,
+          "conceptId": "Q8638092"
+        },
+        {
+          "phrase": "Nucleotides",
+          "salience": 0.16923833,
+          "conceptId": "Q6622332"
+        },
+        {
+          "phrase": "Organic acids",
+          "salience": 0.16923833,
+          "conceptId": "Q8913205"
+        },
+        {
+          "phrase": "Organic polymers",
+          "salience": 0.16923833,
+          "conceptId": "Q7138887"
+        },
+        {
+          "phrase": "Telomere",
+          "salience": 0.16600496,
+          "conceptId": "Q185057"
+        },
+        {
+          "phrase": "Chemistry",
+          "salience": 0.16302706,
+          "conceptId": "Q1457474"
+        },
+        {
+          "phrase": "Health care",
+          "salience": 0.16277979,
+          "conceptId": "Q4095844"
+        },
+        {
+          "phrase": "Telomeres",
+          "salience": 0.16035083,
+          "conceptId": "Q8838283"
+        },
+        {
+          "phrase": "Mobile genetic elements",
+          "salience": 0.16035083,
+          "conceptId": "Q8636856"
+        },
+        {
+          "phrase": "Natural sciences",
+          "salience": 0.15731798,
+          "conceptId": "Q1457332"
+        },
+        {
+          "phrase": "Futurology",
+          "salience": 0.15661554,
+          "conceptId": "Q7164762"
+        },
+        {
+          "phrase": "Scientific method",
+          "salience": 0.15546991,
+          "conceptId": "Q7217368"
+        },
+        {
+          "phrase": "Zoology",
+          "salience": 0.15149393,
+          "conceptId": "Q6544657"
+        },
+        {
+          "phrase": "Physical systems",
+          "salience": 0.15110387,
+          "conceptId": "Q9239363"
+        },
+        {
+          "phrase": "Proteins",
+          "salience": 0.14293189,
+          "conceptId": "Q7204727"
+        },
+        {
+          "phrase": "Nutrients",
+          "salience": 0.14293189,
+          "conceptId": "Q6034434"
+        },
+        {
+          "phrase": "Biochemistry methods",
+          "salience": 0.13811948,
+          "conceptId": "Q8908886"
+        },
+        {
+          "phrase": "Innovation",
+          "salience": 0.13434611,
+          "conceptId": "Q7217425"
+        },
+        {
+          "phrase": "Anatomy",
+          "salience": 0.13343272,
+          "conceptId": "Q4095469"
+        },
+        {
+          "phrase": "Biological processes",
+          "salience": 0.13195985,
+          "conceptId": "Q6226217"
+        },
+        {
+          "phrase": "Cancer cell",
+          "salience": 0.12399819,
+          "conceptId": "Q4118072"
+        },
+        {
+          "phrase": "Physical sciences",
+          "salience": 0.12319958,
+          "conceptId": "Q7153079"
+        },
+        {
+          "phrase": "Protein structure",
+          "salience": 0.11859048,
+          "conceptId": "Q8799442"
+        },
+        {
+          "phrase": "Structural biology",
+          "salience": 0.11859048,
+          "conceptId": "Q8819625"
+        },
+        {
+          "phrase": "Immunology",
+          "salience": 0.11616041,
+          "conceptId": "Q5016550"
+        },
+        {
+          "phrase": "Veterinary medicine",
+          "salience": 0.11459769,
+          "conceptId": "Q8222141"
+        },
+        {
+          "phrase": "Immunotherapy",
+          "salience": 0.11418802,
+          "conceptId": "Q1427096"
+        },
+        {
+          "phrase": "Cell growth",
+          "salience": 0.11085447,
+          "conceptId": "Q189159"
+        },
+        {
+          "phrase": "Somatic cell",
+          "salience": 0.11068873,
+          "conceptId": "Q725508"
+        },
+        {
+          "phrase": "Environmental social science",
+          "salience": 0.11010811,
+          "conceptId": "Q8420080"
+        },
+        {
+          "phrase": "Ethics",
+          "salience": 0.11010811,
+          "conceptId": "Q5985562"
+        },
+        {
+          "phrase": "Stem cell",
+          "salience": 0.10949985,
+          "conceptId": "Q48196"
+        },
+        {
+          "phrase": "Apoptosis",
+          "salience": 0.10866457,
+          "conceptId": "Q14599311"
+        },
+        {
+          "phrase": "Reverse transcription polymerase chain reaction",
+          "salience": 0.10821504,
+          "conceptId": "Q169526"
+        },
+        {
+          "phrase": "Organ systems",
+          "salience": 0.10518172,
+          "conceptId": "Q7145858"
+        },
+        {
+          "phrase": "Cancer Cell (journal)",
+          "salience": 0.10433412,
+          "conceptId": "Q280018"
+        },
+        {
+          "phrase": "Technology",
+          "salience": 0.10389586,
+          "conceptId": "Q4884546"
+        },
+        {
+          "phrase": "Cells",
+          "salience": 0.10228878,
+          "conceptId": "Q7214222"
+        },
+        {
+          "phrase": "Reagents",
+          "salience": 0.1020478,
+          "conceptId": "Q6307020"
+        }
+      ]
+    },
+    {
+      "page": "Telomerase",
+      "title": "Immunotherapy",
+      "level": 3,
+      "sectionId": "9",
+      "content": {
+        "text": "Immunotherapy\n\nImmunotherapy successfully treats some kinds of cancer, such as melanoma. This treatment involves manipulating a human's immune system to destroy cancerous cells. Humans have two major antigen identifying lymphocytes: CD8+ cytotoxic T-lymphocytes (CTL) and CD4+ helper T-lymphocytes that can destroy cells. Antigen receptors on CTL can bind to a 9-10 amino acid chain that is presented by the major histocompatibility complex (MHC) as in Figure 4.  HTERT is a potential target antigen. Immunotargeting should result in relatively few side effects since hTERT expression is associated only with telomerase and is not essential in almost all somatic cells.[54] GV1001 uses this pathway.[46] Experimental drug and vaccine therapies targeting active telomerase have been tested in mouse models, and clinical trials have begun. One drug, imetelstat, is being clinically researched as a means of interfering with telomerase in cancer cells.[55] Most of the harmful cancer-related effects of telomerase are dependent on an intact RNA template. Cancer stem cells that use an alternative method of telomere maintenance are still killed when telomerase's RNA template is blocked or damaged.\n\n",
+        "html": "<section data-mw-section-id=\"9\" id=\"mwATE\"><h4 id=\"Immunotherapy\">Immunotherapy</h4>\n\n<p id=\"mwATI\"><a rel=\"mw:WikiLink\" href=\"./Immunotherapy\" title=\"Immunotherapy\" id=\"mwATM\">Immunotherapy</a> successfully treats some kinds of cancer, such as melanoma. This treatment involves manipulating a human's <a rel=\"mw:WikiLink\" href=\"./Immune_system\" title=\"Immune system\" id=\"mwATQ\">immune system</a> to destroy cancerous cells. Humans have two major <a rel=\"mw:WikiLink\" href=\"./Antigen\" title=\"Antigen\" id=\"mwATU\">antigen</a> identifying <a rel=\"mw:WikiLink\" href=\"./Lymphocyte\" title=\"Lymphocyte\" id=\"mwATY\">lymphocytes</a>: <a rel=\"mw:WikiLink\" href=\"./CD8\" title=\"CD8\" id=\"mwATc\">CD8</a>+ <a rel=\"mw:WikiLink\" href=\"./Cytotoxic_T-lymphocytes\" title=\"Cytotoxic T-lymphocytes\" class=\"mw-redirect\" id=\"mwATg\">cytotoxic T-lymphocytes</a> (CTL) and <a rel=\"mw:WikiLink\" href=\"./CD4\" title=\"CD4\" id=\"mwATk\">CD4</a>+ <a rel=\"mw:WikiLink\" href=\"./T_helper_cell\" title=\"T helper cell\" id=\"mwATo\">helper T-lymphocytes</a> that can destroy cells. Antigen receptors on CTL can bind to a 9-10 amino acid chain that is presented by the <a rel=\"mw:WikiLink\" href=\"./Major_histocompatibility_complex\" title=\"Major histocompatibility complex\" id=\"mwATs\">major histocompatibility complex</a> (MHC) as in Figure 4.  HTERT is a potential target antigen. Immunotargeting should result in relatively few side effects since hTERT expression is associated only with telomerase and is not essential in almost all somatic cells.<sup about=\"#mwt252\" class=\"mw-ref\" id=\"cite_ref-Patel_54-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"Patel\"},\"body\":{\"id\":\"mw-reference-text-cite_note-Patel-54\"}}'><a href=\"./Telomerase#cite_note-Patel-54\" style=\"counter-reset: mw-Ref 54;\" id=\"mwATw\"><span class=\"mw-reflink-text\" id=\"mwAT0\">[54]</span></a></sup> GV1001 uses this pathway.<sup about=\"#mwt253\" class=\"mw-ref\" id=\"cite_ref-Tian_2013_46-1\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"Tian 2013\"}}'><a href=\"./Telomerase#cite_note-Tian_2013-46\" style=\"counter-reset: mw-Ref 46;\" id=\"mwAT4\"><span class=\"mw-reflink-text\" id=\"mwAT8\">[46]</span></a></sup> Experimental drug and <a rel=\"mw:WikiLink\" href=\"./Vaccine\" title=\"Vaccine\" id=\"mwAUA\">vaccine</a> therapies targeting active telomerase have been tested in mouse models, and clinical trials have begun. One drug, <a rel=\"mw:WikiLink\" href=\"./Imetelstat\" title=\"Imetelstat\" id=\"mwAUE\">imetelstat</a>, is being clinically researched as a means of interfering with telomerase in cancer cells.<sup about=\"#mwt257\" class=\"mw-ref\" id=\"cite_ref-55\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{},\"body\":{\"id\":\"mw-reference-text-cite_note-55\"}}'><a href=\"./Telomerase#cite_note-55\" style=\"counter-reset: mw-Ref 55;\" id=\"mwAUI\"><span class=\"mw-reflink-text\" id=\"mwAUM\">[55]</span></a></sup> Most of the harmful cancer-related effects of telomerase are dependent on an intact RNA template. Cancer stem cells that use an alternative method of telomere maintenance are still killed when telomerase's RNA template is blocked or damaged.</p>\n\n</section>"
+      },
+      "topics": [
+        {
+          "phrase": "Medical specialties",
+          "salience": 0.38074166,
+          "conceptId": "Q6585042"
+        },
+        {
+          "phrase": "Medicine",
+          "salience": 0.38074166,
+          "conceptId": "Q9554255"
+        },
+        {
+          "phrase": "Biotechnology",
+          "salience": 0.36074563,
+          "conceptId": "Q7214254"
+        },
+        {
+          "phrase": "Clinical medicine",
+          "salience": 0.35583285,
+          "conceptId": "Q14916851"
+        },
+        {
+          "phrase": "Biochemistry",
+          "salience": 0.30410499,
+          "conceptId": "Q6745718"
+        },
+        {
+          "phrase": "Immunology",
+          "salience": 0.29896849,
+          "conceptId": "Q5016550"
+        },
+        {
+          "phrase": "Cell biology",
+          "salience": 0.29055168,
+          "conceptId": "Q7217012"
+        },
+        {
+          "phrase": "Health",
+          "salience": 0.27912685,
+          "conceptId": "Q7486603"
+        },
+        {
+          "phrase": "Molecular biology",
+          "salience": 0.2778586,
+          "conceptId": "Q7164711"
+        },
+        {
+          "phrase": "Demography",
+          "salience": 0.27302012,
+          "conceptId": "Q7164495"
+        },
+        {
+          "phrase": "Medical research",
+          "salience": 0.27130719,
+          "conceptId": "Q8616748"
+        },
+        {
+          "phrase": "Systems biology",
+          "salience": 0.25748522,
+          "conceptId": "Q7217019"
+        },
+        {
+          "phrase": "Life sciences",
+          "salience": 0.25717826,
+          "conceptId": "Q10185120"
+        },
+        {
+          "phrase": "Biology",
+          "salience": 0.25717826,
+          "conceptId": "Q1457402"
+        },
+        {
+          "phrase": "Biological systems",
+          "salience": 0.25684301,
+          "conceptId": "Q7145637"
+        },
+        {
+          "phrase": "Zoology",
+          "salience": 0.25684301,
+          "conceptId": "Q6544657"
+        },
+        {
+          "phrase": "Genetics",
+          "salience": 0.24516251,
+          "conceptId": "Q4925926"
+        },
+        {
+          "phrase": "Anatomy",
+          "salience": 0.24336859,
+          "conceptId": "Q4095469"
+        },
+        {
+          "phrase": "Immunotherapy",
+          "salience": 0.24306996,
+          "conceptId": "Q1427096"
+        },
+        {
+          "phrase": "Telomerase",
+          "salience": 0.23818326,
+          "conceptId": "Q331839"
+        },
+        {
+          "phrase": "Major histocompatibility complex",
+          "salience": 0.23748489,
+          "conceptId": "Q423163"
+        },
+        {
+          "phrase": "Veterinary medicine",
+          "salience": 0.2312947,
+          "conceptId": "Q8222141"
+        },
+        {
+          "phrase": "Macromolecules",
+          "salience": 0.21961421,
+          "conceptId": "Q8593039"
+        },
+        {
+          "phrase": "Chemistry",
+          "salience": 0.21271352,
+          "conceptId": "Q1457474"
+        },
+        {
+          "phrase": "Structural biology",
+          "salience": 0.20434425,
+          "conceptId": "Q8819625"
+        },
+        {
+          "phrase": "Neoplasms",
+          "salience": 0.20179534,
+          "conceptId": "Q7886904"
+        },
+        {
+          "phrase": "Diseases and disorders",
+          "salience": 0.20179534,
+          "conceptId": "Q7215431"
+        },
+        {
+          "phrase": "Cancer",
+          "salience": 0.20179534,
+          "conceptId": "Q9699097"
+        },
+        {
+          "phrase": "Chromosomes",
+          "salience": 0.20169921,
+          "conceptId": "Q6567031"
+        },
+        {
+          "phrase": "Cell nucleus",
+          "salience": 0.20169921,
+          "conceptId": "Q7416737"
+        },
+        {
+          "phrase": "Animal anatomy",
+          "salience": 0.20022543,
+          "conceptId": "Q6584850"
+        },
+        {
+          "phrase": "Organ systems",
+          "salience": 0.20022543,
+          "conceptId": "Q7145858"
+        },
+        {
+          "phrase": "Morphology",
+          "salience": 0.20022543,
+          "conceptId": "Q7465343"
+        },
+        {
+          "phrase": "Animal physiology",
+          "salience": 0.20022543,
+          "conceptId": "Q7085884"
+        },
+        {
+          "phrase": "Immune system",
+          "salience": 0.20022543,
+          "conceptId": "Q7145822"
+        },
+        {
+          "phrase": "Physical systems",
+          "salience": 0.20022543,
+          "conceptId": "Q9239363"
+        },
+        {
+          "phrase": "Epidemiology",
+          "salience": 0.1936257,
+          "conceptId": "Q5601738"
+        },
+        {
+          "phrase": "Histocompatibility",
+          "salience": 0.19291444,
+          "conceptId": "Q2664028"
+        },
+        {
+          "phrase": "Actuarial science",
+          "salience": 0.1820127,
+          "conceptId": "Q6016889"
+        },
+        {
+          "phrase": "Health sciences",
+          "salience": 0.1776499,
+          "conceptId": "Q6154313"
+        },
+        {
+          "phrase": "Medicinal chemistry",
+          "salience": 0.17039359,
+          "conceptId": "Q6306357"
+        },
+        {
+          "phrase": "Pharmaceutical sciences",
+          "salience": 0.17039359,
+          "conceptId": "Q8760203"
+        },
+        {
+          "phrase": "Pharmacology",
+          "salience": 0.17039359,
+          "conceptId": "Q5613026"
+        },
+        {
+          "phrase": "Molecules",
+          "salience": 0.16832579,
+          "conceptId": "Q8638092"
+        },
+        {
+          "phrase": "Organisms",
+          "salience": 0.16763037,
+          "conceptId": "Q5626060"
+        },
+        {
+          "phrase": "Nature",
+          "salience": 0.16638318,
+          "conceptId": "Q32859972"
+        },
+        {
+          "phrase": "Cancer cell",
+          "salience": 0.15995997,
+          "conceptId": "Q4118072"
+        },
+        {
+          "phrase": "Healthcare quality",
+          "salience": 0.15610867,
+          "conceptId": "Q7570195"
+        },
+        {
+          "phrase": "Health research",
+          "salience": 0.15610867,
+          "conceptId": "Q6933289"
+        },
+        {
+          "phrase": "Organic acids",
+          "salience": 0.15290877,
+          "conceptId": "Q8913205"
+        },
+        {
+          "phrase": "Futurology",
+          "salience": 0.14361792,
+          "conceptId": "Q7164762"
+        },
+        {
+          "phrase": "Nucleotides",
+          "salience": 0.14045258,
+          "conceptId": "Q6622332"
+        },
+        {
+          "phrase": "Nucleic acids",
+          "salience": 0.14045258,
+          "conceptId": "Q8792806"
+        },
+        {
+          "phrase": "Organic polymers",
+          "salience": 0.14045258,
+          "conceptId": "Q7138887"
+        },
+        {
+          "phrase": "Senescence",
+          "salience": 0.13797208,
+          "conceptId": "Q7335383"
+        },
+        {
+          "phrase": "Antigen",
+          "salience": 0.13736461,
+          "conceptId": "Q103537"
+        },
+        {
+          "phrase": "Natural sciences",
+          "salience": 0.1361002,
+          "conceptId": "Q1457332"
+        },
+        {
+          "phrase": "Telomere",
+          "salience": 0.12942949,
+          "conceptId": "Q185057"
+        },
+        {
+          "phrase": "Therapy",
+          "salience": 0.12460539,
+          "conceptId": "Q7012769"
+        },
+        {
+          "phrase": "Technology",
+          "salience": 0.1244872,
+          "conceptId": "Q4884546"
+        },
+        {
+          "phrase": "Physical sciences",
+          "salience": 0.11845936,
+          "conceptId": "Q7153079"
+        },
+        {
+          "phrase": "Drugs",
+          "salience": 0.11035605,
+          "conceptId": "Q7237918"
+        },
+        {
+          "phrase": "Clinical research",
+          "salience": 0.10688566,
+          "conceptId": "Q6933255"
+        }
+      ]
+    },
+    {
+      "page": "Telomerase",
+      "title": "Telomerase Vaccines",
+      "level": 3,
+      "sectionId": "10",
+      "content": {
+        "text": "Telomerase Vaccines\nTwo telomerase vaccines have been developed: GRNVAC1 and GV1001. GRNVAC1 isolates dendritic cells and the RNA that codes for the telomerase protein and puts them back into the patient to make cytotoxic T cells that kill the telomerase-active cells. GV1001 is a peptide from the active site of hTERT and is recognized by the immune system that reacts by killing the telomerase-active cells.[46]\n\n",
+        "html": "<section data-mw-section-id=\"10\" id=\"mwAUQ\"><h4 id=\"Telomerase_Vaccines\">Telomerase Vaccines</h4>\n<p id=\"mwAUU\">Two telomerase vaccines have been developed: <a rel=\"mw:WikiLink\" href=\"./GRNVAC1\" title=\"GRNVAC1\" class=\"new\" id=\"mwAUY\">GRNVAC1</a> and <a rel=\"mw:WikiLink\" href=\"./GV1001\" title=\"GV1001\" class=\"new\" id=\"mwAUc\">GV1001</a>. GRNVAC1 isolates <a rel=\"mw:WikiLink\" href=\"./Dendritic_cells\" title=\"Dendritic cells\" class=\"mw-redirect\" id=\"mwAUg\">dendritic cells</a> and the RNA that codes for the telomerase protein and puts them back into the patient to make <a rel=\"mw:WikiLink\" href=\"./Cytotoxic\" title=\"Cytotoxic\" class=\"mw-redirect\" id=\"mwAUk\">cytotoxic</a> T cells that kill the telomerase-active cells. GV1001 is a peptide from the active site of hTERT and is recognized by the immune system that reacts by killing the telomerase-active cells.<sup about=\"#mwt262\" class=\"mw-ref\" id=\"cite_ref-Tian_2013_46-2\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"Tian 2013\"},\"body\":{\"id\":\"mw-reference-text-cite_note-Tian_2013-46\"}}'><a href=\"./Telomerase#cite_note-Tian_2013-46\" style=\"counter-reset: mw-Ref 46;\" id=\"mwAUo\"><span class=\"mw-reflink-text\" id=\"mwAUs\">[46]</span></a></sup></p>\n\n</section>"
+      },
+      "topics": [
+        {
+          "phrase": "Biology",
+          "salience": 0.27196308,
+          "conceptId": "Q1457402"
+        },
+        {
+          "phrase": "Telomerase",
+          "salience": 0.26477128,
+          "conceptId": "Q331839"
+        },
+        {
+          "phrase": "Cell biology",
+          "salience": 0.26369675,
+          "conceptId": "Q7217012"
+        },
+        {
+          "phrase": "Health sciences",
+          "salience": 0.2470854,
+          "conceptId": "Q6154313"
+        },
+        {
+          "phrase": "Medical specialties",
+          "salience": 0.2470854,
+          "conceptId": "Q6585042"
+        },
+        {
+          "phrase": "Medicine",
+          "salience": 0.2470854,
+          "conceptId": "Q9554255"
+        },
+        {
+          "phrase": "Molecular biology",
+          "salience": 0.20785409,
+          "conceptId": "Q7164711"
+        },
+        {
+          "phrase": "Biochemistry",
+          "salience": 0.19534629,
+          "conceptId": "Q6745718"
+        },
+        {
+          "phrase": "Physiology",
+          "salience": 0.16293185,
+          "conceptId": "Q7779711"
+        },
+        {
+          "phrase": "Health care",
+          "salience": 0.15882831,
+          "conceptId": "Q4095844"
+        },
+        {
+          "phrase": "Immunology",
+          "salience": 0.15882831,
+          "conceptId": "Q5016550"
+        },
+        {
+          "phrase": "Immune system",
+          "salience": 0.15882831,
+          "conceptId": "Q7145822"
+        },
+        {
+          "phrase": "Clinical medicine",
+          "salience": 0.15882831,
+          "conceptId": "Q14916851"
+        },
+        {
+          "phrase": "T cell",
+          "salience": 0.15457124,
+          "conceptId": "Q193529"
+        },
+        {
+          "phrase": "Dendritic cell",
+          "salience": 0.15172943,
+          "conceptId": "Q506253"
+        },
+        {
+          "phrase": "Human biology",
+          "salience": 0.14506256,
+          "conceptId": "Q8527117"
+        },
+        {
+          "phrase": "Leukocytes",
+          "salience": 0.14506256,
+          "conceptId": "Q7214703"
+        },
+        {
+          "phrase": "Eukaryotes",
+          "salience": 0.14506256,
+          "conceptId": "Q7145412"
+        },
+        {
+          "phrase": "Human body",
+          "salience": 0.14506256,
+          "conceptId": "Q6539712"
+        },
+        {
+          "phrase": "Blood cells",
+          "salience": 0.14506256,
+          "conceptId": "Q7214226"
+        },
+        {
+          "phrase": "Cells",
+          "salience": 0.14506256,
+          "conceptId": "Q7214222"
+        },
+        {
+          "phrase": "Primate anatomy",
+          "salience": 0.14506256,
+          "conceptId": "Q9749777"
+        },
+        {
+          "phrase": "Human physiology",
+          "salience": 0.14506256,
+          "conceptId": "Q7085793"
+        },
+        {
+          "phrase": "Eukaryotic cells",
+          "salience": 0.14506256,
+          "conceptId": "Q7216472"
+        },
+        {
+          "phrase": "Human cells",
+          "salience": 0.14506256,
+          "conceptId": "Q7221143"
+        },
+        {
+          "phrase": "Biotechnology",
+          "salience": 0.14476981,
+          "conceptId": "Q7214254"
+        },
+        {
+          "phrase": "Macromolecules",
+          "salience": 0.13731064,
+          "conceptId": "Q8593039"
+        },
+        {
+          "phrase": "Cytotoxic T cell",
+          "salience": 0.128887,
+          "conceptId": "Q376266"
+        },
+        {
+          "phrase": "Life sciences",
+          "salience": 0.12480284,
+          "conceptId": "Q10185120"
+        },
+        {
+          "phrase": "Proteins",
+          "salience": 0.11863419,
+          "conceptId": "Q7204727"
+        },
+        {
+          "phrase": "Nutrients",
+          "salience": 0.11863419,
+          "conceptId": "Q6034434"
+        },
+        {
+          "phrase": "Animal anatomy",
+          "salience": 0.11586597,
+          "conceptId": "Q6584850"
+        },
+        {
+          "phrase": "Zoology",
+          "salience": 0.11586597,
+          "conceptId": "Q6544657"
+        },
+        {
+          "phrase": "Veterinary medicine",
+          "salience": 0.11586597,
+          "conceptId": "Q8222141"
+        },
+        {
+          "phrase": "Organ systems",
+          "salience": 0.11586597,
+          "conceptId": "Q7145858"
+        },
+        {
+          "phrase": "Animal physiology",
+          "salience": 0.11586597,
+          "conceptId": "Q7085884"
+        },
+        {
+          "phrase": "Anatomy",
+          "salience": 0.11586597,
+          "conceptId": "Q4095469"
+        },
+        {
+          "phrase": "Biomolecules",
+          "salience": 0.10708919,
+          "conceptId": "Q7215429"
+        }
+      ]
+    },
+    {
+      "page": "Telomerase",
+      "title": "Targeted apoptosis",
+      "level": 3,
+      "sectionId": "11",
+      "content": {
+        "text": "Targeted apoptosis\nFigure 5: A) Human telomerase RNA (hTR) is present in the cell and can be targeted. B) 2-5 anti-hTR oligonucleotides is a specialized antisense oligo that can bind to the telomerase RNA. C) Once bound, the 2-5 anti-hTR oligonucleotide recruits RNase L to the sequence. Once recruited, the RNase L creates a single cleavage in the RNA (D) and causes dissociation of the RNA sequence.\nAnother independent approach is to use oligoadenylated anti-telomerase antisense oligonucleotides and ribozymes to target telomerase RNA, reducing dissociation and apoptosis (Figure 5). The fast induction of apoptosis through antisense binding may be a good alternative to the slower telomere shortening.[52]\n\n",
+        "html": "<section data-mw-section-id=\"11\" id=\"mwAUw\"><h4 id=\"Targeted_apoptosis\">Targeted apoptosis</h4>\n<figure class=\"mw-default-size\" typeof=\"mw:Image/Thumb\" id=\"mwAU0\"><a href=\"./File:Antisenseoligonucleotide.jpg\" id=\"mwAU4\"><img resource=\"./File:Antisenseoligonucleotide.jpg\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Antisenseoligonucleotide.jpg/220px-Antisenseoligonucleotide.jpg\" data-file-width=\"720\" data-file-height=\"540\" data-file-type=\"bitmap\" height=\"165\" width=\"220\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Antisenseoligonucleotide.jpg/330px-Antisenseoligonucleotide.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Antisenseoligonucleotide.jpg/440px-Antisenseoligonucleotide.jpg 2x\" id=\"mwAU8\"></a><figcaption id=\"mwAVA\">Figure 5: A) Human telomerase RNA (hTR) is present in the cell and can be targeted. B) 2-5 anti-hTR oligonucleotides is a specialized antisense oligo that can bind to the telomerase RNA. C) Once bound, the 2-5 anti-hTR oligonucleotide recruits RNase L to the sequence. Once recruited, the RNase L creates a single cleavage in the RNA (D) and causes dissociation of the RNA sequence.</figcaption></figure>\n<p id=\"mwAVE\">Another independent approach is to use <a rel=\"mw:WikiLink\" href=\"./2'-5'-oligoadenylate_synthase\" title=\"2'-5'-oligoadenylate synthase\" id=\"mwAVI\">oligoadenylated</a> anti-telomerase antisense <a rel=\"mw:WikiLink\" href=\"./Oligonucleotides\" title=\"Oligonucleotides\" class=\"mw-redirect\" id=\"mwAVM\">oligonucleotides</a> and <a rel=\"mw:WikiLink\" href=\"./Ribozymes\" title=\"Ribozymes\" class=\"mw-redirect\" id=\"mwAVQ\">ribozymes</a> to target telomerase RNA, reducing dissociation and <a rel=\"mw:WikiLink\" href=\"./Apoptosis\" title=\"Apoptosis\" id=\"mwAVU\">apoptosis</a> (Figure 5). The fast induction of apoptosis through antisense binding may be a good alternative to the slower telomere shortening.<sup about=\"#mwt264\" class=\"mw-ref\" id=\"cite_ref-Saret_52-1\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"Saret\"}}'><a href=\"./Telomerase#cite_note-Saret-52\" style=\"counter-reset: mw-Ref 52;\" id=\"mwAVY\"><span class=\"mw-reflink-text\" id=\"mwAVc\">[52]</span></a></sup></p>\n\n</section>"
+      },
+      "topics": [
+        {
+          "phrase": "Telomerase",
+          "salience": 0.23691162,
+          "conceptId": "Q331839"
+        },
+        {
+          "phrase": "Oligonucleotide",
+          "salience": 0.22045521,
+          "conceptId": "Q133686"
+        },
+        {
+          "phrase": "Macromolecules",
+          "salience": 0.21698431,
+          "conceptId": "Q8593039"
+        },
+        {
+          "phrase": "Organic polymers",
+          "salience": 0.21698431,
+          "conceptId": "Q7138887"
+        },
+        {
+          "phrase": "Nucleotides",
+          "salience": 0.21698431,
+          "conceptId": "Q6622332"
+        },
+        {
+          "phrase": "Nucleic acids",
+          "salience": 0.21698431,
+          "conceptId": "Q8792806"
+        },
+        {
+          "phrase": "Organic acids",
+          "salience": 0.21698431,
+          "conceptId": "Q8913205"
+        },
+        {
+          "phrase": "Genetics",
+          "salience": 0.21698431,
+          "conceptId": "Q4925926"
+        },
+        {
+          "phrase": "Biotechnology",
+          "salience": 0.14349924,
+          "conceptId": "Q7214254"
+        },
+        {
+          "phrase": "Biology",
+          "salience": 0.14349924,
+          "conceptId": "Q1457402"
+        },
+        {
+          "phrase": "Biochemistry",
+          "salience": 0.14349924,
+          "conceptId": "Q6745718"
+        },
+        {
+          "phrase": "Life sciences",
+          "salience": 0.14349924,
+          "conceptId": "Q10185120"
+        },
+        {
+          "phrase": "Molecular biology",
+          "salience": 0.14349924,
+          "conceptId": "Q7164711"
+        },
+        {
+          "phrase": "Telomere",
+          "salience": 0.12453219,
+          "conceptId": "Q185057"
+        }
+      ]
+    },
+    {
+      "page": "Telomerase",
+      "title": "Small interfering RNA (siRNA)",
+      "level": 3,
+      "sectionId": "12",
+      "content": {
+        "text": "Small interfering RNA (siRNA)\nsiRNAs are small RNA molecules that induce the sequence-specific degradation of other RNAs. siRNA treatment can function similar to traditional gene therapy by destroying the mRNA products of particular genes, and therefore preventing the expression of those genes. A 2012 study found that targeting TERC with an siRNA reduced telomerase activity by more than 50% and resulted in decreased viability of immortal cancer cells.[56] Treatment with both the siRNA and radiation caused a greater reduction in tumor size in mice than treatment with radiation alone, suggesting that targeting telomerase could be a way to increase the efficacy of radiation in treating radiation-resistant tumors.\n\n",
+        "html": "<section data-mw-section-id=\"12\" id=\"mwAVg\"><h4 id=\"Small_interfering_RNA_(siRNA)\"><span id=\"Small_interfering_RNA_.28siRNA.29\" typeof=\"mw:FallbackId\"></span>Small interfering RNA (siRNA)</h4>\n<p id=\"mwAVk\"><a rel=\"mw:WikiLink\" href=\"./Small_interfering_RNA\" title=\"Small interfering RNA\" id=\"mwAVo\">siRNAs</a> are small RNA molecules that induce the sequence-specific degradation of other RNAs. siRNA treatment can function similar to traditional <a rel=\"mw:WikiLink\" href=\"./Gene_therapy\" title=\"Gene therapy\" id=\"mwAVs\">gene therapy</a> by destroying the mRNA products of particular genes, and therefore preventing the expression of those genes. A 2012 study found that targeting TERC with an siRNA reduced telomerase activity by more than 50% and resulted in decreased viability of immortal cancer cells.<sup about=\"#mwt269\" class=\"mw-ref\" id=\"cite_ref-56\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{},\"body\":{\"id\":\"mw-reference-text-cite_note-56\"}}'><a href=\"./Telomerase#cite_note-56\" style=\"counter-reset: mw-Ref 56;\" id=\"mwAVw\"><span class=\"mw-reflink-text\" id=\"mwAV0\">[56]</span></a></sup> Treatment with both the siRNA and radiation caused a greater reduction in tumor size in mice than treatment with radiation alone, suggesting that targeting telomerase could be a way to increase the efficacy of radiation in treating radiation-resistant tumors.</p>\n\n</section>"
+      },
+      "topics": [
+        {
+          "phrase": "Biology",
+          "salience": 0.30136139,
+          "conceptId": "Q1457402"
+        },
+        {
+          "phrase": "Life sciences",
+          "salience": 0.30136139,
+          "conceptId": "Q10185120"
+        },
+        {
+          "phrase": "Small interfering RNA",
+          "salience": 0.29626322,
+          "conceptId": "Q203221"
+        },
+        {
+          "phrase": "Biochemistry",
+          "salience": 0.28637186,
+          "conceptId": "Q6745718"
+        },
+        {
+          "phrase": "Biotechnology",
+          "salience": 0.27376267,
+          "conceptId": "Q7214254"
+        },
+        {
+          "phrase": "Genetics",
+          "salience": 0.27376267,
+          "conceptId": "Q4925926"
+        },
+        {
+          "phrase": "Molecular biology",
+          "salience": 0.27376267,
+          "conceptId": "Q7164711"
+        },
+        {
+          "phrase": "Chemistry",
+          "salience": 0.24307282,
+          "conceptId": "Q1457474"
+        },
+        {
+          "phrase": "Organisms",
+          "salience": 0.23395576,
+          "conceptId": "Q5626060"
+        },
+        {
+          "phrase": "Physical sciences",
+          "salience": 0.23046363,
+          "conceptId": "Q7153079"
+        },
+        {
+          "phrase": "RNA",
+          "salience": 0.20963471,
+          "conceptId": "Q7213592"
+        },
+        {
+          "phrase": "Nucleotides",
+          "salience": 0.20963471,
+          "conceptId": "Q6622332"
+        },
+        {
+          "phrase": "Organic acids",
+          "salience": 0.20963471,
+          "conceptId": "Q8913205"
+        },
+        {
+          "phrase": "Organic polymers",
+          "salience": 0.20963471,
+          "conceptId": "Q7138887"
+        },
+        {
+          "phrase": "Nucleic acids",
+          "salience": 0.20963471,
+          "conceptId": "Q8792806"
+        },
+        {
+          "phrase": "Telomerase",
+          "salience": 0.20221688,
+          "conceptId": "Q331839"
+        },
+        {
+          "phrase": "Nature",
+          "salience": 0.16739094,
+          "conceptId": "Q32859972"
+        },
+        {
+          "phrase": "Health",
+          "salience": 0.15748582,
+          "conceptId": "Q7486603"
+        },
+        {
+          "phrase": "Health sciences",
+          "salience": 0.15037001,
+          "conceptId": "Q6154313"
+        },
+        {
+          "phrase": "Medical specialties",
+          "salience": 0.13776082,
+          "conceptId": "Q6585042"
+        },
+        {
+          "phrase": "Medicine",
+          "salience": 0.13776082,
+          "conceptId": "Q9554255"
+        },
+        {
+          "phrase": "Natural sciences",
+          "salience": 0.13170923,
+          "conceptId": "Q1457332"
+        },
+        {
+          "phrase": "Futurology",
+          "salience": 0.12740838,
+          "conceptId": "Q7164762"
+        },
+        {
+          "phrase": "Demography",
+          "salience": 0.12508178,
+          "conceptId": "Q7164495"
+        },
+        {
+          "phrase": "Medical research",
+          "salience": 0.12277129,
+          "conceptId": "Q8616748"
+        },
+        {
+          "phrase": "Healthcare quality",
+          "salience": 0.1101621,
+          "conceptId": "Q7570195"
+        },
+        {
+          "phrase": "Health research",
+          "salience": 0.1101621,
+          "conceptId": "Q6933289"
+        },
+        {
+          "phrase": "Technology",
+          "salience": 0.10760263,
+          "conceptId": "Q4884546"
+        },
+        {
+          "phrase": "Clinical medicine",
+          "salience": 0.10043263,
+          "conceptId": "Q14916851"
+        }
+      ]
+    },
+    {
+      "page": "Telomerase",
+      "title": "Heart disease, diabetes and quality of life",
+      "level": 2,
+      "sectionId": "13",
+      "content": {
+        "text": "Heart disease, diabetes and quality of life\n\nBlackburn also discovered that mothers caring for very sick children have shorter telomeres when they report that their emotional stress is at a maximum and that telomerase was active at the site of blockages in coronary artery tissue, possibly accelerating heart attacks.\n\nIn 2009, it was shown that the amount of telomerase activity significantly increased following psychological stress. Across the sample of patients telomerase activity in peripheral blood mononuclear cells increased by 18% one hour after the end of the stress.[57]\n\nA study in 2010 found that there was \"significantly greater\" telomerase activity in participants than controls after a three-month meditation retreat.[58]\n\nTelomerase deficiency has been linked to diabetes mellitus and impaired insulin secretion in mice, due to loss of pancreatic insulin-producing cells.[59]\n\n",
+        "html": "<section data-mw-section-id=\"13\" id=\"mwAV4\"><h3 id=\"Heart_disease,_diabetes_and_quality_of_life\"><span id=\"Heart_disease.2C_diabetes_and_quality_of_life\" typeof=\"mw:FallbackId\"></span>Heart disease, diabetes and quality of life</h3>\n\n<p id=\"mwAV8\">Blackburn also discovered that mothers caring for very sick children have shorter telomeres when they report that their emotional stress is at a maximum and that telomerase was active at the site of blockages in coronary artery tissue, possibly accelerating heart attacks.</p>\n\n<p id=\"mwAWA\">In 2009, it was shown that the amount of telomerase activity significantly increased following psychological stress. Across the sample of patients telomerase activity in peripheral blood mononuclear cells increased by 18% one hour after the end of the stress.<sup about=\"#mwt274\" class=\"mw-ref\" id=\"cite_ref-pmid20018236_57-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"pmid20018236\"},\"body\":{\"id\":\"mw-reference-text-cite_note-pmid20018236-57\"}}'><a href=\"./Telomerase#cite_note-pmid20018236-57\" style=\"counter-reset: mw-Ref 57;\" id=\"mwAWE\"><span class=\"mw-reflink-text\" id=\"mwAWI\">[57]</span></a></sup></p>\n\n<p id=\"mwAWM\">A study in 2010 found that there was \"significantly greater\" telomerase activity in participants than controls after a three-month meditation retreat.<sup about=\"#mwt279\" class=\"mw-ref\" id=\"cite_ref-58\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{},\"body\":{\"id\":\"mw-reference-text-cite_note-58\"}}'><a href=\"./Telomerase#cite_note-58\" style=\"counter-reset: mw-Ref 58;\" id=\"mwAWQ\"><span class=\"mw-reflink-text\" id=\"mwAWU\">[58]</span></a></sup></p>\n\n<p id=\"mwAWY\">Telomerase deficiency has been linked to <a rel=\"mw:WikiLink\" href=\"./Diabetes\" title=\"Diabetes\" id=\"mwAWc\">diabetes</a> mellitus and impaired <a rel=\"mw:WikiLink\" href=\"./Insulin\" title=\"Insulin\" id=\"mwAWg\">insulin</a> secretion in mice, due to loss of pancreatic insulin-producing cells.<sup about=\"#mwt284\" class=\"mw-ref\" id=\"cite_ref-59\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{},\"body\":{\"id\":\"mw-reference-text-cite_note-59\"}}'><a href=\"./Telomerase#cite_note-59\" style=\"counter-reset: mw-Ref 59;\" id=\"mwAWk\"><span class=\"mw-reflink-text\" id=\"mwAWo\">[59]</span></a></sup></p>\n\n</section>"
+      },
+      "topics": [
+        {
+          "phrase": "Telomerase",
+          "salience": 0.23916753,
+          "conceptId": "Q331839"
+        },
+        {
+          "phrase": "Medical specialties",
+          "salience": 0.16183246,
+          "conceptId": "Q6585042"
+        },
+        {
+          "phrase": "Diabetes mellitus",
+          "salience": 0.15835175,
+          "conceptId": "Q12206"
+        },
+        {
+          "phrase": "Insulin",
+          "salience": 0.1538819,
+          "conceptId": "Q21163221"
+        },
+        {
+          "phrase": "Biotechnology",
+          "salience": 0.14904483,
+          "conceptId": "Q7214254"
+        },
+        {
+          "phrase": "Cell biology",
+          "salience": 0.14904483,
+          "conceptId": "Q7217012"
+        },
+        {
+          "phrase": "Biochemistry",
+          "salience": 0.14904483,
+          "conceptId": "Q6745718"
+        },
+        {
+          "phrase": "Molecular biology",
+          "salience": 0.14904483,
+          "conceptId": "Q7164711"
+        },
+        {
+          "phrase": "Health sciences",
+          "salience": 0.14739812,
+          "conceptId": "Q6154313"
+        },
+        {
+          "phrase": "Medicine",
+          "salience": 0.14739812,
+          "conceptId": "Q9554255"
+        },
+        {
+          "phrase": "Biology",
+          "salience": 0.14207321,
+          "conceptId": "Q1457402"
+        },
+        {
+          "phrase": "Organ systems",
+          "salience": 0.11978087,
+          "conceptId": "Q7145858"
+        },
+        {
+          "phrase": "Life sciences",
+          "salience": 0.11463653,
+          "conceptId": "Q10185120"
+        },
+        {
+          "phrase": "Health",
+          "salience": 0.11042181,
+          "conceptId": "Q7486603"
+        }
+      ]
+    },
+    {
+      "page": "Telomerase",
+      "title": "Rare human diseases",
+      "level": 2,
+      "sectionId": "14",
+      "content": {
+        "text": "Rare human diseases\nMutations in TERT have been implicated in predisposing patients to aplastic anemia, a disorder in which the bone marrow fails to produce blood cells, in 2005.[60]\n\nCri du chat syndrome (CdCS) is a complex disorder involving the loss of the distal portion of the short arm of chromosome 5. TERT is located in the deleted region, and loss of one copy of TERT has been suggested as a cause or contributing factor of this disease.[61]\n\nDyskeratosis congenita (DC) is a disease of the bone marrow that can be caused by some mutations in the telomerase subunits.[62] In the DC cases, about 35% cases are X-linked-recessive on the DKC1 locus[63] and 5% cases are autosomal dominant on the TERT[64] and TERC[65] loci.\n\nPatients with DC have severe bone marrow failure manifesting as abnormal skin pigmentation, leucoplakia (a white thickening of the oral mucosa) and nail dystrophy, as well as a variety of other symptoms.  Individuals with either TERC or DKC1 mutations have shorter telomeres and defective telomerase activity in vitro versus other individuals of the same age.[66]\n\nIn one family autosomal dominant DC was linked to a heterozygous TERT mutation.[67] These patients also exhibited an increased rate of telomere-shortening, and genetic anticipation (i.e., the DC phenotype worsened with each generation).\n\n",
+        "html": "<section data-mw-section-id=\"14\" id=\"mwAWs\"><h3 id=\"Rare_human_diseases\">Rare human diseases</h3>\n<p id=\"mwAWw\">Mutations in TERT have been implicated in predisposing patients to <a rel=\"mw:WikiLink\" href=\"./Aplastic_anemia\" title=\"Aplastic anemia\" id=\"mwAW0\">aplastic anemia</a>, a disorder in which the <a rel=\"mw:WikiLink\" href=\"./Bone_marrow\" title=\"Bone marrow\" id=\"mwAW4\">bone marrow</a> fails to produce blood cells, in 2005.<sup about=\"#mwt289\" class=\"mw-ref\" id=\"cite_ref-pmid15814878_60-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"pmid15814878\"},\"body\":{\"id\":\"mw-reference-text-cite_note-pmid15814878-60\"}}'><a href=\"./Telomerase#cite_note-pmid15814878-60\" style=\"counter-reset: mw-Ref 60;\" id=\"mwAW8\"><span class=\"mw-reflink-text\" id=\"mwAXA\">[60]</span></a></sup></p>\n\n<p id=\"mwAXE\"><a rel=\"mw:WikiLink\" href=\"./Cri_du_chat_syndrome\" title=\"Cri du chat syndrome\" id=\"mwAXI\">Cri du chat syndrome</a> (CdCS) is a complex disorder involving the loss of the distal portion of the short arm of chromosome 5. TERT is located in the deleted region, and loss of one copy of TERT has been suggested as a cause or contributing factor of this disease.<sup about=\"#mwt294\" class=\"mw-ref\" id=\"cite_ref-pmid12629597_61-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"pmid12629597\"},\"body\":{\"id\":\"mw-reference-text-cite_note-pmid12629597-61\"}}'><a href=\"./Telomerase#cite_note-pmid12629597-61\" style=\"counter-reset: mw-Ref 61;\" id=\"mwAXM\"><span class=\"mw-reflink-text\" id=\"mwAXQ\">[61]</span></a></sup></p>\n\n<p id=\"mwAXU\"><a rel=\"mw:WikiLink\" href=\"./Dyskeratosis_congenita\" title=\"Dyskeratosis congenita\" id=\"mwAXY\">Dyskeratosis congenita</a> (DC) is a disease of the <a rel=\"mw:WikiLink\" href=\"./Bone_marrow\" title=\"Bone marrow\" id=\"mwAXc\">bone marrow</a> that can be caused by some mutations in the telomerase subunits.<sup about=\"#mwt302\" class=\"mw-ref\" id=\"cite_ref-pmid17625368_62-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"pmid17625368\"},\"body\":{\"id\":\"mw-reference-text-cite_note-pmid17625368-62\"}}'><a href=\"./Telomerase#cite_note-pmid17625368-62\" style=\"counter-reset: mw-Ref 62;\" id=\"mwAXg\"><span class=\"mw-reflink-text\" id=\"mwAXk\">[62]</span></a></sup> In the DC cases, about 35% cases are <a rel=\"mw:WikiLink\" href=\"./Sex_linkage\" title=\"Sex linkage\" id=\"mwAXo\">X-linked</a>-<a rel=\"mw:WikiLink\" href=\"./Dominance_(genetics)\" title=\"Dominance (genetics)\" id=\"mwAXs\">recessive</a> on the DKC1 locus<sup about=\"#mwt306\" class=\"mw-ref\" id=\"cite_ref-pmid9590285_63-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"pmid9590285\"},\"body\":{\"id\":\"mw-reference-text-cite_note-pmid9590285-63\"}}'><a href=\"./Telomerase#cite_note-pmid9590285-63\" style=\"counter-reset: mw-Ref 63;\" id=\"mwAXw\"><span class=\"mw-reflink-text\" id=\"mwAX0\">[63]</span></a></sup> and 5% cases are <a rel=\"mw:WikiLink\" href=\"./Autosome\" title=\"Autosome\" id=\"mwAX4\">autosomal</a> dominant on the TERT<sup about=\"#mwt310\" class=\"mw-ref\" id=\"cite_ref-pmid15885610_64-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"pmid15885610\"},\"body\":{\"id\":\"mw-reference-text-cite_note-pmid15885610-64\"}}'><a href=\"./Telomerase#cite_note-pmid15885610-64\" style=\"counter-reset: mw-Ref 64;\" id=\"mwAX8\"><span class=\"mw-reflink-text\" id=\"mwAYA\">[64]</span></a></sup> and TERC<sup about=\"#mwt314\" class=\"mw-ref\" id=\"cite_ref-pmid11574891_65-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"pmid11574891\"},\"body\":{\"id\":\"mw-reference-text-cite_note-pmid11574891-65\"}}'><a href=\"./Telomerase#cite_note-pmid11574891-65\" style=\"counter-reset: mw-Ref 65;\" id=\"mwAYE\"><span class=\"mw-reflink-text\" id=\"mwAYI\">[65]</span></a></sup> loci.</p>\n\n<p id=\"mwAYM\">Patients with DC have severe bone marrow failure manifesting as abnormal <a rel=\"mw:WikiLink\" href=\"./Skin_pigmentation\" title=\"Skin pigmentation\" class=\"mw-redirect\" id=\"mwAYQ\">skin pigmentation</a>, <a rel=\"mw:WikiLink\" href=\"./Leucoplakia\" title=\"Leucoplakia\" class=\"mw-redirect\" id=\"mwAYU\">leucoplakia</a> (a white thickening of the oral mucosa) and <a rel=\"mw:WikiLink\" href=\"./Nail_dystrophy\" title=\"Nail dystrophy\" class=\"mw-redirect\" id=\"mwAYY\">nail dystrophy</a>, as well as a variety of other symptoms.  Individuals with either TERC or DKC1 mutations have shorter telomeres and defective telomerase activity <i id=\"mwAYc\">in vitro</i> versus other individuals of the same age.<sup about=\"#mwt319\" class=\"mw-ref\" id=\"cite_ref-pmid15917199_66-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"pmid15917199\"},\"body\":{\"id\":\"mw-reference-text-cite_note-pmid15917199-66\"}}'><a href=\"./Telomerase#cite_note-pmid15917199-66\" style=\"counter-reset: mw-Ref 66;\" id=\"mwAYg\"><span class=\"mw-reflink-text\" id=\"mwAYk\">[66]</span></a></sup></p>\n\n<p id=\"mwAYo\">In one family autosomal dominant DC was linked to a heterozygous TERT mutation.<sup about=\"#mwt324\" class=\"mw-ref\" id=\"cite_ref-pmid16247010_67-0\" rel=\"dc:references\" typeof=\"mw:Extension/ref\" data-mw='{\"name\":\"ref\",\"attrs\":{\"name\":\"pmid16247010\"},\"body\":{\"id\":\"mw-reference-text-cite_note-pmid16247010-67\"}}'><a href=\"./Telomerase#cite_note-pmid16247010-67\" style=\"counter-reset: mw-Ref 67;\" id=\"mwAYs\"><span class=\"mw-reflink-text\" id=\"mwAYw\">[67]</span></a></sup> These patients also exhibited an increased rate of telomere-shortening, and genetic anticipation (i.e., the DC phenotype worsened with each generation).</p>\n\n</section>"
+      },
+      "topics": [
+        {
+          "phrase": "Medical specialties",
+          "salience": 0.36149408,
+          "conceptId": "Q6585042"
+        },
+        {
+          "phrase": "Medicine",
+          "salience": 0.34770564,
+          "conceptId": "Q9554255"
+        },
+        {
+          "phrase": "Telomerase",
+          "salience": 0.30255592,
+          "conceptId": "Q331839"
+        },
+        {
+          "phrase": "Biotechnology",
+          "salience": 0.28202825,
+          "conceptId": "Q7214254"
+        },
+        {
+          "phrase": "Genetics",
+          "salience": 0.26365926,
+          "conceptId": "Q4925926"
+        },
+        {
+          "phrase": "Demography",
+          "salience": 0.25821984,
+          "conceptId": "Q7164495"
+        },
+        {
+          "phrase": "Health",
+          "salience": 0.25821984,
+          "conceptId": "Q7486603"
+        },
+        {
+          "phrase": "Biology",
+          "salience": 0.25811692,
+          "conceptId": "Q1457402"
+        },
+        {
+          "phrase": "Clinical medicine",
+          "salience": 0.25247,
+          "conceptId": "Q14916851"
+        },
+        {
+          "phrase": "Life sciences",
+          "salience": 0.24729533,
+          "conceptId": "Q10185120"
+        },
+        {
+          "phrase": "Bone marrow failure",
+          "salience": 0.24389756,
+          "conceptId": "Q7882181"
+        },
+        {
+          "phrase": "Health sciences",
+          "salience": 0.23952902,
+          "conceptId": "Q6154313"
+        },
+        {
+          "phrase": "Molecular biology",
+          "salience": 0.23506335,
+          "conceptId": "Q7164711"
+        },
+        {
+          "phrase": "Anatomy",
+          "salience": 0.22450915,
+          "conceptId": "Q4095469"
+        },
+        {
+          "phrase": "Chromosomes",
+          "salience": 0.21967572,
+          "conceptId": "Q6567031"
+        },
+        {
+          "phrase": "Cell nucleus",
+          "salience": 0.21967572,
+          "conceptId": "Q7416737"
+        },
+        {
+          "phrase": "Macromolecules",
+          "salience": 0.2019014,
+          "conceptId": "Q8593039"
+        },
+        {
+          "phrase": "Nucleic acids",
+          "salience": 0.2019014,
+          "conceptId": "Q8792806"
+        },
+        {
+          "phrase": "Telomeres",
+          "salience": 0.2019014,
+          "conceptId": "Q8838283"
+        },
+        {
+          "phrase": "Senescence",
+          "salience": 0.2019014,
+          "conceptId": "Q7335383"
+        },
+        {
+          "phrase": "Molecular genetics",
+          "salience": 0.2019014,
+          "conceptId": "Q4926419"
+        },
+        {
+          "phrase": "DNA",
+          "salience": 0.2019014,
+          "conceptId": "Q7217197"
+        },
+        {
+          "phrase": "Mobile genetic elements",
+          "salience": 0.2019014,
+          "conceptId": "Q8636856"
+        },
+        {
+          "phrase": "Animal physiology",
+          "salience": 0.19609343,
+          "conceptId": "Q7085884"
+        },
+        {
+          "phrase": "Cell biology",
+          "salience": 0.18878603,
+          "conceptId": "Q7217012"
+        },
+        {
+          "phrase": "Dyskeratosis congenita",
+          "salience": 0.18024081,
+          "conceptId": "Q3709312"
+        },
+        {
+          "phrase": "Biochemistry",
+          "salience": 0.17498308,
+          "conceptId": "Q6745718"
+        },
+        {
+          "phrase": "Diseases and disorders",
+          "salience": 0.16653714,
+          "conceptId": "Q7215431"
+        },
+        {
+          "phrase": "Histology",
+          "salience": 0.1665177,
+          "conceptId": "Q7216837"
+        },
+        {
+          "phrase": "Animal anatomy",
+          "salience": 0.16348368,
+          "conceptId": "Q6584850"
+        },
+        {
+          "phrase": "Hematology",
+          "salience": 0.1582306,
+          "conceptId": "Q6585528"
+        },
+        {
+          "phrase": "Blood",
+          "salience": 0.15245713,
+          "conceptId": "Q7214757"
+        },
+        {
+          "phrase": "Body fluids",
+          "salience": 0.15245713,
+          "conceptId": "Q7058001"
+        },
+        {
+          "phrase": "Population",
+          "salience": 0.14483551,
+          "conceptId": "Q6174221"
+        },
+        {
+          "phrase": "Bone marrow",
+          "salience": 0.1408947,
+          "conceptId": "Q546523"
+        },
+        {
+          "phrase": "Aplastic anemia",
+          "salience": 0.12699369,
+          "conceptId": "Q846316"
+        },
+        {
+          "phrase": "Epidemiology",
+          "salience": 0.12420591,
+          "conceptId": "Q5601738"
+        },
+        {
+          "phrase": "Actuarial science",
+          "salience": 0.12420591,
+          "conceptId": "Q6016889"
+        },
+        {
+          "phrase": "Telomere",
+          "salience": 0.12290746,
+          "conceptId": "Q185057"
+        },
+        {
+          "phrase": "Organisms",
+          "salience": 0.12109601,
+          "conceptId": "Q5626060"
+        },
+        {
+          "phrase": "Health care",
+          "salience": 0.11767309,
+          "conceptId": "Q4095844"
+        },
+        {
+          "phrase": "Organ systems",
+          "salience": 0.10935245,
+          "conceptId": "Q7145858"
+        },
+        {
+          "phrase": "Applied sciences",
+          "salience": 0.10547421,
+          "conceptId": "Q8917068"
+        },
+        {
+          "phrase": "Zoology",
+          "salience": 0.10224081,
+          "conceptId": "Q6544657"
+        }
+      ]
+    }
+  ]
+}

@@ -153,12 +153,15 @@ const pagelists = {
     'Gender representation on corporate boards of directors',
     'Claudia Alexander', // geologist
     'Helen Belyea', // geologist
+  ],
+  extra: [
+    'Telomerase'
   ]
 }
 
 let rosetteCounter = 0; 
 
-run('diversity', pagelists.diversity);
+run('extra', pagelists.extra);
 
 
 async function run(name, pageList) {
