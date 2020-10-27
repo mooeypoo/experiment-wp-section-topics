@@ -1,6 +1,6 @@
 <template>
   <div class="topic-choose">
-    <v-select dark
+    <v-autocomplete dark
       v-model="topic"
       :items="getTopicSelectList"
       item-text="name"
@@ -9,7 +9,7 @@
       persistent-hint
       return-object
       single-line
-    ></v-select>
+    ></v-autocomplete>
   </div>
 </template>
 
