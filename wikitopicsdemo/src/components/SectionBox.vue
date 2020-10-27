@@ -8,7 +8,7 @@
         {{fixedSalience}}
       </v-chip>
     </v-card-title>
-    <v-card-subtitle v-if="!isIntro">{{page}}</v-card-subtitle>
+    <v-card-subtitle v-if="!isIntro">From the article: <span class="sectionbox-page-name">{{page}}</span></v-card-subtitle>
     <v-card-text class="sectionbox-content" :class="contentClass"><slot name="content"></slot></v-card-text>
     <v-divider class="mt-2" v-if="hasTopics"></v-divider>
     <v-card-text v-if="hasTopics">
@@ -93,6 +93,9 @@ export default {
 .sectionbox {
   width: 100%;
 
+  &-page-name {
+    font-weight: bold;
+  }
   &-minor {
     .vertical-navbox,
     .infobox,
